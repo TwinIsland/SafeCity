@@ -29,6 +29,19 @@ class SsmApplicationTests {
         //断言
         Assert.notNull(userEntities);
     }
+    @Test
+    void insertUserTest(){
+        UserEntity userEntity = new UserEntity();
+        userEntity.setName("1");
+        userEntity.setLevel("1");
+        userEntity.setPassword("1");
+        userEntity.setRealname("1");
+        userDao.insertUser(userEntity);
+    }
+    @Test
+    void deleteUserTest(){
+        userDao.deleteUser(7);
+    }
 
 
 }
