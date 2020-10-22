@@ -19,7 +19,7 @@ class SsmApplicationTests {
     }
     @Test
     void selectUserTest(){
-        UserEntity userEntity = userDao.selectUser("张三","12345");
+        UserEntity userEntity = userDao.selectUser("张三","123456");
         //断言
         Assert.notNull(userEntity);
     }
@@ -29,5 +29,6 @@ class SsmApplicationTests {
         //断言
         Assert.notNull(userEntities);
     }
+
 
 }

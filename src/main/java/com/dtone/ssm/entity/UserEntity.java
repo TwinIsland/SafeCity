@@ -10,4 +10,6 @@ public class UserEntity {
     private int id;
     private String name;
     private String password;
+    private String level;
+    private String realname;
 }

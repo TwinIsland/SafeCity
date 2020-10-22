@@ -8,7 +8,7 @@
         <result property="password" column="password" />
     </resultMap>
 
-    <select id="selectAllUser" resultMap="userResultMap">
+    <select id="" resultMap="userResultMap">
         select * from tb_user
     </select>
 </mapper>
