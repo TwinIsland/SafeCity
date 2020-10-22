@@ -1,0 +1,271 @@
+2020-10-22 10:06:51.521  INFO 1252 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on DESKTOP-QOS7SS6 with PID 1252 (F:\idea\ssm\target\classes started by 123 in F:\idea\ssm)
+2020-10-22 10:06:51.531  INFO 1252 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-22 10:06:51.601  INFO 1252 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-22 10:06:51.601  INFO 1252 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-22 10:06:53.021  INFO 1252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-22 10:06:53.041  INFO 1252 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-22 10:06:53.041  INFO 1252 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-22 10:06:53.161  INFO 1252 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-22 10:06:53.161  INFO 1252 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1560 ms
+2020-10-22 10:06:53.580  INFO 1252 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-22 10:06:53.790  INFO 1252 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-22 10:06:53.830  INFO 1252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-22 10:06:53.840  INFO 1252 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 3.021 seconds (JVM running for 4.789)
+2020-10-22 10:08:04.059  INFO 1252 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-22 10:08:04.161  INFO 1252 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-22 10:08:05.140  INFO 1252 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-22 10:14:12.571  INFO 9200 --- [main] com.dtone.ssm.SsmApplicationTests        : Starting SsmApplicationTests on DESKTOP-QOS7SS6 with PID 9200 (started by 123 in F:\idea\ssm)
+2020-10-22 10:14:12.571  INFO 9200 --- [main] com.dtone.ssm.SsmApplicationTests        : No active profile set, falling back to default profiles: default
+2020-10-22 10:14:14.560  INFO 9200 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-22 10:14:15.760  INFO 9200 --- [main] com.dtone.ssm.SsmApplicationTests        : Started SsmApplicationTests in 3.523 seconds (JVM running for 4.733)
+2020-10-22 10:14:16.479  INFO 9200 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-22 10:14:17.609  INFO 9200 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-22 10:14:17.689  INFO 9200 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-22 10:14:17.689  INFO 9200 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-22 10:14:17.689  INFO 9200 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-22 10:32:54.236  INFO 15036 --- [main] com.dtone.ssm.SsmApplicationTests        : Starting SsmApplicationTests on DESKTOP-QOS7SS6 with PID 15036 (started by 123 in F:\idea\ssm)
+2020-10-22 10:32:54.238  INFO 15036 --- [main] com.dtone.ssm.SsmApplicationTests        : No active profile set, falling back to default profiles: default
+2020-10-22 10:32:56.088  INFO 15036 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-22 10:32:56.501  INFO 15036 --- [main] com.dtone.ssm.SsmApplicationTests        : Started SsmApplicationTests in 2.621 seconds (JVM running for 3.891)
+2020-10-22 10:32:56.793  INFO 15036 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-22 10:32:58.043  INFO 15036 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-22 10:32:58.122  INFO 15036 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-22 10:32:58.122  INFO 15036 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-22 10:32:58.126  INFO 15036 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-22 10:33:10.970  INFO 3168 --- [main] com.dtone.ssm.SsmApplicationTests        : Starting SsmApplicationTests on DESKTOP-QOS7SS6 with PID 3168 (started by 123 in F:\idea\ssm)
+2020-10-22 10:33:10.975  INFO 3168 --- [main] com.dtone.ssm.SsmApplicationTests        : No active profile set, falling back to default profiles: default
+2020-10-22 10:33:12.760  INFO 3168 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-22 10:33:13.189  INFO 3168 --- [main] com.dtone.ssm.SsmApplicationTests        : Started SsmApplicationTests in 2.568 seconds (JVM running for 3.757)
+2020-10-22 10:33:13.418  INFO 3168 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-22 10:33:14.634  INFO 3168 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-22 10:33:14.705  INFO 3168 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-22 10:33:14.706  INFO 3168 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-22 10:33:14.710  INFO 3168 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-22 10:46:24.835  INFO 16332 --- [main] com.dtone.ssm.SsmApplicationTests        : Starting SsmApplicationTests on DESKTOP-QOS7SS6 with PID 16332 (started by 123 in F:\idea\ssm)
+2020-10-22 10:46:24.837  INFO 16332 --- [main] com.dtone.ssm.SsmApplicationTests        : No active profile set, falling back to default profiles: default
+2020-10-22 10:46:27.044  INFO 16332 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-22 10:46:27.508  INFO 16332 --- [main] com.dtone.ssm.SsmApplicationTests        : Started SsmApplicationTests in 3.045 seconds (JVM running for 4.24)
+2020-10-22 10:46:27.818  INFO 16332 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-22 10:46:29.078  INFO 16332 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-22 10:46:29.272  INFO 16332 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-22 10:46:29.272  INFO 16332 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-22 10:46:29.293  INFO 16332 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-22 10:59:02.207  INFO 11072 --- [main] com.dtone.ssm.SsmApplicationTests        : Starting SsmApplicationTests on DESKTOP-QOS7SS6 with PID 11072 (started by 123 in F:\idea\ssm)
+2020-10-22 10:59:02.209  INFO 11072 --- [main] com.dtone.ssm.SsmApplicationTests        : No active profile set, falling back to default profiles: default
+2020-10-22 10:59:04.079  INFO 11072 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-22 10:59:04.569  INFO 11072 --- [main] com.dtone.ssm.SsmApplicationTests        : Started SsmApplicationTests in 2.78 seconds (JVM running for 3.977)
+2020-10-22 10:59:04.802  INFO 11072 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-22 10:59:05.977  INFO 11072 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-22 10:59:06.043  INFO 11072 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-22 10:59:06.044  INFO 11072 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-22 10:59:06.049  INFO 11072 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-22 10:59:29.041  INFO 16244 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on DESKTOP-QOS7SS6 with PID 16244 (F:\idea\ssm\target\classes started by 123 in F:\idea\ssm)
+2020-10-22 10:59:29.044  INFO 16244 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-22 10:59:29.097  INFO 16244 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-22 10:59:29.097  INFO 16244 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-22 10:59:30.142  INFO 16244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-22 10:59:30.151  INFO 16244 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-22 10:59:30.151  INFO 16244 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-22 10:59:30.234  INFO 16244 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-22 10:59:30.234  INFO 16244 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1136 ms
+2020-10-22 10:59:30.609  INFO 16244 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-22 10:59:30.760  INFO 16244 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-22 10:59:30.793  INFO 16244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-22 10:59:30.804  INFO 16244 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 2.12 seconds (JVM running for 3.182)
+2020-10-22 10:59:42.631  INFO 16244 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-22 10:59:42.658 ERROR 16244 --- [http-nio-8080-exec-1] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =nullpassword=null
+2020-10-22 10:59:42.664  INFO 16244 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-22 10:59:43.281  INFO 16244 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-22 10:59:43.340  INFO 16244 --- [http-nio-8080-exec-1] com.dtone.ssm.controller.UserController  : 返回响应: user/login登录失败
+2020-10-22 11:06:31.312  INFO 12360 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on DESKTOP-QOS7SS6 with PID 12360 (F:\idea\ssm\target\classes started by 123 in F:\idea\ssm)
+2020-10-22 11:06:31.316  INFO 12360 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-22 11:06:31.379  INFO 12360 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-22 11:06:31.379  INFO 12360 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-22 11:06:32.478  INFO 12360 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-22 11:06:32.487  INFO 12360 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-22 11:06:32.487  INFO 12360 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-22 11:06:32.568  INFO 12360 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-22 11:06:32.568  INFO 12360 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1189 ms
+2020-10-22 11:06:32.967  INFO 12360 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-22 11:06:33.124  INFO 12360 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-22 11:06:33.161  INFO 12360 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-22 11:06:33.174  INFO 12360 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 2.24 seconds (JVM running for 3.392)
+2020-10-22 11:06:57.872  INFO 12360 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-22 11:06:57.908 ERROR 12360 --- [http-nio-8080-exec-1] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =nullpassword=null
+2020-10-22 11:06:57.913  INFO 12360 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-22 11:06:58.613  INFO 12360 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-22 11:06:58.676  INFO 12360 --- [http-nio-8080-exec-1] com.dtone.ssm.controller.UserController  : 返回响应: user/login登录失败
+2020-10-22 11:16:27.643  INFO 16620 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on DESKTOP-QOS7SS6 with PID 16620 (F:\idea\ssm\target\classes started by 123 in F:\idea\ssm)
+2020-10-22 11:16:27.647  INFO 16620 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-22 11:16:27.708  INFO 16620 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-22 11:16:27.708  INFO 16620 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-22 11:16:28.683  INFO 16620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-22 11:16:28.692  INFO 16620 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-22 11:16:28.692  INFO 16620 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-22 11:16:28.779  INFO 16620 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-22 11:16:28.780  INFO 16620 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1072 ms
+2020-10-22 11:16:29.170  INFO 16620 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-22 11:16:29.326  INFO 16620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-22 11:16:29.360  INFO 16620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-22 11:16:29.369  INFO 16620 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 2.124 seconds (JVM running for 3.195)
+2020-10-22 11:16:38.730  INFO 16620 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-22 11:16:38.769 ERROR 16620 --- [http-nio-8080-exec-1] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =nullpassword=null
+2020-10-22 11:16:38.775  INFO 16620 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-22 11:16:39.441  INFO 16620 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-22 11:16:39.498  INFO 16620 --- [http-nio-8080-exec-1] com.dtone.ssm.controller.UserController  : 返回响应: user/login登录失败
+2020-10-22 11:16:41.089 ERROR 16620 --- [http-nio-8080-exec-2] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =nullpassword=null
+2020-10-22 11:16:41.095  INFO 16620 --- [http-nio-8080-exec-2] com.dtone.ssm.controller.UserController  : 返回响应: user/login登录失败
+2020-10-22 11:16:43.129 ERROR 16620 --- [http-nio-8080-exec-3] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =nullpassword=null
+2020-10-22 11:16:43.132  INFO 16620 --- [http-nio-8080-exec-3] com.dtone.ssm.controller.UserController  : 返回响应: user/login登录失败
+2020-10-22 11:17:09.319  INFO 16056 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on DESKTOP-QOS7SS6 with PID 16056 (F:\idea\ssm\target\classes started by 123 in F:\idea\ssm)
+2020-10-22 11:17:09.322  INFO 16056 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-22 11:17:09.372  INFO 16056 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-22 11:17:09.372  INFO 16056 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-22 11:17:10.360  INFO 16056 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-22 11:17:10.368  INFO 16056 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-22 11:17:10.368  INFO 16056 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-22 11:17:10.464  INFO 16056 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-22 11:17:10.464  INFO 16056 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1092 ms
+2020-10-22 11:17:10.866  INFO 16056 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-22 11:17:11.009  INFO 16056 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-22 11:17:11.040  INFO 16056 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-22 11:17:11.049  INFO 16056 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 2.056 seconds (JVM running for 3.282)
+2020-10-22 11:17:38.879  INFO 16056 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-22 11:19:36.942  INFO 256 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on DESKTOP-QOS7SS6 with PID 256 (F:\idea\ssm\target\classes started by 123 in F:\idea\ssm)
+2020-10-22 11:19:36.947  INFO 256 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-22 11:19:37.010  INFO 256 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-22 11:19:37.011  INFO 256 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-22 11:19:38.205  INFO 256 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-22 11:19:38.219  INFO 256 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-22 11:19:38.220  INFO 256 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-22 11:19:38.336  INFO 256 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-22 11:19:38.336  INFO 256 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1325 ms
+2020-10-22 11:19:38.757  INFO 256 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-22 11:19:38.904  INFO 256 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-22 11:19:38.939  INFO 256 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-22 11:19:38.947  INFO 256 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 2.353 seconds (JVM running for 3.45)
+2020-10-22 11:19:43.639  INFO 256 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-22 11:20:58.035  INFO 256 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-22 11:20:58.180  INFO 256 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on DESKTOP-QOS7SS6 with PID 256 (F:\idea\ssm\target\classes started by 123 in F:\idea\ssm)
+2020-10-22 11:20:58.180  INFO 256 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-22 11:20:58.430  INFO 256 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-22 11:20:58.430  INFO 256 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-22 11:20:58.431  INFO 256 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-22 11:20:58.450  INFO 256 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-22 11:20:58.451  INFO 256 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 269 ms
+2020-10-22 11:20:58.519  INFO 256 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-22 11:20:58.621  WARN 256 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [F:\idea\ssm\target\classes\mapper\IUserDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [F:\idea\ssm\target\classes\mapper\IUserDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'UserEntity'.  Cause: java.lang.ClassNotFoundException: Cannot find class: UserEntity
+2020-10-22 11:20:58.622  INFO 256 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-22 11:20:58.623  INFO 256 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-10-22 11:20:58.634  INFO 256 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-10-22 11:20:58.775 ERROR 256 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [F:\idea\ssm\target\classes\mapper\IUserDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [F:\idea\ssm\target\classes\mapper\IUserDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'UserEntity'.  Cause: java.lang.ClassNotFoundException: Cannot find class: UserEntity
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:635) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) [spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) [spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at com.dtone.ssm.SsmApplication.main(SsmApplication.java:10) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_201]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [F:\idea\ssm\target\classes\mapper\IUserDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [F:\idea\ssm\target\classes\mapper\IUserDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'UserEntity'.  Cause: java.lang.ClassNotFoundException: Cannot find class: UserEntity
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:650) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	... 25 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [F:\idea\ssm\target\classes\mapper\IUserDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [F:\idea\ssm\target\classes\mapper\IUserDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'UserEntity'.  Cause: java.lang.ClassNotFoundException: Cannot find class: UserEntity
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:612) ~[mybatis-spring-2.0.5.jar:2.0.5]
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:490) ~[mybatis-spring-2.0.5.jar:2.0.5]
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:632) ~[mybatis-spring-2.0.5.jar:2.0.5]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:180) ~[mybatis-spring-boot-autoconfigure-2.1.3.jar:2.1.3]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$9207a7e9.CGLIB$sqlSessionFactory$1(<generated>) ~[mybatis-spring-boot-autoconfigure-2.1.3.jar:2.1.3]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$9207a7e9$$FastClassBySpringCGLIB$$9a2263f8.invoke(<generated>) ~[mybatis-spring-boot-autoconfigure-2.1.3.jar:2.1.3]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$9207a7e9.sqlSessionFactory(<generated>) ~[mybatis-spring-boot-autoconfigure-2.1.3.jar:2.1.3]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_201]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	... 26 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [F:\idea\ssm\target\classes\mapper\IUserDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'UserEntity'.  Cause: java.lang.ClassNotFoundException: Cannot find class: UserEntity
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123) ~[mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95) ~[mybatis-3.5.5.jar:3.5.5]
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:610) ~[mybatis-spring-2.0.5.jar:2.0.5]
+	... 39 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'UserEntity'.  Cause: java.lang.ClassNotFoundException: Cannot find class: UserEntity
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118) ~[mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:263) ~[mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:254) ~[mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:246) ~[mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:119) ~[mybatis-3.5.5.jar:3.5.5]
+	... 41 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'UserEntity'.  Cause: java.lang.ClassNotFoundException: Cannot find class: UserEntity
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120) ~[mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149) ~[mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116) ~[mybatis-3.5.5.jar:3.5.5]
+	... 45 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: UserEntity
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200) ~[mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89) ~[mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261) ~[mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116) ~[mybatis-3.5.5.jar:3.5.5]
+	... 47 common frames omitted
+
+2020-10-22 11:21:00.216  INFO 256 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on DESKTOP-QOS7SS6 with PID 256 (F:\idea\ssm\target\classes started by 123 in F:\idea\ssm)
+2020-10-22 11:21:00.216  INFO 256 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-22 11:21:00.556  INFO 256 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-22 11:21:00.557  INFO 256 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-22 11:21:00.558  INFO 256 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-22 11:21:00.597  INFO 256 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-10-22 11:21:00.597  INFO 256 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 378 ms
+2020-10-22 11:21:00.694  INFO 256 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-22 11:21:00.747  INFO 256 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-22 11:21:00.760  INFO 256 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-22 11:21:00.766  INFO 256 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 0.575 seconds (JVM running for 85.268)
+2020-10-22 11:21:00.768  INFO 256 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-10-22 11:21:10.170  INFO 9192 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on DESKTOP-QOS7SS6 with PID 9192 (F:\idea\ssm\target\classes started by 123 in F:\idea\ssm)
+2020-10-22 11:21:10.173  INFO 9192 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-22 11:21:10.218  INFO 9192 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-22 11:21:10.218  INFO 9192 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-22 11:21:11.345  INFO 9192 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-22 11:21:11.354  INFO 9192 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-22 11:21:11.354  INFO 9192 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-22 11:21:11.441  INFO 9192 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-22 11:21:11.441  INFO 9192 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1223 ms
+2020-10-22 11:21:11.860  INFO 9192 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-22 11:21:12.028  INFO 9192 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-22 11:21:12.067  INFO 9192 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-22 11:21:12.077  INFO 9192 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 2.25 seconds (JVM running for 3.547)
+2020-10-22 11:21:17.531  INFO 9192 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-22 11:21:26.298 ERROR 9192 --- [http-nio-8080-exec-3] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =张三password=12345
+2020-10-22 11:21:26.302  INFO 9192 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-22 11:21:26.901  INFO 9192 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-22 11:21:26.966  INFO 9192 --- [http-nio-8080-exec-3] com.dtone.ssm.controller.UserController  : 返回响应:user/login登陆成功
+2020-10-22 11:23:21.246 ERROR 9192 --- [http-nio-8080-exec-7] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =张三password=12345
+2020-10-22 11:23:21.254  INFO 9192 --- [http-nio-8080-exec-7] com.dtone.ssm.controller.UserController  : 返回响应:user/login登陆成功
+2020-10-22 11:23:29.404 ERROR 9192 --- [http-nio-8080-exec-9] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =张三password=123456
+2020-10-22 11:23:29.408  INFO 9192 --- [http-nio-8080-exec-9] com.dtone.ssm.controller.UserController  : 返回响应: user/login登录失败
+2020-10-22 14:07:25.755 ERROR 9192 --- [http-nio-8080-exec-5] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =张三password=12345
+2020-10-22 14:07:25.766  INFO 9192 --- [http-nio-8080-exec-5] com.dtone.ssm.controller.UserController  : 返回响应:user/login登陆成功

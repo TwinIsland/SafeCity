@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace表示命名空间，填写Mapper映射器接口全路径-->
+<mapper namespace="com.dtone.ssm.dao.IUserDao">
+    <resultMap id="userResultMap" type="UserEntity">
+        <id property="id" column="id" />
+        <result property="name" column="name" />
+        <result property="password" column="password" />
+    </resultMap>
+
+    <select id="selectAllUser" resultMap="userResultMap">
+        select * from tb_user
+    </select>
+</mapper>
