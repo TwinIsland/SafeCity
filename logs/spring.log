@@ -2004,3 +2004,12 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 2020-10-23 18:28:32.444  INFO 13628 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
 2020-10-23 18:28:32.445  INFO 13628 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2020-10-23 18:28:32.464  INFO 13628 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-23 18:36:49.063  INFO 9696 --- [main] com.dtone.ssm.SsmApplicationTests        : Starting SsmApplicationTests on TwinIsland with PID 9696 (started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity2)
+2020-10-23 18:36:49.074  INFO 9696 --- [main] com.dtone.ssm.SsmApplicationTests        : No active profile set, falling back to default profiles: default
+2020-10-23 18:36:53.287  INFO 9696 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-23 18:36:54.511  INFO 9696 --- [main] com.dtone.ssm.SsmApplicationTests        : Started SsmApplicationTests in 6.951 seconds (JVM running for 10.426)
+2020-10-23 18:36:55.068  INFO 9696 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-23 18:36:56.306  INFO 9696 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-23 18:36:56.713  INFO 9696 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-23 18:36:56.718  INFO 9696 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-23 18:36:56.773  INFO 9696 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
