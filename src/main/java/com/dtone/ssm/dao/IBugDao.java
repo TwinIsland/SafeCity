@@ -12,7 +12,6 @@ import java.util.List;
  */
 @Mapper
 public interface IBugDao {
-
     @Select("select * from tb_bug")
     @Results(value = {
             @Result(property = "id", column = "bg_id", id = true),
@@ -28,7 +27,7 @@ public interface IBugDao {
     //显示所有虫害信息
     public List<BugEntity> selectAllBug();
 
-    @Select("select * from tb_bug where bg_name like '%',#{name},'%' and bg_host like '%',#{host},'%'")
+    @Select("select * from tb_bug where bg_name like '%${name}%' and bg_host like '%${host}%'")
     @Results(value = {
             @Result(property = "id", column = "bg_id", id = true),
             @Result(property = "name", column = "bg_name"),

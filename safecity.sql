@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 80015
 File Encoding         : 65001
 
-Date: 2020-10-23 14:39:45
+Date: 2020-10-23 15:39:51
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -30,11 +30,12 @@ CREATE TABLE `tb_bug` (
   `bg_img_s` varchar(60) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
   `bg_img_l` varchar(60) NOT NULL,
   PRIMARY KEY (`bg_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='table for bug';
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COMMENT='table for bug';
 
 -- ----------------------------
 -- Records of tb_bug
 -- ----------------------------
+INSERT INTO `tb_bug` VALUES ('1', '黄刺蛾', '一年6~8胎，每胎7~10只', '法桐、枫杨等', '啄木鸟、跳小蜂', '幼虫食叶片，造成树木枯死', '修剪清除粘叶，在成虫期用夜光灯诱杀', '1', '1');
 
 -- ----------------------------
 -- Table structure for tb_event

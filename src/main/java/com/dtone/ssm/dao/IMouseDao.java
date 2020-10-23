@@ -29,7 +29,7 @@ public interface IMouseDao {
     //查询所有鼠害信息
     public List<MouseEntity> selectAllMouse();
 
-    @Select("select * from tb_mouse where ms_name like '%',#{name},'%'")
+    @Select("select * from tb_mouse where ms_name like '%${name}%'")
     @Results(value = {
             @Result(property = "id", column = "ms_id", id = true),
             @Result(property = "name", column = "ms_name"),
