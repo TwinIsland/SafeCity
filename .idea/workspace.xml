@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eca04396-c129-4481-afcb-7f584bb45cc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/dao/IBugDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/dao/ILogDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/dao/IMouseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/dao/ISicknessDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/entity/BugEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/entity/LogEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/entity/MouseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/entity/SicknessEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/spring.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/dtone/ssm/SsmApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dtone/ssm/SsmApplicationTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,11 +52,12 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\idea\ssm" />
+      <recent name="F:\idea\ssm\src\main\resources\static" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\idea\ssm\src\main\resources\static\js" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\idea\ssm\src\main\resources\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -177,7 +168,7 @@
       <workItem from="1603335924620" duration="2679000" />
       <workItem from="1603353831310" duration="6986000" />
       <workItem from="1603373565845" duration="6054000" />
-      <workItem from="1603417548850" duration="11282000" />
+      <workItem from="1603417548850" duration="12337000" />
     </task>
     <task id="LOCAL-00001" summary="上传工程">
       <created>1603360481125</created>
@@ -228,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603380028782</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="添加dao层log、及三害">
+      <created>1603435319618</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603435319618</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +251,7 @@
     <MESSAGE value="ideal" />
     <MESSAGE value="添加userDao增删查" />
     <MESSAGE value="IUserDao测试已完成，无问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="IUserDao测试已完成，无问题" />
+    <MESSAGE value="添加dao层log、及三害" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加dao层log、及三害" />
   </component>
 </project>
