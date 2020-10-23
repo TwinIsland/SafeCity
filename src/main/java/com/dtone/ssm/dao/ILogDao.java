@@ -30,7 +30,7 @@ public interface ILogDao {
             @Result(property = "date", column = "lg_time"),
     })
     //根据日期区间查询用户登录信息
-    public List<LogEntity> selectLogByDate(@Param("date1") Date date1,@Param("date2") Date date2);
+    public List<LogEntity> selectLogByDate(@Param("date1") Date date1, @Param("date2") Date date2);
 
     @Insert("insert into tb_log (lg_id,lg_content,lg_time) values (null,#{content},#{date})")
     //添加日志信息

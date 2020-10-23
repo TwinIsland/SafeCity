@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace表示命名空间，填写Mapper映射器接口全路径-->
+<mapper namespace="com.dtone.ssm.dao.ITeamDao">
+    <resultMap id="teamResultMap" type="TeamEntity">
+        <id property="id" column="tm_id" />
+        <result property="name" column="tm_name" />
+        <result property="peo" column="tm_peo" />
+        <result property="tel" column="tm_tel" />
+        <result property="area" column="tm_area" />
+        <result property="num" column="tm_num" />
+        <result property="date" column="tm_date" />
+        <association property="zone" javaType="ZoneEntity">
+            <id property="id" column="zn_id" />
+            <result property="name" column="zn_name" />
+            <result property="tree" column="zn_tree" />
+            <result property="area" column="zn_area" />
+            <result property="better" column="zn_better" />
+            <result property="team" column="zn_team" />
+        </association>
+    </resultMap>
+    <select id="selectTeamDetailed" resultMap="teamResultMap">
+        select t.tm_name,t.tm_peo,t.tm_area,z.zn_area,z.zn_tree,z.zn_better,t.tm_num,t.tm_tel,t.tm_date from tb_zone z join tb_team t on z.zn_name = t.tm_area where tb_name = #{name}
+    </select>
+</mapper>

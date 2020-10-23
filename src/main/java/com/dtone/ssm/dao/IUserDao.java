@@ -16,7 +16,7 @@ public interface IUserDao {
             @Result(property = "level",column = "u_level"),
             @Result(property = "realname",column = "u_realname"),
     })
-    public UserEntity selectUser(@Param("name") String name,@Param("password") String password);
+    public UserEntity selectUser(@Param("name") String name, @Param("password") String password);
 
     @Select("select * from tb_user")
     @Results(value = {
