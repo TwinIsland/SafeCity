@@ -27,7 +27,7 @@ public interface ISicknessDao {
     //查询所有病害
     public List<SicknessEntity> selectAllSickness();
 
-    @Select("select * from tb_sickness where sk_name like '%',#{name},'%' and sk_pattern like '%',#{pattern},'%'")
+    @Select("select * from tb_sickness where sk_name like '%${name}%' and sk_pattern like '%${pattern}%'")
     @Results(value = {
             @Result(property = "id", column = "sk_id", id = true),
             @Result(property = "name", column = "sk_name"),
