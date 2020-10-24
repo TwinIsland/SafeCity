@@ -24,7 +24,7 @@ public interface IZoneDao {
     //查询所有区域信息
     public List<ZoneEntity> selectAllZone();
 
-    @Select("select * from tb_zone where zn_name = '%${name}%' and zn_tree = '%${tree}%' and zn_team = '%${team}%'")
+    @Select("select * from tb_zone where zn_name like '%${name}%' and zn_tree like '%${tree}%' and zn_team like '%${team}%'")
     @Results(value = {
             @Result(property = "id",column = "zn_id",id=true),
             @Result(property = "name",column = "zn_name"),
@@ -36,7 +36,7 @@ public interface IZoneDao {
     //模糊查询区域一览
     public List<ZoneEntity> selectZoneByVague(@Param("name") String name, @Param("tree") String tree, @Param("team") String team);
 
-    @Insert("insert into tb_zone (zn_id,zn_name,zn_tree,zn_area,zn_better,zn_team) vlaues (null,#{name},#{tree},#{area},#{better},#{team})")
+    @Insert("insert into tb_zone (zn_id,zn_name,zn_tree,zn_area,zn_better,zn_team) values (null,#{name},#{tree},#{area},#{better},#{team})")
     //添加区域一览信息
     public void insertZone(ZoneEntity zoneEntity);
 

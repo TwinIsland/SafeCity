@@ -16,7 +16,7 @@ import java.util.List;
 
 
 @SpringBootTest
-class SsmApplicationTests
+class SsmApplicationTestsLi
 {
 
     @Autowired

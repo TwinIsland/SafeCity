@@ -1,10 +1,7 @@
 package com.dtone.ssm.dao;
 
 import com.dtone.ssm.entity.MouseEntity;
-import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Result;
-import org.apache.ibatis.annotations.Results;
-import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.*;
 
 import java.util.List;
 
@@ -41,5 +38,5 @@ public interface IMouseDao {
             @Result(property = "img", column = "ms_img"),
     })
     //模糊查询鼠害信息
-    public List<MouseEntity> selectMouseByVague();
+    public List<MouseEntity> selectMouseByVague(@Param("name") String name);
 }

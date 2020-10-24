@@ -27,10 +27,10 @@ public class WareoutTest
         List<WareoutEntity> wareoutEntities = iWareoutDao.selectAllWareout();
         Assert.notNull(wareoutEntities);
     }
-
+    /*
     void selectWOutByDateAndPersonTest()
     {
-        List<WareoutEntity> wareoutEntities = iWareoutDao.selectWOutByDateAndPerson(2020/02/12, "晓");
+        List<WareoutEntity> wareoutEntities = iWareoutDao.selectWOutByDateAndPerson();
 
     }
 
@@ -46,5 +46,5 @@ public class WareoutTest
     void deleteWoutByID()
     {
         iWareoutDao.deleteWoutByID(6);
-    }
+    }*/
 }
