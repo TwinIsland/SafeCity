@@ -54,11 +54,6 @@ class SsmApplicationTestsLi
         userDao.insertUser(userEntity);
     }
 
-    @Test
-    void deleteUserTest()
-    {
-        userDao.deleteUser(7);
-    }
 
 
 }

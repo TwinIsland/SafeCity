@@ -20,6 +20,6 @@
         </association>
     </resultMap>
     <select id="selectTeamDetailed" resultMap="teamResultMap">
-        select t.tm_name,t.tm_peo,t.tm_area,z.zn_area,z.zn_tree,z.zn_better,t.tm_num,t.tm_tel,t.tm_date from tb_zone z join tb_team t on z.zn_name = t.tm_area where tb_name = #{name}
+        select t.tm_name,t.tm_peo,t.tm_area,z.zn_area,z.zn_tree,z.zn_better,t.tm_num,t.tm_tel,t.tm_date from tb_zone z join tb_team t on z.zn_name = t.tm_area where tm_name = #{name}
     </select>
 </mapper>

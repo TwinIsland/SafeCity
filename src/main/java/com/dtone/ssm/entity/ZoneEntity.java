@@ -10,7 +10,7 @@ import lombok.Data;
 @Data
 public class ZoneEntity {
     private int id;
-    private int name;
+    private String name;
     private String tree;
     private String area;
     private String better;
