@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="ALL" />
   </component>
   <component name="BranchesTreeState">
     <expand>
@@ -23,11 +23,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eca04396-c129-4481-afcb-7f584bb45cc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/ITeamService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/IZoneService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/imp/TeamServiceImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/imp/ZoneServiceImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/dtone/ssm/SsmApplicationLyTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/html/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/html/.idea/html.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/html/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/html/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/html/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/html/chara.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/html/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/html/event.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/html/images/avatar_default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/html/images/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/html/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/html/images/slide_2.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/html/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/html/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/html/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/html/templet/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_2.xml" afterDir="false" />
@@ -100,12 +112,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/spring.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/entity/ZoneEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/entity/ZoneEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/ITeamDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/ITeamDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/dtone/ssm/SsmApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dtone/ssm/SsmApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm.iml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,31 +132,26 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/com/dtone/ssm/SsmApplicationTests.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/imp/LogServiceImp.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/imp/ZoneServiceImp.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/com/dtone/ssm/WareoutTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/imp/TeamServiceImp.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/com/dtone/ssm/SsmApplicationZyzTests.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/com/dtone/ssm/SsmApplicationLyTests.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/IZoneService.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/imp/BugServiceImp.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/imp/MouseServiceImp.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/imp/SicknessServiceImp.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/imp/TeamServiceImp.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/imp/BugServiceImp.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/test/java/com/dtone/ssm/SsmApplicationTests.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/test/java/com/dtone/ssm/SsmApplicationZyzTests.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/imp/UserServiceImpl.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/test/java/com/dtone/ssm/SsmApplicationLyTests.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/imp/ZoneServiceImp.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/imp/LogServiceImp.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/IZoneService.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\maven\repository" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../maven/apache-maven-3.5.4" />
+        <option name="mavenHome" value="C:\Users\new\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3" />
         <option name="userSettingsFile" value="D:\maven\apache-maven-3.5.4\conf\settings.xml" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1jBD9oyynA6leYZTk3PiUVmNAFe" />
@@ -164,6 +167,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="F:/Android/SDK" />
@@ -201,18 +205,6 @@
       <recent name="F:\idea\safecity2\src\main\resources\mapper" />
       <recent name="F:\idea\ssm\src\main\resources\static\js" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="JUnit.SsmApplicationLyTests.selectTeamDetailedTest">
     <configuration name="SsmApplicationLyTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -311,7 +303,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -333,6 +325,7 @@
       <workItem from="1603510765903" duration="6714000" />
       <workItem from="1603527443259" duration="3552000" />
       <workItem from="1603537546415" duration="6542000" />
+      <workItem from="1603597396517" duration="5225000" />
     </task>
     <task id="LOCAL-00001" summary="上传工程">
       <created>1603360481125</created>
@@ -408,20 +401,19 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="上传工程" />
@@ -438,10 +430,11 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="446" y="66" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1603442293814" />
-    <state x="400" y="110" key="FileChooserDialogImpl" timestamp="1603436608700">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state x="480" y="132" key="FileChooserDialogImpl" timestamp="1603603984926">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="400" y="110" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1603436608700" />
+    <state x="480" y="132" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1603603984926" />
     <state width="1237" height="180" key="GridCell.Tab.0.bottom" timestamp="1603449404053">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -478,10 +471,11 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="277" y="121" key="MultipleFileMergeDialog/0.0.1280.720@0.0.1280.720" timestamp="1603449054979" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1603436611683">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state x="145" y="0" key="SettingsEditor" timestamp="1603600218973">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1603436611683" />
+    <state x="145" y="0" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1603600218973" />
     <state x="233" y="93" key="Vcs.Push.Dialog.v2" timestamp="1603449078773">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
