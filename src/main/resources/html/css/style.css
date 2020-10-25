@@ -2141,6 +2141,17 @@ ul.social_icon li a {
 	margin-bottom: 10px;
 	height: 10px;
 }
+#btn1{
+	background-color:rgba(0,0,0,0);
+	color: #f9f9f9;
+}
+#btn2{
+	background-color:rgba(0,0,0,0);
+	color: #f9f9f9;
+}
+.dropdown-menu{
+	background-color:whitesmoke;
+}
 
 
 
