@@ -1,5 +1,5 @@
 ## 模板
-里面有模板自带的属性及元素用法
+[template](template)文件里里面有模板自带的属性及元素用法
 
 ## 规则
 **header:**
@@ -17,15 +17,15 @@
       <meta name="description" content="">
       <meta name="author" content="">
       <!-- bootstrap css -->
-      <link rel="stylesheet" href="../css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
       <!-- style css -->
-      <link rel="stylesheet" href="../css/style.css">
+      <link rel="stylesheet" href="css/style.css">
       <!-- Responsive-->
-      <link rel="stylesheet" href="../css/responsive.css">
+      <link rel="stylesheet" href="css/responsive.css">
       <!-- fevicon -->
       <link rel="icon" href="images/icon.png" type="image/gif" />
       <!-- Scrollbar Custom CSS -->
-      <link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
       <!-- Tweaks for older IEs-->
       <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
