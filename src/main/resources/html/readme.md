@@ -2,7 +2,7 @@
 [template](template)文件里里面有模板自带的属性及元素用法
 
 ## 规则
-> 每个html文件
+> 每个html文件务必添加以下代码
 
 **header:**
 ```html
