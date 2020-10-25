@@ -2101,13 +2101,13 @@ ul.social_icon li a {
 	background-color: #f6f6f6f6;
 }
 
-.contact-bg .contactheading h3 { 
+.contact-bg .contactheading h3 {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
     text-align:center;
     padding: 40px 0px;
-    text-transform: uppercase; 
+    text-transform: uppercase;
 }
 
 #map {
@@ -2116,6 +2116,31 @@ ul.social_icon li a {
 }
 
 .wdt {height: 250px !important;}
+
+.mycenter{
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 350px;
+	width:500px;
+	padding: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.mycenter mysign{
+	width: 440px;
+}
+.mycenter input,checkbox,button{
+	margin-top:2%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.mycheckbox{
+	margin-top:10px;
+	margin-left: 40px;
+	margin-bottom: 10px;
+	height: 10px;
+}
 
 
 

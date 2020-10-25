@@ -47,7 +47,7 @@
                     <div class="limit-box">
                         <nav class="main-menu">
                             <ul class="menu-area-main">
-                                <li class="active">
+                                <li>
                                     <a href="index.html">首页</a>
                                 </li>
                                 <li>
@@ -60,7 +60,7 @@
                                     <a href="info.html">资料检索</a> <!--虫/鼠害...害信息查询-->
                                 </li>
                                 <!--登录后隐藏-->
-                                <li id="login">
+                                <li id="login" class="active">
                                     <a href="login.html">登录</a>
                                 </li>
                                 <!--登录后隐藏-->
@@ -95,34 +95,26 @@
         </div>
     </div>
 </div>
-<section class="layout_padding">
-        <div class="container">
-            <div class="col-md-12">
-            <div class="row">
-            <div class="col-md-12">
-                <div class="full comment_form">
-                    <form action="./index.html">
-                        <fieldset>
-                            <div class="col-md-12">
-                                <input type="text" name="name" placeholder="用户名" required="#" />
-                                <input type="password" name="password" placeholder="密码" required="#" />
-                                <a href="register.html" style="color: #79797a">还没有密码？点我注册</a>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="row margin_top_30">
-                                    <div class="col-md-12">
-                                        <div class="center">
-                                            <button>登录</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </fieldset>
-                    </form>
-                </div>
+<form action="login.php" method="post">
+    <div class="mycenter">
+        <div class="mysign">
+            <div class="col-lg-10">
+                <input type="text" class="form-control" name="username" placeholder="请输入账户名" required autofocus/>
+            </div>
+            <div class="col-lg-10"></div>
+            <div class="col-lg-10">
+                <input type="password" class="form-control" name="password" placeholder="请输入密码" required autofocus/>
+            </div>
+            <div class="col-lg-10"></div>
+            <div class="col-lg-10 mycheckbox checkbox">
+            </div>
+            <div class="col-lg-10"></div>
+            <div class="col-lg-10">
+                <p style="text-align:center"><a href="register.html" style="color: #79797a">还没有账户？点我注册</a></p>
+                <button type="button" class="btn btn-success col-lg-12">登录</button>
             </div>
         </div>
     </div>
-</section>
+</form>
 </body>
 </html>
