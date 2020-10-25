@@ -14,7 +14,7 @@
        <meta name="viewport" content="width=device-width, initial-scale=1">
        <meta name="viewport" content="initial-scale=1, maximum-scale=1">
        <!-- site metas -->
-       <title>城市园林病虫害防治管理系统 CPPMS</title>
+       <title>CGPMS 【页面名称】</title>
        <meta name="keywords" content="">
        <meta name="description" content="">
        <meta name="author" content="">
