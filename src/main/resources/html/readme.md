@@ -36,9 +36,65 @@
 ```
 **body:**
 ```html
- <div class="loader_bg">
-         <div class="loader"><img src="../images/loading.gif" alt="" /></div>
-  </div>
+ <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="" /></div>
+      </div>
+      <!-- end loader -->
+      <!-- header -->
+      <header>
+         <!-- header inner -->
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-lg-3 logo_section">
+                  <div class="full">
+                     <div class="center-desk">
+                        <div class="logo"> <a href="index.html"><img src="images/logo.png" alt="#"></a> </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-9">
+                  <div class="menu-area">
+                     <div class="limit-box">
+                        <nav class="main-menu">
+                           <ul class="menu-area-main">
+                              <li class="active">
+                                 <a href="index.html">首页</a>
+                              </li>
+                              <li>
+                                 <a href="event.html">灾情检索</a>
+                              </li>
+                              <li>
+                                 <a href="chara.html">人员检索</a>
+                              </li>
+                              <li>
+                                 <a href="info.html">资料检索</a> <!--虫/鼠害...害信息查询-->
+                              </li>
+                              <!--登录后隐藏-->
+                              <li id="login">
+                                 <a href="login.html">登录</a>
+                              </li>
+                              <!--登录后隐藏-->
+                              <li id="register">
+                                 <a href="register.html">注册</a>
+                              </li>
+                              <!--未登录时隐藏-->
+                              <li id="logout">
+                                 <a href="#">登出</a>
+                              </li>
+                              <!--未登录时隐藏-->
+                              <li id="dashboard">
+                                 <a href="dashboard.html">仪表盘</a>
+                              </li>
+                           </ul>
+                        </nav>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- end header inner -->
+      </header>
 ```
 **footer:**
 ```html
