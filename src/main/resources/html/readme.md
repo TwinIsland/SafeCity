@@ -36,10 +36,11 @@
 ```
 **body:**
 ```html
- <!-- loader  -->
+<!-- loader 模组，目前有bug，加上后加载速度变慢
       <div class="loader_bg">
          <div class="loader"><img src="images/loading.gif" alt="" /></div>
       </div>
+-->
       <!-- end loader -->
       <!-- header -->
       <header>
