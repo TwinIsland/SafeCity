@@ -19,7 +19,7 @@
     <!-- Responsive-->
     <link rel="stylesheet" href="../css/responsive.css">
     <!-- fevicon -->
-    <link rel="icon" href="../images/icon.png" type="image/gif" />
+    <link rel="icon" href="../images/icon.png" type="image/gif"/>
     <!-- Scrollbar Custom CSS -->
     <link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
     <script src="../js/jquery.js"></script>
@@ -33,7 +33,7 @@
 <body class="main-layout">
 <!-- loader  -->
 <div class="loader_bg">
-    <div class="loader"><img src="../images/loading.gif" alt="" /></div>
+    <div class="loader"><img src="../images/loading.gif" alt=""/></div>
 </div>
 <!-- end loader -->
 <!-- header -->
@@ -63,13 +63,11 @@
                                         </button>
                                         <div class="dropdown-menu">
                                             <a class="dropdown-item" style="color: black" href="#">区域一览</a>
+                                            <a class="dropdown-item" style="color: black" href="#">专家一览</a>
                                             <a class="dropdown-item" style="color: black" href="#">小班管理</a>
                                             <a class="dropdown-item" style="color: black" href="#">事件记录</a>
                                         </div>
                                     </div>
-                                </li>
-                                <li>
-                                    <a href="chara.html">专家一览</a>
                                 </li>
                                 <li>
                                     <!--虫/鼠害...害信息查询-->
@@ -85,7 +83,7 @@
                                     </div>
                                 </li>
                                 <!--登录后隐藏-->
-                                <li id="login">
+                                <li id="login" >
                                     <a href="login.html">登录</a>
                                 </li>
                                 <!--登录后隐藏-->
@@ -110,6 +108,7 @@
     <!-- end header inner -->
 </header>
 
+
 <div class="Marketing-bg">
     <div class="container">
         <div class="row">
@@ -126,46 +125,40 @@
     <div class="formCenter">
         <div class="mysign">
             <div class="col-lg-12 center">
-                <input type="text" class="form-control" id="usrName" name="username" placeholder="请输入账户名" required autofocus/>
+                <input type="text" class="form-control" id="usrName" name="username" placeholder="账户名" required
+                       autofocus/>
             </div>
+            <div class="col-lg-12 center"></div>
+            <div class="col-lg-12 center"></div>
             <div class="col-lg-12 center">
-                <input type="password" class="form-control" id="usrPsw" name="password" placeholder="请输入密码" required autofocus/>
+                <input type="password" class="form-control" id="usrPsw" name="password" placeholder="密码" required
+                       autofocus/>
             </div>
+            <div class="col-lg-12 center"></div>
+            <div class="col-lg-12 center"></div>
             <div class="col-lg-12 center">
-                <input type="text" class="form-control" id="realname" name="realname" placeholder="请输入真实姓名" required autofocus/>
+                <input type="text" class="form-control" id="relnam" name="realname" placeholder="真实姓名" required
+                       autofocus/>
             </div>
+            <div id="status"></div>
             <div class="col-lg-10">
-                <p><a href="login.html" style="color: #79797a">已有账户？点我登录</a></p>
+                <p><a href="login.html" style="color: #adadad;font-size: 13px">已有账户？点我登录</a></p>
+            </div>
+            <div class="col-lg-10 mycheckbox checkbox"></div>
+            <div class="col-lg-10"></div>
+            <div class="col-lg-10">
+                <button type="button" id="btn3" class="btn btn-success col-lg-12">注册</button>
             </div>
         </div>
-        <div class="col-lg-10 mycheckbox checkbox">
-        </div>
-        <div class="col-lg-10"></div>
-        <div class="col-lg-10">
-            <button type="button" class="btn btn-success col-lg-12">注册</button>
-        </div>
     </div>
-    </div>
+
 </form>
 <!-- end section -->
 <!-- section -->
 
-<!-- footer -->
-<div class="cpy">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <p style="color: grey">Copyright © 2020 Design by JMG 20200722 Group 2</p>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- end footer -->
-<!-- Javascript files-->
-<script src="../js/jquery.min.js"></script>
 <script src="../js/popper.min.js"></script>
 <script src="../js/bootstrap.bundle.min.js"></script>
-<script src="../js/jquery-3.0.0.min.js"></script>
+<script src="../js/jquery-3.3.1.min.js"></script>
 <script src="../js/plugin.js"></script>
 <!-- Scrollbar Js Files -->
 <script src="../js/jquery.mCustomScrollbar.concat.min.js"></script>

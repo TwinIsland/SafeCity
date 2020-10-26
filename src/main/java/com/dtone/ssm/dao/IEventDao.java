@@ -25,7 +25,7 @@ public interface IEventDao {
             @Result(property = "suggestion", column = "ev_suggestion"),
             @Result(property = "suggestion_p", column = "ev_suggestion_p"),
     })
-    public List<EventEntity> selectAllEvent();
+    public java.lang.Object selectAllEvent();
 
 
     @Select("select * from tb_event where Date(ev_date) between #{dStart} and #{dEnd} and ev_name like CONCAT('%',#{name},'%')")

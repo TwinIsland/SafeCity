@@ -29,6 +29,7 @@ public class UserController {
 
     @RequestMapping("user/login")
     public String login(String name, String password, HttpServletRequest request) {
+
         log.info("收到请求:user/login :" + "name =" + name + "password=" + password);
         if (userService.checkUser(name, password)) {
             HttpSession session = request.getSession();
@@ -42,7 +43,7 @@ public class UserController {
 
     @RequestMapping("user/getName")
     public String getName(HttpServletRequest request){
-        log.info("Session: " + request.getSession().getId());
+        //log.info("Session: " + request.getSession().getId());
         Object uName = request.getSession().getAttribute("name");
         if(uName == null){
             return "false";

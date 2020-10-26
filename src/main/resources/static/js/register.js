@@ -1,20 +1,22 @@
 $(function () {
-    $("#submit").click(function () {
+    $("#btn3").click(function () {
         $.ajax({
             url:"/user/register",
             type:"POST",
             data:{
                 name:$("#usrName").val(),
                 password:$("#usrPsw").val(),
-                realname:$("#realname").val(),
-
+                realname:$("#relnam").val(),
             },
             success:function (result) {
                 if(result === "success"){
-                    alert("注册成功")
-                    window.location.href = "../html/login.html";
+                    $("#status").empty().append("<p style=\"color: forestgreen;font-size: 13px\">&nbsp;&nbsp;&nbsp;&nbsp;注册成功，欢迎！</p>")
+                    window.location.href = "index.html";
                 }else{
-                    alert("注册失败")
+                    $("#status").empty().append("<p style=\"color: red;font-size: 13px\">&nbsp;&nbsp;&nbsp;&nbsp;用户名已被占用，请重试！</p>")
+                    document.getElementById("usrName").value="";
+                    document.getElementById("usrPsw").value="";
+                    document.getElementById("relnam").value="";
                 }
             }
         })

@@ -1941,11 +1941,6 @@ input[type="radio"] .styled:checked+label::after {
 
 /** footer **/
 
-footer {
-    background: #0f0824;
-    min-height: 500px;
-    padding: 90px 0;
-}
 
 .footer_links h3 {
     color: #fff;
@@ -1953,49 +1948,6 @@ footer {
     font-weight: 500;
     margin-bottom: 30px;
     padding: 0;
-}
-
-.footer_links li a {
-    color: #fff;
-    font-size: 16px;
-    font-weight: 300;
-}
-
-.footer_links ol li {
-    float: left;
-    margin: 0 15px 15px 0;
-}
-
-.footer_links form {
-    background: #fff;
-    padding: 25px;
-}
-
-.footer_links form input {
-    width: 100%;
-    min-height: 35px;
-    margin: 5px 0;
-    border-radius: 50px;
-    border: solid #b5b5b5 1px;
-    font-size: 12px;
-    font-weight: 500;
-    padding: 0 10px;
-}
-
-.footer_links form textarea {
-    width: 100%;
-    min-height: 10px;
-    margin: 5px 0;
-    border-radius: 10px;
-    border: solid #b5b5b5 1px;
-    font-size: 12px;
-    font-weight: 500;
-    padding: 10px 10px;
-}
-
-.footer_links .reply_bt {
-    margin-bottom: 5px;
-    margin-top: 10px;
 }
 
 .contact_information {

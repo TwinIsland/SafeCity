@@ -41,6 +41,7 @@ public class SsmApplicationLyTests {
     @Test
     void insertZoneTest(){
         ZoneEntity zoneEntity = new ZoneEntity();
+
         zoneEntity.setName("1");
         zoneEntity.setTree("1");
         zoneEntity.setArea("1");

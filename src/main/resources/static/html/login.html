@@ -19,26 +19,31 @@
     <!-- Responsive-->
     <link rel="stylesheet" href="../css/responsive.css">
     <!-- fevicon -->
-    <link rel="icon" href="../images/icon.png" type="image/gif" />
+    <link rel="icon" href="../images/icon.png" type="image/gif"/>
     <!-- Scrollbar Custom CSS -->
     <link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
     <script src="../js/jquery.js"></script>
     <script>
         $(function () {
+            //判断是否有session
+
             $("#submit").click(function () {
                 $.ajax({
-                    url:"user/login",
-                    type:"POST",
-                    data:{
-                        name:$("#usrName").val(),
-                        password:$("#usrPsw").val(),
+                    url: "user/login",
+                    type: "POST",
+                    data: {
+                        name: $("#usrName").val(),
+                        password: $("#usrPsw").val(),
                     },
-                    success:function (result) {
-                        if(result === "success"){
-                            alert("登录成功")
-                            window.location.href='index.html';
-                        }else{
-                            alert("登陆失败")
+                    success: function (result) {
+                        if (result === "success") {
+
+                            $("#status").empty().append("<p style=\"color: forestgreen;font-size: 13px\">&nbsp;&nbsp;&nbsp;&nbsp;登陆成功，欢迎！</p>")
+                            window.location.href = 'index.html';
+                        } else {
+                            $("#status").empty().append("<p style=\"color: red;font-size: 13px\">&nbsp;&nbsp;&nbsp;&nbsp;用户名或密码错误，请重试！</p>")
+                            document.getElementById("usrName").value="";
+                            document.getElementById("usrPsw").value="";
                         }
                     }
                 })
@@ -48,12 +53,14 @@
     <!-- Tweaks for older IEs-->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-<![endif]-->
+    <![endif]-->
+
 </head>
 <body>
 <div class="loader_bg">
-    <div class="loader"><img src="../images/loading.gif" alt="" /></div>
+    <div class="loader"><img src="../images/loading.gif" alt=""/></div>
 </div>
+
 <!-- header -->
 <header>
     <!-- header inner -->
@@ -81,13 +88,11 @@
                                         </button>
                                         <div class="dropdown-menu">
                                             <a class="dropdown-item" style="color: black" href="#">区域一览</a>
+                                            <a class="dropdown-item" style="color: black" href="#">专家一览</a>
                                             <a class="dropdown-item" style="color: black" href="#">小班管理</a>
                                             <a class="dropdown-item" style="color: black" href="#">事件记录</a>
                                         </div>
                                     </div>
-                                </li>
-                                <li>
-                                    <a href="chara.html">专家一览</a>
                                 </li>
                                 <li>
                                     <!--虫/鼠害...害信息查询-->
@@ -127,6 +132,8 @@
     </div>
     <!-- end header inner -->
 </header>
+<!-- header -->
+
 <div class="Marketing-bg">
     <div class="container">
         <div class="row">
@@ -142,17 +149,19 @@
     <div class="formCenter">
         <div class="mysign">
             <div class="col-lg-12 center">
-                <input type="text" class="form-control" id="usrName" name="username" placeholder="请输入账户名" required autofocus/>
-            </div>
-            <div class="col-lg-12 center">
-                <input type="password" class="form-control" id="usrPsw" name="password" placeholder="请输入密码" required autofocus/>
+                <input type="text" class="form-control" id="usrName" name="username" placeholder="账户名"/>
             </div>
 
+            <div class="col-lg-12 center"></div>
+            <div class="col-lg-12 center"></div>
+            <div class="col-lg-12">
+                <input type="password" class="form-control" id="usrPsw" name="password" placeholder="密码"/>
+            </div>
+            <div id="status"></div>
             <div class="col-lg-10">
-            <p><a href="register.html" style="color: #79797a">还没有账户？点我注册</a></p>
+                <p><a href="register.html" style="color: #adadad;font-size: 13px">还没有账户？点我注册</a></p>
             </div>
-            <div class="col-lg-10 mycheckbox checkbox">
-            </div>
+            <div class="col-lg-10 mycheckbox checkbox"></div>
             <div class="col-lg-10"></div>
             <div class="col-lg-10">
                 <button type="button" id="submit" class="btn btn-success col-lg-12">登录</button>
@@ -160,15 +169,7 @@
         </div>
     </div>
 </form>
-<div class="cpy">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <p style="color: grey">Copyright © 2020 Design by JMG 20200722 Group 2</p>
-            </div>
-        </div>
-    </div>
-</div>
+
 <script src="../js/popper.min.js"></script>
 <script src="../js/bootstrap.bundle.min.js"></script>
 <script src="../js/jquery-3.0.0.min.js"></script>

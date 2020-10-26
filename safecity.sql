@@ -53,7 +53,7 @@ CREATE TABLE `tb_event` (
   `ev_loss` float NOT NULL,
   `ev_area` float NOT NULL,
   `ev_suggestion` varchar(60) NOT NULL,
-  `ev_suggestion_p` varchar(60) NOT NULL,
+  `ev_suggestion_p` varchar(60),
   PRIMARY KEY (`ev_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
@@ -198,7 +198,7 @@ CREATE TABLE `tb_user` (
   `u_name` varchar(12) NOT NULL,
   `u_password` varchar(12) NOT NULL,
   `u_level` varchar(12) NOT NULL,
-  `u_realname` varchar(12) NOT NULL,
+  `u_realname` varchar(12),
   PRIMARY KEY (`u_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
 
