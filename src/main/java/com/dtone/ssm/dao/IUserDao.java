@@ -39,12 +39,5 @@ public interface IUserDao {
 
     //判断用户名是否重复
     @Select("select count(*) from tb_user where u_name = #{name}")
-    @Results(value = {
-            @Result(property = "id",column = "u_id",id=true),
-            @Result(property = "name",column = "u_name"),
-            @Result(property = "password",column = "u_password"),
-            @Result(property = "level",column = "u_level"),
-            @Result(property = "realname",column = "u_realname"),
-    })
     public int selectUserCount(String name);
 }
