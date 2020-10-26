@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
    <head>
       <!-- basic -->
       <meta charset="utf-8">
@@ -51,20 +51,39 @@
                      <div class="limit-box">
                         <nav class="main-menu">
                            <ul class="menu-area-main">
-                              <li class="active">
+                              <li>
                                  <a href="index.html">首页</a>
                               </li>
                               <li>
-                                 <a href="event.html">灾情检索</a>
+                                 <div class="dropdown">
+                                    <button type="button" id="btn1" class="btn dropdown-toggle" data-toggle="dropdown">
+                                       灾情防治
+                                    </button>
+                                    <div class="dropdown-menu">
+                                       <a class="dropdown-item" style="color: black" href="#">区域一览</a>
+                                       <a class="dropdown-item" style="color: black" href="#">小班管理</a>
+                                       <a class="dropdown-item" style="color: black" href="#">事件记录</a>
+                                    </div>
+                                 </div>
                               </li>
                               <li>
                                  <a href="chara.html">人员检索</a>
                               </li>
                               <li>
-                                 <a href="info.html">资料检索</a> <!--虫/鼠害...害信息查询-->
+                                 <!--虫/鼠害...害信息查询-->
+                                 <div class="dropdown">
+                                    <button type="button" id="btn2" class="btn dropdown-toggle" data-toggle="dropdown">
+                                       资料检索
+                                    </button>
+                                    <div class="dropdown-menu">
+                                       <a class="dropdown-item" style="color: black" href="#">虫害资料</a>
+                                       <a class="dropdown-item" style="color: black" href="#">病害资料</a>
+                                       <a class="dropdown-item" style="color: black" href="#">鼠害资料</a>
+                                    </div>
+                                 </div>
                               </li>
                               <!--登录后隐藏-->
-                              <li id="login">
+                              <li id="login" class="active">
                                  <a href="login.html">登录</a>
                               </li>
                               <!--登录后隐藏-->
@@ -158,7 +177,7 @@
          <div class="container">
             <div class="row">
                <div class="col-md-12">
-                  <p>Copyright © 2020 Design by JMG 20200722 Group 2</p>
+                  <p style="color: grey">Copyright © 2020 Design by JMG 20200722 Group 2</p>
                </div>
             </div>
          </div>

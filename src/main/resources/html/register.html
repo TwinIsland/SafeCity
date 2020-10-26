@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
     <!-- basic -->
     <meta charset="utf-8">
@@ -57,12 +57,12 @@
                                 <li>
                                     <div class="dropdown">
                                         <button type="button" id="btn1" class="btn dropdown-toggle" data-toggle="dropdown">
-                                            灾情检索
+                                            灾情防治
                                         </button>
                                         <div class="dropdown-menu">
-                                            <a class="dropdown-item" style="color: black" href="#">虫害管理</a>
-                                            <a class="dropdown-item" style="color: black" href="#">病害管理</a>
-                                            <a class="dropdown-item" style="color: black" href="#">鼠害管理</a>
+                                            <a class="dropdown-item" style="color: black" href="#">区域一览</a>
+                                            <a class="dropdown-item" style="color: black" href="#">小班管理</a>
+                                            <a class="dropdown-item" style="color: black" href="#">事件记录</a>
                                         </div>
                                     </div>
                                 </li>
@@ -83,11 +83,11 @@
                                     </div>
                                 </li>
                                 <!--登录后隐藏-->
-                                <li id="login">
+                                <li id="login" class="active">
                                     <a href="login.html">登录</a>
                                 </li>
                                 <!--登录后隐藏-->
-                                <li id="register"  class="active">
+                                <li id="register">
                                     <a href="register.html">注册</a>
                                 </li>
                                 <!--未登录时隐藏-->
@@ -121,21 +121,22 @@
 </div>
 
 <form action="login.php" method="post">
-    <div class="mycenter">
+    <div class="formCenter">
         <div class="mysign">
-            <div class="col-lg-10">
+            <div class="col-lg-12 center">
                 <input type="text" class="form-control" name="username" placeholder="请输入账户名" required autofocus/>
             </div>
-            <div class="col-lg-10"></div>
-            <div class="col-lg-10">
+            <div class="col-lg-12 center">
                 <input type="password" class="form-control" name="password" placeholder="请输入密码" required autofocus/>
             </div>
-            <div class="col-lg-10"></div>
+            <div class="col-lg-10">
+                <p><a href="login.html" style="color: #79797a">已有账户？点我登录</a></p>
+            </div>
+            </div>
             <div class="col-lg-10 mycheckbox checkbox">
             </div>
             <div class="col-lg-10"></div>
             <div class="col-lg-10">
-                <p style="text-align:center"><a href="login.html" style="color: #79797a">已有账户？点我登录</a></p>
                 <button type="button" class="btn btn-success col-lg-12">注册</button>
             </div>
         </div>
@@ -145,6 +146,15 @@
 <!-- section -->
 
 <!-- footer -->
+<div class="cpy">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p style="color: grey">Copyright © 2020 Design by JMG 20200722 Group 2</p>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- end footer -->
 <!-- Javascript files-->
 <script src="js/jquery.min.js"></script>

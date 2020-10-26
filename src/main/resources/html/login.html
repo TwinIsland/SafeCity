@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
     <!-- basic -->
     <meta charset="utf-8">
@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <!-- site metas -->
-    <title>CGPMS 登录</title>
+    <title>登录 CGPMS</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -28,7 +28,10 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
 </head>
 <body>
-
+<!-- loader  -->
+<div class="loader_bg">
+    <div class="loader"><img src="images/loading.gif" alt="" /></div>
+</div>
 <!-- end loader -->
 <!-- header -->
 <header>
@@ -53,12 +56,12 @@
                                 <li>
                                     <div class="dropdown">
                                         <button type="button" id="btn1" class="btn dropdown-toggle" data-toggle="dropdown">
-                                            灾情检索
+                                            灾情防治
                                         </button>
                                         <div class="dropdown-menu">
-                                            <a class="dropdown-item" style="color: black" href="#">虫害管理</a>
-                                            <a class="dropdown-item" style="color: black" href="#">病害管理</a>
-                                            <a class="dropdown-item" style="color: black" href="#">鼠害管理</a>
+                                            <a class="dropdown-item" style="color: black" href="#">区域一览</a>
+                                            <a class="dropdown-item" style="color: black" href="#">小班管理</a>
+                                            <a class="dropdown-item" style="color: black" href="#">事件记录</a>
                                         </div>
                                     </div>
                                 </li>
@@ -115,26 +118,36 @@
     </div>
 </div>
 <form action="login.php" method="post">
-    <div class="mycenter">
+    <div class="formCenter">
         <div class="mysign">
-            <div class="col-lg-10">
+            <div class="col-lg-12 center">
                 <input type="text" class="form-control" name="username" placeholder="请输入账户名" required autofocus/>
             </div>
-            <div class="col-lg-10"></div>
-            <div class="col-lg-10">
+            <div class="col-lg-12 center">
                 <input type="password" class="form-control" name="password" placeholder="请输入密码" required autofocus/>
             </div>
-            <div class="col-lg-10"></div>
+
+            <div class="col-lg-10">
+            <p><a href="register.html" style="color: #79797a">还没有账户？点我注册</a></p>
+            </div>
             <div class="col-lg-10 mycheckbox checkbox">
             </div>
             <div class="col-lg-10"></div>
             <div class="col-lg-10">
-                <p style="text-align:center"><a href="register.html" style="color: #79797a">还没有账户？点我注册</a></p>
                 <button type="button" class="btn btn-success col-lg-12">登录</button>
             </div>
         </div>
     </div>
 </form>
+<div class="cpy">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p style="color: grey">Copyright © 2020 Design by JMG 20200722 Group 2</p>
+            </div>
+        </div>
+    </div>
+</div>
 <script src="js/jquery.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>

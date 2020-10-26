@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 80015
 File Encoding         : 65001
 
-Date: 2020-10-23 15:39:51
+Date: 2020-10-23 10:22:04
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -20,22 +20,21 @@ SET FOREIGN_KEY_CHECKS=0;
 -- ----------------------------
 DROP TABLE IF EXISTS `tb_bug`;
 CREATE TABLE `tb_bug` (
-  `bg_id` int(11) NOT NULL AUTO_INCREMENT,
+  `bg_id` int(11) NOT NULL,
   `bg_name` varchar(15) NOT NULL,
   `bg_breed` varchar(30) NOT NULL,
   `bg_host` varchar(30) NOT NULL,
   `bg_enemy` varchar(30) NOT NULL,
   `bg_damage` varchar(30) NOT NULL,
   `bg_prevent` varchar(30) NOT NULL,
-  `bg_img_s` varchar(60) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `bg_img_s` varchar(60) NOT NULL,
   `bg_img_l` varchar(60) NOT NULL,
   PRIMARY KEY (`bg_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COMMENT='table for bug';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='table for bug';
 
 -- ----------------------------
 -- Records of tb_bug
 -- ----------------------------
-INSERT INTO `tb_bug` VALUES ('1', '黄刺蛾', '一年6~8胎，每胎7~10只', '法桐、枫杨等', '啄木鸟、跳小蜂', '幼虫食叶片，造成树木枯死', '修剪清除粘叶，在成虫期用夜光灯诱杀', '1', '1');
 
 -- ----------------------------
 -- Table structure for tb_event
@@ -68,10 +67,10 @@ CREATE TABLE `tb_event` (
 DROP TABLE IF EXISTS `tb_expert`;
 CREATE TABLE `tb_expert` (
   `ex_id` int(11) NOT NULL,
+  `ex_usrId` int(11) NOT NULL,
   `ex_name` varchar(12) NOT NULL,
   `ex_company` varchar(12) NOT NULL,
   `ex_expertise` varchar(12) NOT NULL,
-  `ex_post` varchar(12) NOT NULL,
   `ex_phone` varchar(20) NOT NULL,
   `ex_date` date DEFAULT NULL,
   `ex_sex` varchar(10) DEFAULT NULL,
@@ -123,8 +122,7 @@ CREATE TABLE `tb_medicament` (
 -- ----------------------------
 DROP TABLE IF EXISTS `tb_mouse`;
 CREATE TABLE `tb_mouse` (
-  `ms_id` int(11) NOT NULL AUTO_INCREMENT,
-  `ms_name` varchar(15) NOT NULL,
+  `ms_id` int(11) NOT NULL,
   `ms_breed` varchar(15) NOT NULL,
   `ms_food` varchar(30) NOT NULL,
   `ms_enemy` varchar(30) NOT NULL,
@@ -159,14 +157,12 @@ CREATE TABLE `tb_record` (
 -- ----------------------------
 DROP TABLE IF EXISTS `tb_sickness`;
 CREATE TABLE `tb_sickness` (
-  `sk_id` int(11) NOT NULL AUTO_INCREMENT,
+  `sk_id` int(11) NOT NULL,
   `sk_name` varchar(30) NOT NULL,
   `sk_cause` varchar(30) NOT NULL,
   `sk_pattern` varchar(30) NOT NULL,
-  `sk_law` varchar(30) NOT NULL,
   `sk_damange` varchar(30) NOT NULL,
   `sk_treat` varchar(30) NOT NULL,
-  `sk_img` varchar(30) NOT NULL,
   PRIMARY KEY (`sk_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
