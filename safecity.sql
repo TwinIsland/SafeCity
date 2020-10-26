@@ -196,9 +196,9 @@ DROP TABLE IF EXISTS `tb_user`;
 CREATE TABLE `tb_user` (
   `u_id` int(11) NOT NULL AUTO_INCREMENT,
   `u_name` varchar(12) NOT NULL,
-  `u_password` varchar(12) NOT NULL,
-  `u_level` varchar(12) NOT NULL,
-  `u_realname` varchar(12),
+  `u_password` varchar(50) NOT NULL,
+  `u_level` varchar(12),
+  `u_realname` varchar(12) NOT NULL,
   PRIMARY KEY (`u_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
 

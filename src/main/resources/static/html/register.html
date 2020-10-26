@@ -23,6 +23,7 @@
     <!-- Scrollbar Custom CSS -->
     <link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
     <script src="../js/jquery.js"></script>
+    <script src="../js/captGenerate.js"></script>
     <script src="../js/register.js"></script>
     <!-- Tweaks for older IEs-->
     <!--[if lt IE 9]>
@@ -30,7 +31,7 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
 </head>
 <!-- body -->
-<body class="main-layout">
+<body class="main-layout" onload="createCode()">
 <!-- loader  -->
 <div class="loader_bg">
     <div class="loader"><img src="../images/loading.gif" alt=""/></div>
@@ -140,6 +141,17 @@
                 <input type="text" class="form-control" id="relnam" name="realname" placeholder="真实姓名" required
                        autofocus/>
             </div>
+            <div class="col-lg-12 center"></div>
+            <div class="col-lg-12 center"></div>
+            <div class="col-lg-12">
+                <input class="col-lg-4" type="button" id="code" onclick="createCode()" style="width:60px" title='点击更换验证码' />
+                <br>
+                <div class="col-lg-12 center"></div>
+
+                <input type="text" class="form-control" id="capCode" name="capCode" placeholder="验证码"/>
+            </div>
+            <div class="col-lg-12 center"></div>
+            <div class="col-lg-12 center"></div>
             <div id="status"></div>
             <div class="col-lg-10">
                 <p><a href="login.html" style="color: #adadad;font-size: 13px">已有账户？点我登录</a></p>
