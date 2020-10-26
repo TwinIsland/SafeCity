@@ -24,4 +24,19 @@ public class UserServiceImpl implements IUserService {
         }
         return false;
     }
+
+    @Override
+    public String getUsrRealName(String name) {
+        return userDao.selectSpecUserName(name);
+    }
+
+    @Override
+    public boolean insertUser(UserEntity userEntity) {
+        int i = userDao.selectUserCount(userEntity.getName());
+        if(i == 0){
+            userDao.insertUser(userEntity);
+            return true;
+        }
+        return false;
+    }
 }

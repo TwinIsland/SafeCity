@@ -22,6 +22,20 @@
       <link rel="icon" href="../images/icon.png" type="image/gif" />
       <!-- Scrollbar Custom CSS -->
       <link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
+      <script src="../js/jquery.js"></script>
+      <script>
+         $(document).ready(function(){
+            $.ajax({
+               url:"user/getName",
+               type:"GET",
+               success:function (name){
+                  if(name !== "false"){
+                     $("#usrRName").html("<h4>欢迎<span style='color: red;font-size: 40px'> " + name + " </span>访问：</h4>")
+                  }
+               }
+            })
+         })
+      </script>
       <!-- Tweaks for older IEs-->
       <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -51,7 +65,7 @@
                      <div class="limit-box">
                         <nav class="main-menu">
                            <ul class="menu-area-main">
-                              <li>
+                              <li class="active">
                                  <a href="index.html">首页</a>
                               </li>
                               <li>
@@ -83,7 +97,7 @@
                                  </div>
                               </li>
                               <!--登录后隐藏-->
-                              <li id="login" class="active">
+                              <li id="login">
                                  <a href="login.html">登录</a>
                               </li>
                               <!--登录后隐藏-->
@@ -134,7 +148,7 @@
                </div>
                <div class="col-md-5">
                   <div class="full slider_cont_section">
-                     <h4>欢迎访问</h4>
+                     <h4 id="usrRName">欢迎访问</h4>
                      <br>
                      <h3>城市园林病虫害防治管理系统</h3>
                      <p>城市林业和园林管理局负责城市林业和园林绿化生态建设， 加强保护和合理开发森林、湿地、荒漠和陆生野生动植物资源，优化配置林业和城市园林绿化资源的职责。随着国家对城市绿化建设的投入不断加大，城市绿化的运营和管理也迎来了新的挑战。</p>

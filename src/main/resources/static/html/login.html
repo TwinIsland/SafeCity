@@ -22,17 +22,38 @@
     <link rel="icon" href="../images/icon.png" type="image/gif" />
     <!-- Scrollbar Custom CSS -->
     <link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
+    <script src="../js/jquery.js"></script>
+    <script>
+        $(function () {
+            $("#submit").click(function () {
+                $.ajax({
+                    url:"user/login",
+                    type:"POST",
+                    data:{
+                        name:$("#usrName").val(),
+                        password:$("#usrPsw").val(),
+                    },
+                    success:function (result) {
+                        if(result === "success"){
+                            alert("登录成功")
+                            window.location.href='index.html';
+                        }else{
+                            alert("登陆失败")
+                        }
+                    }
+                })
+            })
+        })
+    </script>
     <!-- Tweaks for older IEs-->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+<![endif]-->
 </head>
 <body>
-<!-- loader  -->
 <div class="loader_bg">
     <div class="loader"><img src="../images/loading.gif" alt="" /></div>
 </div>
-<!-- end loader -->
 <!-- header -->
 <header>
     <!-- header inner -->
@@ -117,14 +138,14 @@
         </div>
     </div>
 </div>
-<form action="login.php" method="post">
+<form>
     <div class="formCenter">
         <div class="mysign">
             <div class="col-lg-12 center">
-                <input type="text" class="form-control" name="username" placeholder="请输入账户名" required autofocus/>
+                <input type="text" class="form-control" id="usrName" name="username" placeholder="请输入账户名" required autofocus/>
             </div>
             <div class="col-lg-12 center">
-                <input type="password" class="form-control" name="password" placeholder="请输入密码" required autofocus/>
+                <input type="password" class="form-control" id="usrPsw" name="password" placeholder="请输入密码" required autofocus/>
             </div>
 
             <div class="col-lg-10">
@@ -134,7 +155,7 @@
             </div>
             <div class="col-lg-10"></div>
             <div class="col-lg-10">
-                <button type="button" class="btn btn-success col-lg-12">登录</button>
+                <button type="button" id="submit" class="btn btn-success col-lg-12">登录</button>
             </div>
         </div>
     </div>
@@ -148,7 +169,6 @@
         </div>
     </div>
 </div>
-<script src="../js/jquery.min.js"></script>
 <script src="../js/popper.min.js"></script>
 <script src="../js/bootstrap.bundle.min.js"></script>
 <script src="../js/jquery-3.0.0.min.js"></script>

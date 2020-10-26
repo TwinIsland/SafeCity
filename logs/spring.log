@@ -2296,3 +2296,951 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 2020-10-26 15:32:05.378  INFO 1052 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 2020-10-26 15:32:05.392  INFO 1052 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 6.54 seconds (JVM running for 8.468)
 2020-10-26 15:32:08.730  INFO 1052 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 15:38:44.058  INFO 4316 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 4316 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 15:38:44.065  INFO 4316 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 15:38:44.256  INFO 4316 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 15:38:44.256  INFO 4316 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 15:38:45.911  INFO 4316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 15:38:45.924  INFO 4316 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 15:38:45.925  INFO 4316 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 15:38:46.036  INFO 4316 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 15:38:46.037  INFO 4316 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1781 ms
+2020-10-26 15:38:46.801  INFO 4316 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 15:38:47.103  INFO 4316 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 15:38:47.209  INFO 4316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 15:38:47.226  INFO 4316 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 4.056 seconds (JVM running for 9.293)
+2020-10-26 15:39:01.833  INFO 4316 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 15:40:33.837  INFO 11560 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 11560 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 15:40:33.849  INFO 11560 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 15:40:33.972  INFO 11560 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 15:40:33.973  INFO 11560 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 15:40:35.913  INFO 11560 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 15:40:35.932  INFO 11560 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 15:40:35.932  INFO 11560 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 15:40:36.061  INFO 11560 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 15:40:36.062  INFO 11560 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2089 ms
+2020-10-26 15:40:36.928  INFO 11560 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 15:40:37.225  INFO 11560 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 15:40:37.340  INFO 11560 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 15:40:37.367  INFO 11560 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 4.494 seconds (JVM running for 6.439)
+2020-10-26 15:40:58.177  INFO 11560 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 15:42:17.479  INFO 2176 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 2176 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 15:42:17.488  INFO 2176 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 15:42:17.604  INFO 2176 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 15:42:17.605  INFO 2176 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 15:42:20.348  INFO 2176 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 15:42:20.365  INFO 2176 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 15:42:20.366  INFO 2176 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 15:42:20.488  INFO 2176 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 15:42:20.489  INFO 2176 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2884 ms
+2020-10-26 15:42:21.296  INFO 2176 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 15:42:21.639  INFO 2176 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 15:42:21.714  INFO 2176 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 15:42:21.730  INFO 2176 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 5.044 seconds (JVM running for 6.959)
+2020-10-26 15:42:29.254  INFO 2176 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 15:45:35.176  INFO 7152 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 7152 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 15:45:35.183  INFO 7152 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 15:45:35.363  INFO 7152 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 15:45:35.364  INFO 7152 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 15:45:37.036  INFO 7152 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 15:45:37.049  INFO 7152 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 15:45:37.049  INFO 7152 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 15:45:37.154  INFO 7152 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 15:45:37.155  INFO 7152 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1791 ms
+2020-10-26 15:45:38.012  INFO 7152 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 15:45:38.337  INFO 7152 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 15:45:38.414  INFO 7152 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 15:45:38.432  INFO 7152 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 4.064 seconds (JVM running for 5.988)
+2020-10-26 15:45:46.448  INFO 7152 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 15:47:19.764  INFO 9552 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 9552 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 15:47:19.770  INFO 9552 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 15:47:19.878  INFO 9552 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 15:47:19.878  INFO 9552 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 15:47:21.475  INFO 9552 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 15:47:21.490  INFO 9552 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 15:47:21.490  INFO 9552 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 15:47:21.598  INFO 9552 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 15:47:21.599  INFO 9552 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1720 ms
+2020-10-26 15:47:22.268  INFO 9552 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 15:47:22.549  INFO 9552 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 15:47:22.621  INFO 9552 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 15:47:22.635  INFO 9552 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 3.629 seconds (JVM running for 5.392)
+2020-10-26 15:47:27.815  INFO 9552 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 15:49:35.012  INFO 13684 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 13684 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 15:49:35.020  INFO 13684 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 15:49:35.227  INFO 13684 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 15:49:35.228  INFO 13684 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 15:49:37.313  INFO 13684 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 15:49:37.330  INFO 13684 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 15:49:37.330  INFO 13684 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 15:49:37.468  INFO 13684 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 15:49:37.469  INFO 13684 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2240 ms
+2020-10-26 15:49:38.873  INFO 13684 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 15:49:39.222  INFO 13684 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 15:49:39.307  INFO 13684 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 15:49:39.325  INFO 13684 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 5.186 seconds (JVM running for 7.179)
+2020-10-26 15:49:44.976  INFO 13684 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 15:51:16.829  INFO 3932 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 3932 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 15:51:16.834  INFO 3932 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 15:51:16.908  INFO 3932 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 15:51:16.909  INFO 3932 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 15:51:18.679  INFO 3932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 15:51:18.694  INFO 3932 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 15:51:18.695  INFO 3932 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 15:51:18.820  INFO 3932 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 15:51:18.821  INFO 3932 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1912 ms
+2020-10-26 15:51:19.747  INFO 3932 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 15:51:20.071  INFO 3932 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 15:51:20.189  INFO 3932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 15:51:20.206  INFO 3932 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 4.161 seconds (JVM running for 6.975)
+2020-10-26 15:51:26.248  INFO 3932 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 15:52:11.548  INFO 6972 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 6972 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 15:52:11.553  INFO 6972 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 15:52:11.719  INFO 6972 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 15:52:11.719  INFO 6972 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 15:52:13.737  INFO 6972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 15:52:13.750  INFO 6972 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 15:52:13.751  INFO 6972 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 15:52:13.882  INFO 6972 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 15:52:13.883  INFO 6972 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2164 ms
+2020-10-26 15:52:14.621  INFO 6972 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 15:52:14.885  INFO 6972 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 15:52:14.968  INFO 6972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 15:52:14.982  INFO 6972 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 4.291 seconds (JVM running for 7.124)
+2020-10-26 15:52:24.567  INFO 6972 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 15:53:03.511  INFO 8276 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 8276 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 15:53:03.516  INFO 8276 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 15:53:03.628  INFO 8276 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 15:53:03.628  INFO 8276 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 15:53:05.389  INFO 8276 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 15:53:05.401  INFO 8276 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 15:53:05.402  INFO 8276 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 15:53:05.522  INFO 8276 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 15:53:05.523  INFO 8276 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1894 ms
+2020-10-26 15:53:06.279  INFO 8276 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 15:53:06.584  INFO 8276 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 15:53:06.664  INFO 8276 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 15:53:06.682  INFO 8276 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 3.961 seconds (JVM running for 5.535)
+2020-10-26 15:53:09.389  INFO 8276 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 15:54:20.406 ERROR 8276 --- [http-nio-8080-exec-7] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =sspassword=aksdd
+2020-10-26 15:54:20.517  INFO 8276 --- [http-nio-8080-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-26 15:54:21.493  INFO 8276 --- [http-nio-8080-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-26 15:54:22.247  INFO 8276 --- [http-nio-8080-exec-7] com.dtone.ssm.controller.UserController  : 返回响应: user/login登录失败
+2020-10-26 15:57:10.140  INFO 7572 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 7572 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 15:57:10.153  INFO 7572 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 15:57:10.278  INFO 7572 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 15:57:10.280  INFO 7572 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 15:57:13.399  INFO 7572 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 15:57:13.416  INFO 7572 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 15:57:13.417  INFO 7572 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 15:57:13.554  INFO 7572 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 15:57:13.554  INFO 7572 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3272 ms
+2020-10-26 15:57:14.760  INFO 7572 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 15:57:15.327  INFO 7572 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 15:57:15.426  INFO 7572 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 15:57:15.443  INFO 7572 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 6.201 seconds (JVM running for 8.07)
+2020-10-26 15:57:19.380  INFO 7572 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 15:58:09.525  INFO 13996 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 13996 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 15:58:09.533  INFO 13996 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 15:58:09.661  INFO 13996 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 15:58:09.662  INFO 13996 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 15:58:12.305  INFO 13996 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 15:58:12.322  INFO 13996 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 15:58:12.323  INFO 13996 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 15:58:12.461  INFO 13996 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 15:58:12.462  INFO 13996 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2800 ms
+2020-10-26 15:58:13.461  INFO 13996 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 15:58:13.937  INFO 13996 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 15:58:14.053  INFO 13996 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 15:58:14.071  INFO 13996 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 5.676 seconds (JVM running for 7.732)
+2020-10-26 15:58:15.337  INFO 13996 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 15:59:06.444  INFO 960 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 960 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 15:59:06.452  INFO 960 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 15:59:06.630  INFO 960 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 15:59:06.642  INFO 960 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 15:59:08.308  INFO 960 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 15:59:08.319  INFO 960 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 15:59:08.319  INFO 960 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 15:59:08.433  INFO 960 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 15:59:08.433  INFO 960 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1791 ms
+2020-10-26 15:59:09.154  INFO 960 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 15:59:09.426  INFO 960 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 15:59:09.499  INFO 960 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 15:59:09.513  INFO 960 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 3.769 seconds (JVM running for 5.501)
+2020-10-26 15:59:14.115  INFO 960 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 15:59:52.571  INFO 6780 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 6780 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 15:59:52.576  INFO 6780 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 15:59:52.715  INFO 6780 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 15:59:52.716  INFO 6780 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 15:59:54.356  INFO 6780 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 15:59:54.368  INFO 6780 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 15:59:54.369  INFO 6780 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 15:59:54.478  INFO 6780 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 15:59:54.479  INFO 6780 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1763 ms
+2020-10-26 15:59:55.233  INFO 6780 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 15:59:55.541  INFO 6780 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 15:59:55.619  INFO 6780 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 15:59:55.634  INFO 6780 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 3.772 seconds (JVM running for 5.495)
+2020-10-26 16:00:05.353  INFO 6780 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 16:00:09.040  INFO 6780 --- [http-nio-8080-exec-9] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =undefinedpassword=undefined
+2020-10-26 16:00:09.052  INFO 6780 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-26 16:00:09.655  INFO 6780 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-26 16:00:09.776 ERROR 6780 --- [http-nio-8080-exec-9] com.dtone.ssm.controller.UserController  : 返回响应: user/login登录失败
+2020-10-26 16:03:23.065  INFO 6780 --- [http-nio-8080-exec-10] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =undefinedpassword=undefined
+2020-10-26 16:03:23.346 ERROR 6780 --- [http-nio-8080-exec-10] com.dtone.ssm.controller.UserController  : 返回响应: user/login登录失败
+2020-10-26 16:04:58.086  INFO 5640 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 5640 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 16:04:58.091  INFO 5640 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 16:04:58.160  INFO 5640 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 16:04:58.167  INFO 5640 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 16:04:59.773  INFO 5640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 16:04:59.787  INFO 5640 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 16:04:59.787  INFO 5640 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 16:04:59.896  INFO 5640 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 16:04:59.897  INFO 5640 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1729 ms
+2020-10-26 16:05:00.647  INFO 5640 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 16:05:00.940  INFO 5640 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 16:05:01.016  INFO 5640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 16:05:01.030  INFO 5640 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 3.657 seconds (JVM running for 6.833)
+2020-10-26 16:05:04.007  INFO 5640 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 16:06:00.009  INFO 5640 --- [http-nio-8080-exec-7] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =undefinedpassword=undefined
+2020-10-26 16:06:00.022  INFO 5640 --- [http-nio-8080-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-26 16:06:00.546  INFO 5640 --- [http-nio-8080-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-26 16:06:00.633 ERROR 5640 --- [http-nio-8080-exec-7] com.dtone.ssm.controller.UserController  : 返回响应: user/login登录失败
+2020-10-26 16:06:46.707  INFO 960 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 960 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 16:06:46.726  INFO 960 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 16:06:46.862  INFO 960 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 16:06:46.863  INFO 960 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 16:06:50.093  INFO 960 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 16:06:50.109  INFO 960 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 16:06:50.109  INFO 960 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 16:06:50.216  INFO 960 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 16:06:50.217  INFO 960 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3354 ms
+2020-10-26 16:06:50.926  INFO 960 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 16:06:51.211  INFO 960 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 16:06:51.277  INFO 960 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 16:06:51.291  INFO 960 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 5.588 seconds (JVM running for 7.379)
+2020-10-26 16:06:59.317  INFO 960 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 16:07:10.819  INFO 960 --- [http-nio-8080-exec-7] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =superadminpassword=superadmin
+2020-10-26 16:07:10.834  INFO 960 --- [http-nio-8080-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-26 16:07:11.378  INFO 960 --- [http-nio-8080-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-26 16:07:11.494  INFO 960 --- [http-nio-8080-exec-7] com.dtone.ssm.controller.UserController  : 返回响应:user/login登陆成功
+2020-10-26 16:15:20.537  INFO 960 --- [http-nio-8080-exec-2] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =superadminpassword=superadmin
+2020-10-26 16:15:20.817  INFO 960 --- [http-nio-8080-exec-2] com.dtone.ssm.controller.UserController  : 返回响应:user/login登陆成功
+2020-10-26 16:23:08.304  INFO 960 --- [http-nio-8080-exec-6] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =superadminpassword=superadmin
+2020-10-26 16:23:08.537  INFO 960 --- [http-nio-8080-exec-6] com.dtone.ssm.controller.UserController  : 返回响应:user/login登陆成功
+2020-10-26 17:00:21.543  INFO 14088 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 14088 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 17:00:21.552  INFO 14088 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 17:00:21.738  INFO 14088 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 17:00:21.738  INFO 14088 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 17:00:24.759  INFO 14088 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 17:00:24.779  INFO 14088 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 17:00:24.780  INFO 14088 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 17:00:24.922  INFO 14088 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 17:00:24.923  INFO 14088 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3185 ms
+2020-10-26 17:00:26.970  INFO 14088 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 17:00:28.762  INFO 14088 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 17:00:28.895  INFO 14088 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 17:00:28.927  INFO 14088 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 8.881 seconds (JVM running for 10.763)
+2020-10-26 17:00:45.509  INFO 14088 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 17:02:58.989  INFO 6436 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 6436 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 17:02:59.005  INFO 6436 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 17:02:59.127  INFO 6436 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 17:02:59.129  INFO 6436 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 17:03:01.169  INFO 6436 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 17:03:01.187  INFO 6436 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 17:03:01.188  INFO 6436 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 17:03:01.387  INFO 6436 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 17:03:01.388  INFO 6436 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2259 ms
+2020-10-26 17:03:02.377  INFO 6436 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 17:03:02.742  INFO 6436 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 17:03:02.836  INFO 6436 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 17:03:02.856  INFO 6436 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 4.71 seconds (JVM running for 6.533)
+2020-10-26 17:04:09.052  INFO 15096 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 15096 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 17:04:09.059  INFO 15096 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 17:04:09.265  INFO 15096 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 17:04:09.266  INFO 15096 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 17:04:11.438  INFO 15096 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 17:04:11.453  INFO 15096 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 17:04:11.453  INFO 15096 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 17:04:11.583  INFO 15096 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 17:04:11.584  INFO 15096 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2318 ms
+2020-10-26 17:04:12.784  INFO 15096 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 17:04:13.653  INFO 15096 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 17:04:13.815  INFO 15096 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 17:04:13.861  INFO 15096 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 5.622 seconds (JVM running for 7.949)
+2020-10-26 17:05:17.562  INFO 14580 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 14580 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 17:05:17.570  INFO 14580 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 17:05:17.682  INFO 14580 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 17:05:17.683  INFO 14580 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 17:05:19.276  INFO 14580 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 17:05:19.288  INFO 14580 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 17:05:19.289  INFO 14580 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 17:05:19.404  INFO 14580 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 17:05:19.405  INFO 14580 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1722 ms
+2020-10-26 17:05:20.111  INFO 14580 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 17:05:20.407  INFO 14580 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 17:05:20.481  INFO 14580 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 17:05:20.499  INFO 14580 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 3.735 seconds (JVM running for 5.257)
+2020-10-26 17:05:31.034  INFO 14580 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 17:05:36.627  INFO 14580 --- [http-nio-8080-exec-5] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =zhangSanpassword=111
+2020-10-26 17:05:36.648  INFO 14580 --- [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-26 17:05:37.437  INFO 14580 --- [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-26 17:05:37.692 ERROR 14580 --- [http-nio-8080-exec-5] com.dtone.ssm.controller.UserController  : 返回响应: user/login登录失败
+2020-10-26 17:05:45.757  INFO 14580 --- [http-nio-8080-exec-1] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =superadminpassword=superadmin
+2020-10-26 17:05:45.786  INFO 14580 --- [http-nio-8080-exec-1] com.dtone.ssm.controller.UserController  : 返回响应:user/login登陆成功
+2020-10-26 17:06:35.762  INFO 5028 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 5028 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 17:06:35.768  INFO 5028 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 17:06:35.890  INFO 5028 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 17:06:35.891  INFO 5028 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 17:06:38.522  INFO 5028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 17:06:38.538  INFO 5028 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 17:06:38.539  INFO 5028 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 17:06:38.671  INFO 5028 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 17:06:38.672  INFO 5028 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2780 ms
+2020-10-26 17:06:39.510  INFO 5028 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 17:06:39.926  INFO 5028 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 17:06:40.012  INFO 5028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 17:06:40.033  INFO 5028 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 5.957 seconds (JVM running for 7.787)
+2020-10-26 17:06:42.150  INFO 5028 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 17:06:51.417  INFO 5028 --- [http-nio-8080-exec-8] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =superadminpassword=superadmin
+2020-10-26 17:06:51.433  INFO 5028 --- [http-nio-8080-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-26 17:06:51.964  INFO 5028 --- [http-nio-8080-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-26 17:06:52.102  INFO 5028 --- [http-nio-8080-exec-8] com.dtone.ssm.controller.UserController  : 返回响应:user/login登陆成功
+2020-10-26 17:07:02.472  INFO 5028 --- [http-nio-8080-exec-5] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =superadminpassword=superadmin
+2020-10-26 17:07:02.481  INFO 5028 --- [http-nio-8080-exec-5] com.dtone.ssm.controller.UserController  : 返回响应:user/login登陆成功
+2020-10-26 17:08:33.982  INFO 9132 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 9132 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 17:08:33.988  INFO 9132 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 17:08:34.106  INFO 9132 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 17:08:34.106  INFO 9132 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 17:08:36.033  INFO 9132 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 17:08:36.049  INFO 9132 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 17:08:36.050  INFO 9132 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 17:08:36.180  INFO 9132 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 17:08:36.181  INFO 9132 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2074 ms
+2020-10-26 17:08:36.992  INFO 9132 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 17:08:37.341  INFO 9132 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 17:08:37.411  INFO 9132 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 17:08:37.427  INFO 9132 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 4.166 seconds (JVM running for 5.833)
+2020-10-26 17:08:42.169  INFO 9132 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 17:09:07.452  INFO 9132 --- [http-nio-8080-exec-5] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =superadminpassword=superadmin
+2020-10-26 17:09:07.469  INFO 9132 --- [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-26 17:09:08.051  INFO 9132 --- [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-26 17:09:08.180  INFO 9132 --- [http-nio-8080-exec-5] com.dtone.ssm.controller.UserController  : 返回响应:user/login登陆成功
+2020-10-26 17:10:19.764  INFO 10992 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 10992 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 17:10:19.769  INFO 10992 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 17:10:19.859  INFO 10992 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 17:10:19.860  INFO 10992 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 17:10:21.631  INFO 10992 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 17:10:21.643  INFO 10992 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 17:10:21.644  INFO 10992 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 17:10:21.754  INFO 10992 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 17:10:21.755  INFO 10992 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1895 ms
+2020-10-26 17:10:22.453  INFO 10992 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 17:10:22.715  INFO 10992 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 17:10:22.798  INFO 10992 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 17:10:22.813  INFO 10992 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 3.871 seconds (JVM running for 5.598)
+2020-10-26 17:10:28.302  INFO 10992 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 17:12:16.929  INFO 10992 --- [http-nio-8080-exec-3] com.dtone.ssm.controller.UserController  : Session: CBBE7E39A5E6A09EA10CA939E97D629F
+2020-10-26 17:12:16.998 ERROR 10992 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at com.dtone.ssm.controller.UserController.getName(UserController.java:45) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_265]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_265]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_265]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_265]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.38.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.38.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_265]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_265]
+
+2020-10-26 17:12:35.475  INFO 10992 --- [http-nio-8080-exec-10] com.dtone.ssm.controller.UserController  : Session: CBBE7E39A5E6A09EA10CA939E97D629F
+2020-10-26 17:12:35.478 ERROR 10992 --- [http-nio-8080-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at com.dtone.ssm.controller.UserController.getName(UserController.java:45) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_265]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_265]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_265]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_265]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.38.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.38.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_265]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_265]
+
+2020-10-26 17:14:34.136  INFO 6048 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 6048 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 17:14:34.148  INFO 6048 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 17:14:34.277  INFO 6048 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 17:14:34.277  INFO 6048 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 17:14:36.154  INFO 6048 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 17:14:36.168  INFO 6048 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 17:14:36.169  INFO 6048 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 17:14:36.283  INFO 6048 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 17:14:36.284  INFO 6048 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2006 ms
+2020-10-26 17:14:37.074  INFO 6048 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 17:14:37.374  INFO 6048 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 17:14:37.472  INFO 6048 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 17:14:37.502  INFO 6048 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 4.209 seconds (JVM running for 7.244)
+2020-10-26 17:14:40.558  INFO 6048 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 17:14:40.620  INFO 6048 --- [http-nio-8080-exec-2] com.dtone.ssm.controller.UserController  : Session: 04BC65B831107F530C6227F0469E963A
+2020-10-26 17:15:15.121  INFO 6048 --- [http-nio-8080-exec-4] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =superadminpassword=superadmin
+2020-10-26 17:15:15.190  INFO 6048 --- [http-nio-8080-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-26 17:15:16.703  INFO 6048 --- [http-nio-8080-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-26 17:15:16.947  INFO 6048 --- [http-nio-8080-exec-4] com.dtone.ssm.controller.UserController  : 返回响应:user/login登陆成功
+2020-10-26 17:15:23.830  INFO 6048 --- [http-nio-8080-exec-2] com.dtone.ssm.controller.UserController  : Session: 04BC65B831107F530C6227F0469E963A
+2020-10-26 17:23:43.098  INFO 4128 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 4128 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 17:23:43.108  INFO 4128 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 17:23:43.260  INFO 4128 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 17:23:43.260  INFO 4128 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 17:23:46.080  INFO 4128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 17:23:46.094  INFO 4128 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 17:23:46.096  INFO 4128 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 17:23:46.251  INFO 4128 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 17:23:46.252  INFO 4128 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2992 ms
+2020-10-26 17:23:49.412  INFO 4128 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 17:23:49.721  INFO 4128 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 17:23:49.805  INFO 4128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 17:23:49.825  INFO 4128 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 9.713 seconds (JVM running for 12.514)
+2020-10-26 17:23:53.978  INFO 4128 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 17:24:00.363  INFO 4128 --- [http-nio-8080-exec-2] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =superadminpassword=superadmin
+2020-10-26 17:24:00.376  INFO 4128 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-26 17:24:01.155  INFO 4128 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-26 17:24:01.323  INFO 4128 --- [http-nio-8080-exec-2] com.dtone.ssm.controller.UserController  : 返回响应:user/login登陆成功
+2020-10-26 17:24:41.589  INFO 6428 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 6428 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 17:24:41.596  INFO 6428 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 17:24:41.871  INFO 6428 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 17:24:41.872  INFO 6428 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 17:24:44.512  INFO 6428 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 17:24:44.532  INFO 6428 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 17:24:44.533  INFO 6428 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 17:24:44.736  INFO 6428 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 17:24:44.738  INFO 6428 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2865 ms
+2020-10-26 17:24:45.873  INFO 6428 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 17:24:46.317  INFO 6428 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 17:24:46.419  INFO 6428 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 17:24:46.438  INFO 6428 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 5.694 seconds (JVM running for 7.348)
+2020-10-26 17:24:56.937  INFO 6428 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 17:25:06.577  INFO 6428 --- [http-nio-8080-exec-8] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =superadminpassword=superadmin
+2020-10-26 17:25:06.593  INFO 6428 --- [http-nio-8080-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-26 17:25:08.448  INFO 6428 --- [http-nio-8080-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-26 17:25:08.606  INFO 6428 --- [http-nio-8080-exec-8] com.dtone.ssm.controller.UserController  : 返回响应:user/login登陆成功
+2020-10-26 17:25:33.338  INFO 6428 --- [http-nio-8080-exec-4] com.dtone.ssm.controller.UserController  : Session: 09ED3BD9F21A1B4E70043F0DF5A11A20
+2020-10-26 17:26:51.345  INFO 6900 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 6900 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 17:26:51.352  INFO 6900 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 17:26:51.462  INFO 6900 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 17:26:51.462  INFO 6900 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 17:26:53.521  INFO 6900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 17:26:53.535  INFO 6900 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 17:26:53.535  INFO 6900 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 17:26:53.664  INFO 6900 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 17:26:53.665  INFO 6900 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2202 ms
+2020-10-26 17:26:54.537  INFO 6900 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 17:26:54.826  INFO 6900 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 17:26:54.894  INFO 6900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 17:26:54.908  INFO 6900 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 4.528 seconds (JVM running for 6.396)
+2020-10-26 17:27:00.829  INFO 6900 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 17:27:44.650  INFO 6900 --- [http-nio-8080-exec-5] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =superadminpassword=superadmin
+2020-10-26 17:27:44.669  INFO 6900 --- [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-26 17:27:45.308  INFO 6900 --- [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-26 17:27:45.481  INFO 6900 --- [http-nio-8080-exec-5] com.dtone.ssm.controller.UserController  : 返回响应:user/login登陆成功
+2020-10-26 17:28:34.057  INFO 7048 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 7048 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 17:28:34.063  INFO 7048 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 17:28:34.227  INFO 7048 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 17:28:34.227  INFO 7048 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 17:28:35.733  INFO 7048 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 17:28:35.748  INFO 7048 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 17:28:35.749  INFO 7048 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 17:28:35.867  INFO 7048 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 17:28:35.868  INFO 7048 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1641 ms
+2020-10-26 17:28:36.565  INFO 7048 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 17:28:36.862  INFO 7048 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 17:28:36.935  INFO 7048 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 17:28:36.948  INFO 7048 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 3.681 seconds (JVM running for 5.33)
+2020-10-26 17:28:41.092  INFO 7048 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 17:28:45.563  INFO 7048 --- [http-nio-8080-exec-9] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =superadminpassword=superadmin
+2020-10-26 17:28:45.573  INFO 7048 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-26 17:28:46.182  INFO 7048 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-26 17:28:46.345  INFO 7048 --- [http-nio-8080-exec-9] com.dtone.ssm.controller.UserController  : 返回响应:user/login登陆成功
+2020-10-26 17:30:04.161  INFO 8500 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 8500 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 17:30:04.184  INFO 8500 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 17:30:04.398  INFO 8500 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 17:30:04.399  INFO 8500 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 17:30:08.902  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 17:30:08.920  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 17:30:08.920  INFO 8500 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 17:30:09.114  INFO 8500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 17:30:09.116  INFO 8500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4717 ms
+2020-10-26 17:30:10.182  INFO 8500 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 17:30:10.527  INFO 8500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 17:30:10.650  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 17:30:10.671  INFO 8500 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 8.513 seconds (JVM running for 12.797)
+2020-10-26 17:30:38.665  INFO 8500 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 17:30:44.973  INFO 8500 --- [http-nio-8080-exec-5] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =superadminpassword=superadmin
+2020-10-26 17:30:45.616  INFO 8500 --- [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-26 17:30:46.740  INFO 8500 --- [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-26 17:30:47.057  INFO 8500 --- [http-nio-8080-exec-5] com.dtone.ssm.controller.UserController  : 返回响应:user/login登陆成功
+2020-10-26 17:31:21.493  INFO 9796 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 9796 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 17:31:21.502  INFO 9796 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 17:31:21.619  INFO 9796 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 17:31:21.619  INFO 9796 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 17:31:24.177  INFO 9796 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 17:31:24.190  INFO 9796 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 17:31:24.190  INFO 9796 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 17:31:24.316  INFO 9796 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 17:31:24.316  INFO 9796 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2696 ms
+2020-10-26 17:31:25.302  INFO 9796 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 17:31:25.707  INFO 9796 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 17:31:25.828  INFO 9796 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 17:31:25.856  INFO 9796 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 5.383 seconds (JVM running for 7.289)
+2020-10-26 17:31:28.952  INFO 9796 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 17:33:53.538  INFO 7808 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 7808 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 17:33:53.547  INFO 7808 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 17:33:53.658  INFO 7808 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 17:33:53.659  INFO 7808 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 17:33:55.333  INFO 7808 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 17:33:55.346  INFO 7808 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 17:33:55.347  INFO 7808 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 17:33:55.462  INFO 7808 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 17:33:55.463  INFO 7808 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1804 ms
+2020-10-26 17:33:56.202  INFO 7808 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 17:33:56.527  INFO 7808 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 17:33:56.593  INFO 7808 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 17:33:56.608  INFO 7808 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 3.819 seconds (JVM running for 6.051)
+2020-10-26 17:34:00.851  INFO 7808 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 17:34:38.635  INFO 7808 --- [http-nio-8080-exec-3] com.dtone.ssm.controller.UserController  : Session: 9F7955428E2346F2C842643B8FA175B8
+2020-10-26 17:34:52.118  INFO 7808 --- [http-nio-8080-exec-1] com.dtone.ssm.controller.UserController  : Session: 9F7955428E2346F2C842643B8FA175B8
+2020-10-26 17:35:19.016  INFO 4092 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 4092 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 17:35:19.023  INFO 4092 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 17:35:19.149  INFO 4092 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 17:35:19.149  INFO 4092 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 17:35:20.969  INFO 4092 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 17:35:20.987  INFO 4092 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 17:35:20.988  INFO 4092 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 17:35:21.131  INFO 4092 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 17:35:21.132  INFO 4092 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1982 ms
+2020-10-26 17:35:21.908  INFO 4092 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 17:35:22.202  INFO 4092 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 17:35:22.279  INFO 4092 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 17:35:22.292  INFO 4092 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 4.654 seconds (JVM running for 6.222)
+2020-10-26 17:35:26.021  INFO 4092 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 17:35:26.065  INFO 4092 --- [http-nio-8080-exec-1] com.dtone.ssm.controller.UserController  : Session: EFC4C22427C36B4B3DF446B90BA436DB
+2020-10-26 17:36:28.127  INFO 7824 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 7824 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 17:36:28.134  INFO 7824 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 17:36:28.245  INFO 7824 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 17:36:28.246  INFO 7824 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 17:36:29.888  INFO 7824 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 17:36:29.903  INFO 7824 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 17:36:29.903  INFO 7824 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 17:36:30.053  INFO 7824 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 17:36:30.054  INFO 7824 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1808 ms
+2020-10-26 17:36:30.950  INFO 7824 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 17:36:31.394  INFO 7824 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 17:36:31.479  INFO 7824 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 17:36:31.495  INFO 7824 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 4.214 seconds (JVM running for 7.078)
+2020-10-26 17:36:37.536  INFO 7824 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 17:38:05.089  INFO 7540 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 7540 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 17:38:05.095  INFO 7540 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 17:38:05.202  INFO 7540 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 17:38:05.204  INFO 7540 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 17:38:07.610  INFO 7540 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 17:38:07.625  INFO 7540 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 17:38:07.625  INFO 7540 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 17:38:07.747  INFO 7540 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 17:38:07.748  INFO 7540 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2543 ms
+2020-10-26 17:38:08.716  INFO 7540 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 17:38:09.278  INFO 7540 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 17:38:09.364  INFO 7540 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 17:38:09.381  INFO 7540 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 5.048 seconds (JVM running for 6.806)
+2020-10-26 17:38:11.676  INFO 7540 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 17:38:42.687  INFO 7540 --- [http-nio-8080-exec-1] com.dtone.ssm.controller.UserController  : Session: FFF0880DFC41A1BA1EF2A639F5B176AB
+2020-10-26 17:39:12.431  INFO 7540 --- [http-nio-8080-exec-6] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =superadminpassword=superadmin
+2020-10-26 17:39:12.508  INFO 7540 --- [http-nio-8080-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-26 17:39:13.396  INFO 7540 --- [http-nio-8080-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-26 17:39:13.609  INFO 7540 --- [http-nio-8080-exec-6] com.dtone.ssm.controller.UserController  : 返回响应:user/login登陆成功
+2020-10-26 17:39:22.076  INFO 7540 --- [http-nio-8080-exec-3] com.dtone.ssm.controller.UserController  : Session: FFF0880DFC41A1BA1EF2A639F5B176AB
+2020-10-26 17:39:27.678  INFO 7540 --- [http-nio-8080-exec-6] com.dtone.ssm.controller.UserController  : Session: FFF0880DFC41A1BA1EF2A639F5B176AB
+2020-10-26 17:40:59.071  INFO 4992 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 4992 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 17:40:59.080  INFO 4992 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 17:40:59.254  INFO 4992 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 17:40:59.255  INFO 4992 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 17:41:01.094  INFO 4992 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 17:41:01.108  INFO 4992 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 17:41:01.108  INFO 4992 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 17:41:01.225  INFO 4992 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 17:41:01.225  INFO 4992 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1970 ms
+2020-10-26 17:41:02.567  INFO 4992 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 17:41:02.946  INFO 4992 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 17:41:03.061  INFO 4992 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 17:41:03.085  INFO 4992 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 4.981 seconds (JVM running for 6.959)
+2020-10-26 17:41:05.307  INFO 4992 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 17:41:58.465  INFO 10068 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 10068 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 17:41:58.485  INFO 10068 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 17:41:58.719  INFO 10068 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 17:41:58.720  INFO 10068 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 17:42:02.026  INFO 10068 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 17:42:02.043  INFO 10068 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 17:42:02.043  INFO 10068 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 17:42:02.171  INFO 10068 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 17:42:02.172  INFO 10068 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3451 ms
+2020-10-26 17:42:02.880  INFO 10068 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 17:42:03.174  INFO 10068 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 17:42:03.237  INFO 10068 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 17:42:03.252  INFO 10068 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 5.656 seconds (JVM running for 7.611)
+2020-10-26 17:42:13.385  INFO 10068 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 17:46:23.453  INFO 5396 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 5396 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 17:46:23.462  INFO 5396 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 17:46:23.541  INFO 5396 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 17:46:23.542  INFO 5396 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 17:46:25.502  INFO 5396 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 17:46:25.516  INFO 5396 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 17:46:25.516  INFO 5396 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 17:46:25.656  INFO 5396 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 17:46:25.656  INFO 5396 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2114 ms
+2020-10-26 17:46:26.615  INFO 5396 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 17:46:26.894  INFO 5396 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 17:46:27.005  INFO 5396 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 17:46:27.021  INFO 5396 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 4.663 seconds (JVM running for 7.554)
+2020-10-26 17:46:38.246  INFO 5396 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 17:46:49.677  INFO 5396 --- [http-nio-8080-exec-9] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =superadminpassword=superadmin
+2020-10-26 17:46:49.691  INFO 5396 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-26 17:46:50.389  INFO 5396 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-26 17:46:50.575  INFO 5396 --- [http-nio-8080-exec-9] com.dtone.ssm.controller.UserController  : 返回响应:user/login登陆成功
+2020-10-26 17:47:48.728  INFO 5348 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 5348 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 17:47:48.739  INFO 5348 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 17:47:48.905  INFO 5348 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 17:47:48.906  INFO 5348 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 17:47:51.246  INFO 5348 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 17:47:51.271  INFO 5348 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 17:47:51.272  INFO 5348 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 17:47:51.409  INFO 5348 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 17:47:51.410  INFO 5348 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2504 ms
+2020-10-26 17:47:52.446  INFO 5348 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 17:47:53.165  INFO 5348 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 17:47:53.276  INFO 5348 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 17:47:53.291  INFO 5348 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 5.688 seconds (JVM running for 7.69)
+2020-10-26 17:47:57.604  INFO 5348 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 17:48:18.352  INFO 5348 --- [http-nio-8080-exec-9] com.dtone.ssm.controller.UserController  : Session: 669E9E829796E57E252C7C86C42BA4B8
+2020-10-26 17:49:10.109  INFO 5348 --- [http-nio-8080-exec-8] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =superadminpassword=superadmin
+2020-10-26 17:49:10.207  INFO 5348 --- [http-nio-8080-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-26 17:49:11.231  INFO 5348 --- [http-nio-8080-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-26 17:49:11.436  INFO 5348 --- [http-nio-8080-exec-8] com.dtone.ssm.controller.UserController  : 返回响应:user/login登陆成功
+2020-10-26 17:49:27.072  INFO 5348 --- [http-nio-8080-exec-7] com.dtone.ssm.controller.UserController  : Session: 669E9E829796E57E252C7C86C42BA4B8
+2020-10-26 17:50:58.912  INFO 11968 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 11968 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 17:50:58.918  INFO 11968 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 17:50:59.091  INFO 11968 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 17:50:59.091  INFO 11968 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 17:51:01.230  INFO 11968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 17:51:01.258  INFO 11968 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 17:51:01.259  INFO 11968 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 17:51:01.454  INFO 11968 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 17:51:01.455  INFO 11968 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2363 ms
+2020-10-26 17:51:02.516  INFO 11968 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 17:51:02.906  INFO 11968 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 17:51:02.991  INFO 11968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 17:51:03.010  INFO 11968 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 4.887 seconds (JVM running for 7.492)
+2020-10-26 17:51:06.998  INFO 11968 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 17:53:09.329  INFO 11564 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 11564 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 17:53:09.338  INFO 11564 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 17:53:09.532  INFO 11564 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 17:53:09.533  INFO 11564 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 17:53:12.265  INFO 11564 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 17:53:12.289  INFO 11564 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 17:53:12.290  INFO 11564 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 17:53:12.511  INFO 11564 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 17:53:12.512  INFO 11564 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2979 ms
+2020-10-26 17:53:14.058  INFO 11564 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 17:53:14.554  INFO 11564 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 17:53:14.703  INFO 11564 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 17:53:14.729  INFO 11564 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 6.286 seconds (JVM running for 8.148)
+2020-10-26 17:53:22.727  INFO 11564 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 17:53:26.058  INFO 11564 --- [http-nio-8080-exec-6] com.dtone.ssm.controller.UserController  : Session: 12B29A86C76EC68DA41A54DE3B07DE0E
+2020-10-26 17:54:57.380  INFO 11768 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 11768 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 17:54:57.387  INFO 11768 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 17:54:57.484  INFO 11768 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 17:54:57.485  INFO 11768 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 17:54:59.499  INFO 11768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 17:54:59.515  INFO 11768 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 17:54:59.515  INFO 11768 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 17:54:59.657  INFO 11768 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 17:54:59.658  INFO 11768 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2173 ms
+2020-10-26 17:55:01.417  INFO 11768 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 17:55:02.218  INFO 11768 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 17:55:02.345  INFO 11768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 17:55:02.372  INFO 11768 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 6.536 seconds (JVM running for 8.578)
+2020-10-26 17:55:05.223  INFO 11768 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 17:55:12.231  INFO 11768 --- [http-nio-8080-exec-10] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =superadminpassword=superadmin
+2020-10-26 17:55:12.245  INFO 11768 --- [http-nio-8080-exec-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-26 17:55:12.908  INFO 11768 --- [http-nio-8080-exec-9] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =superadminpassword=superadmin
+2020-10-26 17:55:13.118  INFO 11768 --- [http-nio-8080-exec-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-26 17:55:13.346  INFO 11768 --- [http-nio-8080-exec-9] com.dtone.ssm.controller.UserController  : 返回响应:user/login登陆成功
+2020-10-26 17:55:13.346  INFO 11768 --- [http-nio-8080-exec-10] com.dtone.ssm.controller.UserController  : 返回响应:user/login登陆成功
+2020-10-26 17:55:17.470  INFO 11768 --- [http-nio-8080-exec-4] com.dtone.ssm.controller.UserController  : Session: A05E7915D9DAA50B029B1EB2882A3D9E
+2020-10-26 17:57:46.892  INFO 10968 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 10968 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 17:57:46.909  INFO 10968 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 17:57:47.095  INFO 10968 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 17:57:47.096  INFO 10968 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 17:57:49.373  INFO 10968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 17:57:49.386  INFO 10968 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 17:57:49.386  INFO 10968 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 17:57:49.493  INFO 10968 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 17:57:49.494  INFO 10968 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2398 ms
+2020-10-26 17:57:50.260  INFO 10968 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 17:57:50.577  INFO 10968 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 17:57:50.686  INFO 10968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 17:57:50.707  INFO 10968 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 4.764 seconds (JVM running for 6.623)
+2020-10-26 17:57:58.658  INFO 10968 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 17:58:00.953  INFO 10968 --- [http-nio-8080-exec-10] com.dtone.ssm.controller.UserController  : Session: FC997B0B1B36104927A5346549F653A0
+2020-10-26 17:58:13.055  INFO 10968 --- [http-nio-8080-exec-7] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =superadminpassword=superadmin
+2020-10-26 17:58:13.069  INFO 10968 --- [http-nio-8080-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-26 17:58:13.766  INFO 10968 --- [http-nio-8080-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-26 17:58:13.941  INFO 10968 --- [http-nio-8080-exec-7] com.dtone.ssm.controller.UserController  : 返回响应:user/login登陆成功
+2020-10-26 17:58:16.075  INFO 10968 --- [http-nio-8080-exec-8] com.dtone.ssm.controller.UserController  : Session: FC997B0B1B36104927A5346549F653A0
+2020-10-26 17:59:28.248  INFO 2980 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 2980 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 17:59:28.259  INFO 2980 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 17:59:28.369  INFO 2980 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 17:59:28.369  INFO 2980 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 17:59:30.190  INFO 2980 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 17:59:30.203  INFO 2980 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 17:59:30.204  INFO 2980 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 17:59:30.330  INFO 2980 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 17:59:30.331  INFO 2980 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1962 ms
+2020-10-26 17:59:31.326  INFO 2980 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 17:59:31.664  INFO 2980 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 17:59:31.741  INFO 2980 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 17:59:31.757  INFO 2980 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 4.53 seconds (JVM running for 6.314)
+2020-10-26 17:59:33.737  INFO 2980 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 17:59:38.328  INFO 2980 --- [http-nio-8080-exec-4] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =superadminpassword=superadmin
+2020-10-26 17:59:38.346  INFO 2980 --- [http-nio-8080-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-26 17:59:40.014  INFO 2980 --- [http-nio-8080-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-26 17:59:40.146  INFO 2980 --- [http-nio-8080-exec-4] com.dtone.ssm.controller.UserController  : 返回响应:user/login登陆成功
+2020-10-26 17:59:42.073  INFO 2980 --- [http-nio-8080-exec-7] com.dtone.ssm.controller.UserController  : Session: 3C1D25BF94D9608E8850CA5BB54CC911
+2020-10-26 18:02:33.104  INFO 7604 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 7604 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 18:02:33.111  INFO 7604 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 18:02:33.224  INFO 7604 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 18:02:33.225  INFO 7604 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 18:02:35.185  INFO 7604 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 18:02:35.201  INFO 7604 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 18:02:35.201  INFO 7604 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 18:02:35.356  INFO 7604 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 18:02:35.357  INFO 7604 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2131 ms
+2020-10-26 18:02:36.689  INFO 7604 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 18:02:38.367  INFO 7604 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 18:02:39.347  INFO 7604 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 18:02:39.374  INFO 7604 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 7.43 seconds (JVM running for 9.381)
+2020-10-26 18:02:39.598  INFO 7604 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 18:02:40.994  INFO 7604 --- [http-nio-8080-exec-6] com.dtone.ssm.controller.UserController  : Session: 8AC4AA67D805012FF72DA398412C9B7B
+2020-10-26 18:03:01.757  INFO 14072 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 14072 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 18:03:01.763  INFO 14072 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 18:03:02.352  INFO 14072 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 18:03:02.353  INFO 14072 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 18:03:03.967  INFO 14072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 18:03:03.980  INFO 14072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 18:03:03.980  INFO 14072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 18:03:04.091  INFO 14072 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 18:03:04.092  INFO 14072 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1732 ms
+2020-10-26 18:03:04.799  INFO 14072 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 18:03:05.109  INFO 14072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 18:03:05.189  INFO 14072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 18:03:05.205  INFO 14072 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 4.311 seconds (JVM running for 6.014)
+2020-10-26 18:03:16.870  INFO 14072 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 18:03:23.643  INFO 14072 --- [http-nio-8080-exec-6] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =superadminpassword=superadmin
+2020-10-26 18:03:23.656  INFO 14072 --- [http-nio-8080-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-26 18:03:24.458  INFO 14072 --- [http-nio-8080-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-26 18:03:24.628  INFO 14072 --- [http-nio-8080-exec-6] com.dtone.ssm.controller.UserController  : 返回响应:user/login登陆成功
+2020-10-26 18:03:26.710  INFO 14072 --- [http-nio-8080-exec-4] com.dtone.ssm.controller.UserController  : Session: 8CEDAD8F123DAB7495209F47E1C0B828
+2020-10-26 18:03:47.156  INFO 10764 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 10764 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 18:03:47.163  INFO 10764 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 18:03:47.272  INFO 10764 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 18:03:47.272  INFO 10764 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 18:03:49.215  INFO 10764 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 18:03:49.231  INFO 10764 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 18:03:49.231  INFO 10764 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 18:03:49.346  INFO 10764 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 18:03:49.346  INFO 10764 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2074 ms
+2020-10-26 18:03:50.755  INFO 10764 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 18:03:51.260  INFO 10764 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 18:03:51.346  INFO 10764 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 18:03:51.360  INFO 10764 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 4.948 seconds (JVM running for 6.656)
+2020-10-26 18:03:51.593  INFO 10764 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 18:03:52.655  INFO 10764 --- [http-nio-8080-exec-2] com.dtone.ssm.controller.UserController  : Session: 1D39D694F2D53810CCBB386E66D61194
+2020-10-26 18:04:06.698  INFO 10764 --- [http-nio-8080-exec-10] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =superadminpassword=superadmin
+2020-10-26 18:04:06.709  INFO 10764 --- [http-nio-8080-exec-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-26 18:04:07.229  INFO 10764 --- [http-nio-8080-exec-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-26 18:04:07.350  INFO 10764 --- [http-nio-8080-exec-10] com.dtone.ssm.controller.UserController  : 返回响应:user/login登陆成功
+2020-10-26 18:04:09.338  INFO 10764 --- [http-nio-8080-exec-10] com.dtone.ssm.controller.UserController  : Session: 1D39D694F2D53810CCBB386E66D61194
+2020-10-26 18:04:23.520  INFO 10764 --- [http-nio-8080-exec-6] com.dtone.ssm.controller.UserController  : Session: 1D39D694F2D53810CCBB386E66D61194
+2020-10-26 18:06:35.405  INFO 9836 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 9836 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 18:06:35.411  INFO 9836 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 18:06:35.529  INFO 9836 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 18:06:35.529  INFO 9836 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 18:06:37.609  INFO 9836 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 18:06:37.634  INFO 9836 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 18:06:37.634  INFO 9836 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 18:06:38.387  INFO 9836 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 18:06:38.388  INFO 9836 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2858 ms
+2020-10-26 18:06:42.059  INFO 9836 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 18:06:42.497  INFO 9836 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 18:06:42.596  INFO 9836 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 18:06:42.616  INFO 9836 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 8.26 seconds (JVM running for 10.435)
+2020-10-26 18:06:45.378  INFO 9836 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 18:06:52.754  INFO 9836 --- [http-nio-8080-exec-2] com.dtone.ssm.controller.UserController  : Session: 668E628612C8C50B01235AD3EF9B9378
+2020-10-26 18:07:05.284  INFO 9836 --- [http-nio-8080-exec-8] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =superadminpassword=superadmin
+2020-10-26 18:07:05.305  INFO 9836 --- [http-nio-8080-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-26 18:07:06.071  INFO 9836 --- [http-nio-8080-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-26 18:07:06.242  INFO 9836 --- [http-nio-8080-exec-8] com.dtone.ssm.controller.UserController  : 返回响应:user/login登陆成功
+2020-10-26 18:07:08.231  INFO 9836 --- [http-nio-8080-exec-2] com.dtone.ssm.controller.UserController  : Session: 668E628612C8C50B01235AD3EF9B9378
+2020-10-26 18:07:49.026  INFO 2948 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 2948 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 18:07:49.056  INFO 2948 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 18:07:49.206  INFO 2948 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 18:07:49.207  INFO 2948 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 18:07:51.094  INFO 2948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 18:07:51.108  INFO 2948 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 18:07:51.109  INFO 2948 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 18:07:51.229  INFO 2948 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 18:07:51.229  INFO 2948 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2022 ms
+2020-10-26 18:07:52.044  INFO 2948 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 18:07:52.336  INFO 2948 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 18:07:52.416  INFO 2948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 18:07:52.430  INFO 2948 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 4.32 seconds (JVM running for 6.182)
+2020-10-26 18:07:58.424  INFO 2948 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 18:08:03.558  INFO 2948 --- [http-nio-8080-exec-2] com.dtone.ssm.controller.UserController  : Session: 4F7D22574E3B2AA35481F3A1590DCEC8
+2020-10-26 18:08:23.585  INFO 2948 --- [http-nio-8080-exec-8] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =superadminpassword=superadmin
+2020-10-26 18:08:23.598  INFO 2948 --- [http-nio-8080-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-26 18:08:24.136  INFO 2948 --- [http-nio-8080-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-26 18:08:24.259  INFO 2948 --- [http-nio-8080-exec-8] com.dtone.ssm.controller.UserController  : 返回响应:user/login登陆成功
+2020-10-26 18:08:30.408  INFO 2948 --- [http-nio-8080-exec-10] com.dtone.ssm.controller.UserController  : Session: 4F7D22574E3B2AA35481F3A1590DCEC8
+2020-10-26 18:08:38.355  INFO 2948 --- [http-nio-8080-exec-9] com.dtone.ssm.controller.UserController  : Session: 4F7D22574E3B2AA35481F3A1590DCEC8
+2020-10-26 18:09:17.895  INFO 2948 --- [http-nio-8080-exec-8] com.dtone.ssm.controller.UserController  : Session: 4F7D22574E3B2AA35481F3A1590DCEC8
+2020-10-26 18:14:15.872  INFO 6292 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 6292 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 18:14:15.879  INFO 6292 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 18:14:16.006  INFO 6292 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 18:14:16.006  INFO 6292 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 18:14:18.341  INFO 6292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 18:14:18.353  INFO 6292 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 18:14:18.354  INFO 6292 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 18:14:18.474  INFO 6292 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 18:14:18.475  INFO 6292 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2468 ms
+2020-10-26 18:14:19.258  INFO 6292 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 18:14:19.579  INFO 6292 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 18:14:19.654  INFO 6292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 18:14:19.670  INFO 6292 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 5.061 seconds (JVM running for 6.698)
+2020-10-26 18:14:24.878  INFO 6292 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 18:14:26.182  INFO 6292 --- [http-nio-8080-exec-2] com.dtone.ssm.controller.UserController  : Session: 11DBA43DDA28DEA5A848D4033DAA5D64
+2020-10-26 18:15:58.242  INFO 3116 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 3116 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 18:15:58.250  INFO 3116 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 18:15:58.396  INFO 3116 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 18:15:58.397  INFO 3116 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 18:16:00.825  INFO 3116 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 18:16:00.854  INFO 3116 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 18:16:00.855  INFO 3116 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 18:16:01.027  INFO 3116 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 18:16:01.029  INFO 3116 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2632 ms
+2020-10-26 18:16:02.949  INFO 3116 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 18:16:05.690  INFO 3116 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 18:16:05.847  INFO 3116 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 18:16:05.872  INFO 3116 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 8.407 seconds (JVM running for 10.337)
+2020-10-26 18:16:08.410  INFO 3116 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 18:16:09.829  INFO 3116 --- [http-nio-8080-exec-2] com.dtone.ssm.controller.UserController  : Session: F7520585E3B04CADEF715B7068D7AD4B
+2020-10-26 18:16:26.152  INFO 3116 --- [http-nio-8080-exec-7] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =superadminpassword=superadmin
+2020-10-26 18:16:26.168  INFO 3116 --- [http-nio-8080-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-26 18:16:28.453  INFO 3116 --- [http-nio-8080-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-26 18:16:28.635  INFO 3116 --- [http-nio-8080-exec-7] com.dtone.ssm.controller.UserController  : 返回响应:user/login登陆成功
+2020-10-26 18:16:33.252  INFO 3116 --- [http-nio-8080-exec-3] com.dtone.ssm.controller.UserController  : Session: F7520585E3B04CADEF715B7068D7AD4B
+2020-10-26 18:26:15.590  INFO 12688 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 12688 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 18:26:15.606  INFO 12688 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 18:26:15.749  INFO 12688 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 18:26:15.749  INFO 12688 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 18:26:17.902  INFO 12688 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 18:26:17.917  INFO 12688 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 18:26:17.918  INFO 12688 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 18:26:18.045  INFO 12688 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 18:26:18.046  INFO 12688 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2297 ms
+2020-10-26 18:26:19.150  INFO 12688 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 18:26:19.503  INFO 12688 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 18:26:19.609  INFO 12688 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 18:26:19.628  INFO 12688 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 4.838 seconds (JVM running for 6.396)
+2020-10-26 18:26:41.984  INFO 12688 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
