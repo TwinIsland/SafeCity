@@ -8,29 +8,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <!-- site metas -->
-    <title>登录 CGPMS</title>
+    <title>注册 CPPMS</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- bootstrap css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <!-- style css -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <!-- Responsive-->
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="../css/responsive.css">
     <!-- fevicon -->
-    <link rel="icon" href="images/icon.png" type="image/gif" />
+    <link rel="icon" href="../images/icon.png" type="image/gif" />
     <!-- Scrollbar Custom CSS -->
-    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
     <!-- Tweaks for older IEs-->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
 </head>
-<body>
+<!-- body -->
+<body class="main-layout">
 <!-- loader  -->
 <div class="loader_bg">
-    <div class="loader"><img src="images/loading.gif" alt="" /></div>
+    <div class="loader"><img src="../images/loading.gif" alt="" /></div>
 </div>
 <!-- end loader -->
 <!-- header -->
@@ -41,7 +42,7 @@
             <div class="col-lg-3 logo_section">
                 <div class="full">
                     <div class="center-desk">
-                        <div class="logo"> <a href="index.html"><img src="images/logo.png" alt="#"></a> </div>
+                        <div class="logo"> <a href="index.html"><img src="../images/logo.png" alt="#"></a> </div>
                     </div>
                 </div>
             </div>
@@ -106,17 +107,19 @@
     </div>
     <!-- end header inner -->
 </header>
+
 <div class="Marketing-bg">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="Marketingheading">
-                    <h3>登录</h3>
+                    <h3>注册</h3>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
 <form action="login.php" method="post">
     <div class="formCenter">
         <div class="mysign">
@@ -126,19 +129,23 @@
             <div class="col-lg-12 center">
                 <input type="password" class="form-control" name="password" placeholder="请输入密码" required autofocus/>
             </div>
-
             <div class="col-lg-10">
-            <p><a href="register.html" style="color: #79797a">还没有账户？点我注册</a></p>
+                <p><a href="login.html" style="color: #79797a">已有账户？点我登录</a></p>
+            </div>
             </div>
             <div class="col-lg-10 mycheckbox checkbox">
             </div>
             <div class="col-lg-10"></div>
             <div class="col-lg-10">
-                <button type="button" class="btn btn-success col-lg-12">登录</button>
+                <button type="button" class="btn btn-success col-lg-12">注册</button>
             </div>
         </div>
     </div>
 </form>
+<!-- end section -->
+<!-- section -->
+
+<!-- footer -->
 <div class="cpy">
     <div class="container">
         <div class="row">
@@ -148,13 +155,15 @@
         </div>
     </div>
 </div>
-<script src="js/jquery.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/jquery-3.0.0.min.js"></script>
-<script src="js/plugin.js"></script>
+<!-- end footer -->
+<!-- Javascript files-->
+<script src="../js/jquery.min.js"></script>
+<script src="../js/popper.min.js"></script>
+<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="../js/jquery-3.0.0.min.js"></script>
+<script src="../js/plugin.js"></script>
 <!-- Scrollbar Js Files -->
-<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-<script src="js/custom.js"></script>
+<script src="../js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="../js/custom.js"></script>
 </body>
 </html>

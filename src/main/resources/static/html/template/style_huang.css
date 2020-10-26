@@ -299,7 +299,7 @@ button {
 	color: #114c7d;
 	font-weight: 400;
 	font-size: 28px;
-	background-image: url('../images/fevicon.png');
+	background-image: url('../../static/images/fevicon.png');
 	background-repeat: no-repeat;
 	padding-left: 55px;
 	letter-spacing: -0.5px;
@@ -472,7 +472,7 @@ header {
     position: absolute;
     width: 58px;
     height: 122px;
-    background: url('../images/head_d.png');
+    background: url('../../images/head_d.png');
     content: "";
     right: -57px;
 }
@@ -1409,21 +1409,21 @@ nav.main-menu {
 
 .heroslider .slider-01 {
 	width: 100%;
-	background-image: url(../images/slider-01.jpg);
+	background-image: url(../../static/images/slider-01.jpg);
 	background-size: cover;
 	background-position: center;
 }
 
 .heroslider .slider-02 {
 	width: 100%;
-	background-image: url(../images/slider-02.jpg);
+	background-image: url(../../static/images/slider-02.jpg);
 	background-size: cover;
 	background-position: center;
 }
 
 .heroslider .slider-03 {
 	width: 100%;
-	background-image: url(../images/slider-03.jpg);
+	background-image: url(../../static/images/slider-03.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -1686,7 +1686,7 @@ input[type="radio"] .styled:checked+label::after {
 
 .banner-slider {
     margin-top: 30px;
-    background-image: url("../images/banner_bg.png");
+    background-image: url("../../images/banner_bg.png");
     width: 100%;
     min-height: 815px;
     background-size: cover;
