@@ -2117,6 +2117,15 @@ ul.social_icon li a {
 
 .wdt {height: 250px !important;}
 
+.formCenter{
+	margin-left: auto;
+	margin-right: auto;
+	height: 350px;
+	width:500px;
+	padding: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
 .mycenter{
 	margin-top: 100px;
 	margin-left: auto;

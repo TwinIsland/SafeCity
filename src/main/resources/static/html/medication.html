@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <!-- site metas -->
-    <title>登录 CGPMS</title>
+    <title>药剂管理 CGPMS</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -22,6 +22,8 @@
     <link rel="icon" href="../images/icon.png" type="image/gif" />
     <!-- Scrollbar Custom CSS -->
     <link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
+    <!-- bootstrap table CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.15.3/dist/bootstrap-table.min.css">
     <!-- Tweaks for older IEs-->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -106,44 +108,45 @@
     </div>
     <!-- end header inner -->
 </header>
-<div class="Marketing-bg">
+
+<div class="Blog-bg">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="Marketingheading">
-                    <h3>登录</h3>
+                <div class="Blogheading">
+                    <h3>药剂管理</h3>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<form action="login.php" method="post">
-    <div class="formCenter">
-        <div class="mysign">
-            <div class="col-lg-12 center">
-                <input type="text" class="form-control" name="username" placeholder="请输入账户名" required autofocus/>
-            </div>
-            <div class="col-lg-12 center">
-                <input type="password" class="form-control" name="password" placeholder="请输入密码" required autofocus/>
-            </div>
-
-            <div class="col-lg-10">
-            <p><a href="register.html" style="color: #79797a">还没有账户？点我注册</a></p>
-            </div>
-            <div class="col-lg-10 mycheckbox checkbox">
-            </div>
-            <div class="col-lg-10"></div>
-            <div class="col-lg-10">
-                <button type="button" class="btn btn-success col-lg-12">登录</button>
-            </div>
-        </div>
-    </div>
-</form>
+<table data-toggle="table">
+    <thead>
+    <tr>
+        <th>Item ID</th>
+        <th>Item Name</th>
+        <th>Item Price</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>Item 1</td>
+        <td>$1</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Item 2</td>
+        <td>$2</td>
+    </tr>
+    </tbody>
+</table>
+<footer>n</footer>
 <div class="cpy">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <p style="color: grey">Copyright © 2020 Design by JMG 20200722 Group 2</p>
+                <p style="color: grey">Copyright ? 2020 Design by JMG 20200722 Group 2</p>
             </div>
         </div>
     </div>
@@ -156,5 +159,6 @@
 <!-- Scrollbar Js Files -->
 <script src="../js/jquery.mCustomScrollbar.concat.min.js"></script>
 <script src="../js/custom.js"></script>
+<script src="https://unpkg.com/bootstrap-table@1.15.3/dist/bootstrap-table.min.js"></script>
 </body>
 </html>

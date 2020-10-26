@@ -2259,3 +2259,40 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 2020-10-24 20:16:59.730  INFO 41324 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
 2020-10-24 20:16:59.732  INFO 41324 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2020-10-24 20:16:59.737  INFO 41324 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-26 15:30:25.543  INFO 1224 --- [main] com.dtone.ssm.SsmApplicationLyTests      : Starting SsmApplicationLyTests on TwinIsland with PID 1224 (started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 15:30:25.549  INFO 1224 --- [main] com.dtone.ssm.SsmApplicationLyTests      : No active profile set, falling back to default profiles: default
+2020-10-26 15:30:30.212  INFO 1224 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 15:30:31.854  INFO 1224 --- [main] com.dtone.ssm.SsmApplicationLyTests      : Started SsmApplicationLyTests in 7.277 seconds (JVM running for 12.509)
+2020-10-26 15:30:32.572  INFO 1224 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-26 15:30:33.991  INFO 1224 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-26 15:30:35.145  INFO 1224 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-26 15:30:35.149  INFO 1224 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-26 15:30:35.186  INFO 1224 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-26 15:30:46.107  INFO 12776 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 12776 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 15:30:46.112  INFO 12776 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 15:30:46.197  INFO 12776 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 15:30:46.198  INFO 12776 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 15:30:47.938  INFO 12776 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 15:30:47.952  INFO 12776 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 15:30:47.953  INFO 12776 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 15:30:48.073  INFO 12776 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 15:30:48.073  INFO 12776 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1874 ms
+2020-10-26 15:30:48.957  INFO 12776 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 15:30:49.261  INFO 12776 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 15:30:49.386  INFO 12776 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 15:30:49.410  INFO 12776 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 3.915 seconds (JVM running for 6.849)
+2020-10-26 15:31:14.548  INFO 12776 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 15:31:59.656  INFO 1052 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on TwinIsland with PID 1052 (C:\Users\Huang Tianyi\Desktop\safecity\target\classes started by Huang Tianyi in C:\Users\Huang Tianyi\Desktop\safecity)
+2020-10-26 15:31:59.662  INFO 1052 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-26 15:31:59.810  INFO 1052 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 15:31:59.811  INFO 1052 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 15:32:04.108  INFO 1052 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 15:32:04.121  INFO 1052 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 15:32:04.121  INFO 1052 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 15:32:04.238  INFO 1052 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 15:32:04.238  INFO 1052 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4422 ms
+2020-10-26 15:32:04.943  INFO 1052 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 15:32:05.211  INFO 1052 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-26 15:32:05.378  INFO 1052 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 15:32:05.392  INFO 1052 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 6.54 seconds (JVM running for 8.468)
+2020-10-26 15:32:08.730  INFO 1052 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'

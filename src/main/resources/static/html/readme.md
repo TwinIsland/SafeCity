@@ -1,5 +1,12 @@
+## 模板
+[template](template)文件里里面有模板自带的属性及元素用法
+
+## 规则
+> 每个html文件务必按以下模板写
+
+```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
     <!-- basic -->
     <meta charset="utf-8">
@@ -8,27 +15,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <!-- site metas -->
-    <title>CGPMS 登录</title>
+    <title>【页面名称】 CGPMS</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- bootstrap css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <!-- style css -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <!-- Responsive-->
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="../css/responsive.css">
     <!-- fevicon -->
-    <link rel="icon" href="images/icon.png" type="image/gif" />
+    <link rel="icon" href="../images/icon.png" type="image/gif" />
     <!-- Scrollbar Custom CSS -->
-    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
     <!-- Tweaks for older IEs-->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
 </head>
 <body>
-
+<!-- loader  -->
+<div class="loader_bg">
+    <div class="loader"><img src="../images/loading.gif" alt="" /></div>
+</div>
 <!-- end loader -->
 <!-- header -->
 <header>
@@ -38,7 +48,7 @@
             <div class="col-lg-3 logo_section">
                 <div class="full">
                     <div class="center-desk">
-                        <div class="logo"> <a href="index.html"><img src="images/logo.png" alt="#"></a> </div>
+                        <div class="logo"> <a href="index.html"><img src="../images/logo.png" alt="#"></a> </div>
                     </div>
                 </div>
             </div>
@@ -53,17 +63,17 @@
                                 <li>
                                     <div class="dropdown">
                                         <button type="button" id="btn1" class="btn dropdown-toggle" data-toggle="dropdown">
-                                            灾情检索
+                                            灾情防治
                                         </button>
                                         <div class="dropdown-menu">
-                                            <a class="dropdown-item" style="color: black" href="#">虫害管理</a>
-                                            <a class="dropdown-item" style="color: black" href="#">病害管理</a>
-                                            <a class="dropdown-item" style="color: black" href="#">鼠害管理</a>
+                                            <a class="dropdown-item" style="color: black" href="#">区域一览</a>
+                                            <a class="dropdown-item" style="color: black" href="#">小班管理</a>
+                                            <a class="dropdown-item" style="color: black" href="#">事件记录</a>
                                         </div>
                                     </div>
                                 </li>
                                 <li>
-                                    <a href="chara.html">人员检索</a>
+                                    <a href="chara.html">专家一览</a>
                                 </li>
                                 <li>
                                     <!--虫/鼠害...害信息查询-->
@@ -103,45 +113,26 @@
     </div>
     <!-- end header inner -->
 </header>
-<div class="Marketing-bg">
+
+【实现功能】
+
+<div class="cpy">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="Marketingheading">
-                    <h3>登录</h3>
-                </div>
+                <p style="color: grey">Copyright © 2020 Design by JMG 20200722 Group 2</p>
             </div>
         </div>
     </div>
 </div>
-<form action="login.php" method="post">
-    <div class="mycenter">
-        <div class="mysign">
-            <div class="col-lg-10">
-                <input type="text" class="form-control" name="username" placeholder="请输入账户名" required autofocus/>
-            </div>
-            <div class="col-lg-10"></div>
-            <div class="col-lg-10">
-                <input type="password" class="form-control" name="password" placeholder="请输入密码" required autofocus/>
-            </div>
-            <div class="col-lg-10"></div>
-            <div class="col-lg-10 mycheckbox checkbox">
-            </div>
-            <div class="col-lg-10"></div>
-            <div class="col-lg-10">
-                <p style="text-align:center"><a href="register.html" style="color: #79797a">还没有账户？点我注册</a></p>
-                <button type="button" class="btn btn-success col-lg-12">登录</button>
-            </div>
-        </div>
-    </div>
-</form>
-<script src="js/jquery.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/jquery-3.0.0.min.js"></script>
-<script src="js/plugin.js"></script>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/popper.min.js"></script>
+<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="../js/jquery-3.0.0.min.js"></script>
+<script src="../js/plugin.js"></script>
 <!-- Scrollbar Js Files -->
-<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-<script src="js/custom.js"></script>
+<script src="../js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="../js/custom.js"></script>
 </body>
 </html>
+```
