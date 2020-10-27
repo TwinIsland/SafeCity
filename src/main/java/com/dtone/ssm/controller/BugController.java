@@ -19,9 +19,6 @@ import java.util.List;
 public class BugController {
     @Autowired
     private IBugService bugService;
-
-
-
     @RequestMapping("user/bug")
     public List<BugEntity> getBug() {
         List<BugEntity> bugEntities = bugService.findAllBug();

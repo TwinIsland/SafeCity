@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>注册 CPPMS</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="../css/responsive.css">
+    <!-- fevicon -->
+    <link rel="icon" href="../images/icon.png" type="image/gif"/>
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
+    <script src="../js/jquery.js"></script>
+    <script src="../js/captGenerate.js"></script>
+    <script src="../js/register.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/plugin.js"></script>
+    <!-- Scrollbar Js Files -->
+    <script src="../js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="../js/custom.js"></script>
+    <!-- Tweaks for older IEs-->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+    <!--表格设计-->
+    <link href="../bootstrap-table-master/css/bootstrap-table.css" rel="stylesheet"/>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <script src="../bootstrap-table-master/js/bootstrap-table.js"></script>
+    <script src="../bootstrap-table-master/js/bootstrap-table-zh-CN.js"></script>
+    <script src="../js/record.js"></script>
+</head>
+<!-- body -->
+<body class="main-layout" onload="createCode()">
+<!-- loader  -->
+<div class="loader_bg">
+    <div class="loader"><img src="../images/loading.gif" alt=""/></div>
+</div>
+<!-- end loader -->
+<!-- header -->
+<header>
+    <!-- header inner -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 logo_section">
+                <div class="full">
+                    <div class="center-desk">
+                        <div class="logo"> <a href="index.html"><img src="../images/logo.png" alt="#"></a> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="menu-area">
+                    <div class="limit-box">
+                        <nav class="main-menu">
+                            <ul class="menu-area-main">
+                                <li>
+                                    <a href="index.html">首页</a>
+                                </li>
+                                <li>
+                                    <div class="dropdown">
+                                        <button type="button" id="btn1" class="btn dropdown-toggle" data-toggle="dropdown">
+                                            灾情防治
+                                        </button>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" style="color: black" href="#">区域一览</a>
+                                            <a class="dropdown-item" style="color: black" href="#">专家一览</a>
+                                            <a class="dropdown-item" style="color: black" href="#">小班管理</a>
+                                            <a class="dropdown-item" style="color: black" href="#">事件记录</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <!--虫/鼠害...害信息查询-->
+                                    <div class="dropdown">
+                                        <button type="button" id="btn2" class="btn dropdown-toggle" data-toggle="dropdown">
+                                            资料检索
+                                        </button>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" style="color: black" href="#">虫害资料</a>
+                                            <a class="dropdown-item" style="color: black" href="#">病害资料</a>
+                                            <a class="dropdown-item" style="color: black" href="#">鼠害资料</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!--登录后隐藏-->
+                                <li id="login" >
+                                    <a href="login.html">登录</a>
+                                </li>
+                                <!--登录后隐藏-->
+                                <li id="register">
+                                    <a href="register.html">注册</a>
+                                </li>
+                                <!--未登录时隐藏-->
+                                <li id="logout">
+                                    <a href="#">登出</a>
+                                </li>
+                                <!--未登录时隐藏-->
+                                <li id="dashboard">
+                                    <a href="dashboard.html">仪表盘</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end header inner -->
+</header>
+
+
+<div class="Marketing-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="Marketingheading">
+                    <h3>专家会商结果记录</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- end section -->
+<!-- section -->
+<table id="mytable"></table>
+</body>
+</html>
