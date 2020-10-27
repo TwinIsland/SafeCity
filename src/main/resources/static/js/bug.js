@@ -1,4 +1,9 @@
 $(document).ready(function () {
+    window.operateEvents = {
+        "click #TableEditor": function (e,vlaue,row,index) {
+            window.location.href = 'index.html';
+        },
+    }
     $("#mytable").bootstrapTable({
         url:"/user/bug",  //请求地址
         striped : true, //是否显示行间隔色
@@ -20,6 +25,16 @@ $(document).ready(function () {
             title : '主要危害',
             field : 'damage',
             sortable : true
+        }, {
+            title : '操作',
+            field : 'Button',
+            events : operateEvents, //给按钮注册事件
+            formatter : AddFunctionAlty, //表格中增加按钮
         }]
     })
+    function AddFunctionAlty(e,value,row,index){
+        return[
+            '<button id="TableEditor" style="color: #0d95e8" type="button" class="btn btn-default">查看详情</button>'
+        ].join("")
+    }
 })
