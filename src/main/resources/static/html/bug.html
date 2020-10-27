@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <!-- site metas -->
-    <title>注册 CPPMS</title>
+    <title>虫害资料 CPPMS</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -22,19 +22,19 @@
     <link rel="icon" href="../images/icon.png" type="image/gif"/>
     <!-- Scrollbar Custom CSS -->
     <link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
-
     <script src="../js/jquery.js"></script>
     <script src="../js/captGenerate.js"></script>
     <script src="../js/register.js"></script>
     <script src="../js/isLogin.js"></script>
+    <!-- Scrollbar Js Files -->
+    <script src="../js/jquery.mCustomScrollbar.concat.min.js"></script>
+
 </head>
-<!-- body -->
 <body class="main-layout" onload="createCode()">
-<!-- loader  -->
 <div class="loader_bg">
     <div class="loader"><img src="../images/loading.gif" alt=""/></div>
 </div>
-<!-- end loader -->
+
 <!-- header -->
 <header>
     <!-- header inner -->
@@ -60,7 +60,7 @@
                                         <button type="button" id="btn1" class="btn dropdown-toggle" data-toggle="dropdown">
                                             灾情防治
                                         </button>
-                                        <div class="dropdown-menu">
+                                        <div class="dropdown-menu active">
                                             <a class="dropdown-item" style="color: black" href="#">专家一览</a>
                                             <a class="dropdown-item" style="color: black" href="#">药剂管理</a>
                                             <a class="dropdown-item" style="color: black" href="#">小班管理</a>
@@ -85,11 +85,11 @@
                                     <a href="#">区域一览</a>
                                 </li>
                                 <!--登录后隐藏-->
-                                <li id="login" >
+                                <li id="login">
                                     <a href="login.html">登录</a>
                                 </li>
                                 <!--登录后隐藏-->
-                                <li id="register" class="active">
+                                <li id="register">
                                     <a href="register.html">注册</a>
                                 </li>
                                 <!--未登录时隐藏-->
@@ -109,72 +109,34 @@
     </div>
     <!-- end header inner -->
 </header>
-
+<!-- header -->
 
 <div class="Marketing-bg">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="Marketingheading">
-                    <h3>注册</h3>
+                    <h3>虫害管理</h3>
                 </div>
             </div>
         </div>
     </div>
 </div>
+<table id="mytable"></table>
 
-<form action="login.php" method="post">
-    <div class="formCenter">
-        <div class="mysign">
-            <div class="col-lg-12 center">
-                <input type="text" class="form-control" id="usrName" name="username" placeholder="账户名" required
-                       autofocus/>
-            </div>
-            <div class="col-lg-12 center"></div>
-            <div class="col-lg-12 center"></div>
-            <div class="col-lg-12 center">
-                <input type="password" class="form-control" id="usrPsw" name="password" placeholder="密码" required
-                       autofocus/>
-            </div>
-            <div class="col-lg-12 center"></div>
-            <div class="col-lg-12 center"></div>
-            <div class="col-lg-12 center">
-                <input type="text" class="form-control" id="relnam" name="realname" placeholder="真实姓名" required
-                       autofocus/>
-            </div>
-            <div class="col-lg-12 center"></div>
-            <div class="col-lg-12 center"></div>
-            <div class="col-lg-12">
-                <input class="col-lg-4" type="button" id="code" onclick="createCode()" style="width:60px" title='点击更换验证码' />
-                <br>
-                <div class="col-lg-12 center"></div>
-
-                <input type="text" class="form-control" id="capCode" name="capCode" placeholder="验证码"/>
-            </div>
-            <div class="col-lg-12 center"></div>
-            <div class="col-lg-12 center"></div>
-            <div id="status"></div>
-            <div class="col-lg-10">
-                <p><a href="login.html" style="color: #adadad;font-size: 13px">已有账户？点我登录</a></p>
-            </div>
-            <div class="col-lg-10 mycheckbox checkbox"></div>
-            <div class="col-lg-10"></div>
-            <div class="col-lg-10">
-                <button type="button" id="btn3" class="btn btn-success col-lg-12">注册</button>
-            </div>
-        </div>
-    </div>
-
-</form>
 <!-- end section -->
 <!-- section -->
-
 <script src="../js/popper.min.js"></script>
 <script src="../js/bootstrap.bundle.min.js"></script>
 <script src="../js/jquery-3.3.1.min.js"></script>
 <script src="../js/plugin.js"></script>
-<!-- Scrollbar Js Files -->
-<script src="../js/jquery.mCustomScrollbar.concat.min.js"></script>
 <script src="../js/custom.js"></script>
+
+<link href="../css/bootstrap-table.css" rel="stylesheet"/>
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/bootstrap-table.js"></script>
+<script src="../js/bootstrap-table-zh-CN.js"></script>
+<script src="../js/bug.js"></script>
 </body>
 </html>
