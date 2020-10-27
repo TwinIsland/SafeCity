@@ -34,6 +34,7 @@ public class UserController {
         if (userService.checkUser(name, password)) {
             HttpSession session = request.getSession();
             session.setAttribute("name",userService.getUsrRealName(name));
+            session.setAttribute("isLogin",true);
             log.info("返回响应:user/login" + "登陆成功");
             return "success";
         }
@@ -49,5 +50,15 @@ public class UserController {
             return "false";
         }
         return uName.toString();
+    }
+
+    @RequestMapping("user/logout.action")
+    public void logout(HttpServletRequest request){
+        request.getSession().invalidate();
+    }
+
+    @RequestMapping("user/isLogin.action")
+    public boolean isLogin(HttpServletRequest request){
+        return request.getSession().getAttribute("isLogin") != null;
     }
 }

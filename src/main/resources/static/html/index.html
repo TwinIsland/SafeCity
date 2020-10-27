@@ -22,9 +22,12 @@
       <link rel="icon" href="../images/icon.png" type="image/gif" />
       <!-- Scrollbar Custom CSS -->
       <link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
+      <script src="../js/logout.js"></script>
       <script src="../js/jquery.js"></script>
+      <script src="../js/isLogin.js"></script>
       <script>
-         $(document).ready(function(){
+         $(function (){
+            isLogin()
             $.ajax({
                url:"user/getName",
                type:"GET",
@@ -103,7 +106,7 @@
                                  <a href="register.html">注册</a>
                               </li>
                               <!--未登录时隐藏-->
-                              <li id="logout">
+                              <li id="logout" onclick="logoutAction()">
                                  <a href="#">登出</a>
                               </li>
                               <!--未登录时隐藏-->

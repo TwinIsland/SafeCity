@@ -24,9 +24,10 @@
     <link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
     <script src="../js/captGenerate.js"></script>
     <script src="../js/jquery.js"></script>
+    <script src="../js/isLogin.js"></script>
     <script>
         $(function () {
-
+            isLogin()
             $("#submit").click(function () {
                 if(!validate()){
                     $("#status").empty().append("<p style=\"color: red;font-size: 13px\">&nbsp;&nbsp;&nbsp;&nbsp;验证码错误！</p>")

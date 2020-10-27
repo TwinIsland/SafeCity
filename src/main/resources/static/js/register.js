@@ -1,4 +1,5 @@
 $(function () {
+    isLogin()
     $("#btn3").click(function () {
         if (!validate()) {
             $("#status").empty().append("<p style=\"color: red;font-size: 13px\">&nbsp;&nbsp;&nbsp;&nbsp;验证码错误！</p>")
