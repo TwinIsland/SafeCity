@@ -23,15 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eca04396-c129-4481-afcb-7f584bb45cc2" name="Default Changelist" comment="登录模组+用户Session">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/captGenerate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/util/md5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/spring.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/safecity.sql" beforeDir="false" afterPath="$PROJECT_DIR$/safecity.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/imp/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/imp/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +38,8 @@
       <list>
         <option value="HTML File" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JavaScript File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -52,18 +47,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/test/java/com/dtone/ssm/SsmApplicationLyTests.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/imp/UserServiceImpl.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/imp/MouseServiceImp.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/imp/BugServiceImp.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/imp/SicknessServiceImp.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/test/java/com/dtone/ssm/WareoutTest.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/test/java/com/dtone/ssm/SsmApplicationZyzTests.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/IZoneService.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/test/java/com/dtone/ssm/SsmApplicationTests.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/imp/TeamServiceImp.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/imp/ZoneServiceImp.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/com/dtone/ssm/SsmApplicationZyzTests.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/imp/LogServiceImp.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/com/dtone/ssm/SsmApplicationLyTests.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/com/dtone/ssm/WareoutTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/imp/TeamServiceImp.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/imp/UserServiceImpl.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/com/dtone/ssm/SsmApplicationTests.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/imp/ZoneServiceImp.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/imp/MouseServiceImp.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -135,6 +130,30 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.SsmApplication">
+    <configuration name="md5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dtone.ssm.util.md5" />
+      <module name="ssm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dtone.ssm.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SsmApplicationLyTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ssm" />
       <extension name="coverage">
@@ -146,22 +165,6 @@
       <option name="PACKAGE_NAME" value="com.dtone.ssm" />
       <option name="MAIN_CLASS_NAME" value="com.dtone.ssm.SsmApplicationLyTests" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SsmApplicationLyTests.selectTeamDetailedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ssm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dtone.ssm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.dtone.ssm" />
-      <option name="MAIN_CLASS_NAME" value="com.dtone.ssm.SsmApplicationLyTests" />
-      <option name="METHOD_NAME" value="selectTeamDetailedTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -207,6 +210,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.SsmApplication" />
+        <item itemvalue="Application.md5" />
         <item itemvalue="JUnit.SsmApplicationTests" />
         <item itemvalue="JUnit.SsmApplicationLyTests" />
       </list>
@@ -243,6 +247,7 @@
       <workItem from="1603721918149" duration="4707000" />
       <workItem from="1603726683385" duration="2159000" />
       <workItem from="1603729152558" duration="4251000" />
+      <workItem from="1603766566211" duration="1402000" />
     </task>
     <task id="LOCAL-00001" summary="上传工程">
       <created>1603360481125</created>
@@ -370,54 +375,54 @@
     </state>
     <state x="400" y="110" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1603697296603" />
     <state x="480" y="132" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1603726667543" />
-    <state width="1493" height="191" key="GridCell.Tab.0.bottom" timestamp="1603733955043">
+    <state width="1493" height="191" key="GridCell.Tab.0.bottom" timestamp="1603767518440">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="191" key="GridCell.Tab.0.bottom/-1600.531.1600.900/0.0.1536.864@0.0.1536.864" timestamp="1603733955043" />
     <state width="1237" height="180" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1603707355496" />
-    <state width="1493" height="430" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1603727478105" />
-    <state width="1493" height="191" key="GridCell.Tab.0.center" timestamp="1603733955043">
+    <state width="1493" height="191" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1603767518440" />
+    <state width="1493" height="191" key="GridCell.Tab.0.center" timestamp="1603767518439">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="191" key="GridCell.Tab.0.center/-1600.531.1600.900/0.0.1536.864@0.0.1536.864" timestamp="1603733955043" />
     <state width="1237" height="180" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1603707355495" />
-    <state width="1493" height="430" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1603727478105" />
-    <state width="1493" height="191" key="GridCell.Tab.0.left" timestamp="1603733955043">
+    <state width="1493" height="191" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1603767518439" />
+    <state width="1493" height="191" key="GridCell.Tab.0.left" timestamp="1603767518439">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="191" key="GridCell.Tab.0.left/-1600.531.1600.900/0.0.1536.864@0.0.1536.864" timestamp="1603733955043" />
     <state width="1237" height="180" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1603707355495" />
-    <state width="1493" height="430" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1603727478105" />
-    <state width="1493" height="191" key="GridCell.Tab.0.right" timestamp="1603733955043">
+    <state width="1493" height="191" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1603767518439" />
+    <state width="1493" height="191" key="GridCell.Tab.0.right" timestamp="1603767518439">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="191" key="GridCell.Tab.0.right/-1600.531.1600.900/0.0.1536.864@0.0.1536.864" timestamp="1603733955043" />
     <state width="1237" height="180" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1603707355495" />
-    <state width="1493" height="430" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1603727478105" />
-    <state width="1493" height="191" key="GridCell.Tab.1.bottom" timestamp="1603733955043">
+    <state width="1493" height="191" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1603767518439" />
+    <state width="1493" height="191" key="GridCell.Tab.1.bottom" timestamp="1603767517012">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="191" key="GridCell.Tab.1.bottom/-1600.531.1600.900/0.0.1536.864@0.0.1536.864" timestamp="1603733955043" />
     <state width="1237" height="180" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1603707355496" />
-    <state width="1493" height="430" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1603727478106" />
-    <state width="1493" height="191" key="GridCell.Tab.1.center" timestamp="1603733955043">
+    <state width="1493" height="191" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1603767517012" />
+    <state width="1493" height="191" key="GridCell.Tab.1.center" timestamp="1603767517012">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="191" key="GridCell.Tab.1.center/-1600.531.1600.900/0.0.1536.864@0.0.1536.864" timestamp="1603733955043" />
     <state width="1237" height="180" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1603707355496" />
-    <state width="1493" height="430" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1603727478106" />
-    <state width="1493" height="191" key="GridCell.Tab.1.left" timestamp="1603733955043">
+    <state width="1493" height="191" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1603767517012" />
+    <state width="1493" height="191" key="GridCell.Tab.1.left" timestamp="1603767517011">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="191" key="GridCell.Tab.1.left/-1600.531.1600.900/0.0.1536.864@0.0.1536.864" timestamp="1603733955043" />
     <state width="1237" height="180" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1603707355496" />
-    <state width="1493" height="430" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1603727478105" />
-    <state width="1493" height="191" key="GridCell.Tab.1.right" timestamp="1603733955043">
+    <state width="1493" height="191" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1603767517011" />
+    <state width="1493" height="191" key="GridCell.Tab.1.right" timestamp="1603767517012">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="191" key="GridCell.Tab.1.right/-1600.531.1600.900/0.0.1536.864@0.0.1536.864" timestamp="1603733955043" />
     <state width="1237" height="180" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1603707355496" />
-    <state width="1493" height="430" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1603727478106" />
+    <state width="1493" height="191" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1603767517012" />
     <state width="1493" height="224" key="GridCell.Tab.2.bottom" timestamp="1603725411550">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
