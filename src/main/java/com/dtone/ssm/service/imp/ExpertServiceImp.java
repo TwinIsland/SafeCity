@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+
 @Service
 @Transactional //申明式事务管理
 public class ExpertServiceImp implements IExpertService {
@@ -29,7 +31,8 @@ public class ExpertServiceImp implements IExpertService {
     }
 
     @Override
-    public void selectAllExpert() {
-        expertDao.selectAllExpert();
+    public List<ExpertEntity> selectAllExpert() {
+        List<ExpertEntity> expertEntities = expertDao.selectAllExpert();
+        return  expertEntities;
     }
 }

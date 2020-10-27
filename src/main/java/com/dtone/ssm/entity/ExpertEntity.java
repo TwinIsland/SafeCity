@@ -6,15 +6,16 @@ import java.util.Date;
 
 @Data
 public class ExpertEntity {
-    int id;
-    String name;
-    String company;
-    String expertise;
-    int usrId; //专家在user表的id属性
-    String phone;
-    Date date;
-    String sex;
-    String addr;
-    String email;
-    String img;
+    private int id;
+    private String name;
+    private String company;
+    private String expertise;
+    private String post;
+    private int usrId; //专家在user表的id属性
+    private  String phone;
+    private  Date date;
+    private String sex;
+    private  String addr;
+    private  String email;
+    private String img;
 }
