@@ -2,10 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/dtone/ssm/controller/RegisterController.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/dtone/ssm/dao/IUserDao.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/resources/static/js/jquery-3.3.1.min.js" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/resources/static/js/register.js" charset="GBK" />
   </component>
 </project>
