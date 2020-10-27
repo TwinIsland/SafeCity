@@ -21,6 +21,7 @@ public class WebAppConfig extends WebMvcConfigurerAdapter  {
         InterceptorRegistration registration = registry.addInterceptor(new LoginInterceptor());
         registration.addPathPatterns("/html/dashboard.html");
         registration.addPathPatterns("/html/logout.html");
+        registration.addPathPatterns("/html/log.html");
         InterceptorRegistration registration2 = registry.addInterceptor(new AlreadyLoginInterceptor());
         registration2.addPathPatterns("/html/login.html");
     }

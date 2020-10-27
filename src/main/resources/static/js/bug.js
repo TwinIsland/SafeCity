@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $("#mytable").bootstrapTable({
-        url:"/user/bug",  //请求地址
+        url:"info/bug",  //请求地址
         striped : true, //是否显示行间隔色
         pageNumber : 1, //初始化加载第一页
         pagination : true,//是否分页

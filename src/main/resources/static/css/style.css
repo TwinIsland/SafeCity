@@ -204,8 +204,8 @@ button {
 }
 
 .layout_padding {
-	padding-top: 90px;
-	padding-bottom: 90px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .layout_padding_2 {
@@ -1912,8 +1912,8 @@ input[type="radio"] .styled:checked+label::after {
 }
 
 .comment_blog_line {
-    margin-top: 25px;
-    padding: 0 15px;
+    margin-top: 70px;
+    padding: 0 10px;
 }
 
 .blog_cont_2 {
@@ -2102,7 +2102,7 @@ ul.social_icon li a {
 }
 .mycenter input,checkbox,button{
 	margin-top:2%;
-	margin-left: 10%;
+	margin-left: 0%;
 	margin-right: 10%;
 }
 .mycheckbox{

@@ -13,5 +13,5 @@ import java.util.Date;
 public class LogEntity {
     private int id;
     private String content;
-    private Date date;
+    private String date;
 }

@@ -1,19 +1,186 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>仪表盘 CPPMS</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="../css/responsive.css">
+    <!-- fevicon -->
+    <link rel="icon" href="../images/icon.png" type="image/gif"/>
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
+
+    <script src="../js/captGenerate.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/isLogin.js"></script>
+    <script src="../js/login.js"></script>
+
 </head>
-<body>
-<!--
-仪表盘（登录才显示）
-1. 查看/查询 日志
-2. 修改资料
-3. 编辑成员信息（仅限管理员）
-4. 专家灾情意见（仅限专家）
-5. 药剂出库入库（权限限制）
-6. 药剂领用
-...
--->
+<body class="main-layout" onload="createCode()">
+<div class="loader_bg">
+    <div class="loader"><img src="../images/loading.gif" alt=""/></div>
+</div>
+
+<!-- header -->
+<header>
+    <!-- header inner -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 logo_section">
+                <div class="full">
+                    <div class="center-desk">
+                        <div class="logo"><a href="index.html"><img src="../images/logo.png" alt="#"></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="menu-area">
+                    <div class="limit-box">
+                        <nav class="main-menu">
+                            <ul class="menu-area-main">
+                                <li>
+                                    <a href="index.html">首页</a>
+                                </li>
+                                <li>
+                                    <div class="dropdown">
+                                        <button type="button" id="btn1" class="btn dropdown-toggle"
+                                                data-toggle="dropdown">
+                                            灾情防治
+                                        </button>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" style="color: black" href="#">专家一览</a>
+                                            <a class="dropdown-item" style="color: black" href="#">药剂管理</a>
+                                            <a class="dropdown-item" style="color: black" href="#">小班管理</a>
+                                            <a class="dropdown-item" style="color: black" href="#">事件记录</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <!--虫/鼠害...害信息查询-->
+                                    <div class="dropdown">
+                                        <button type="button" id="btn2" class="btn dropdown-toggle"
+                                                data-toggle="dropdown">
+                                            资料检索
+                                        </button>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" style="color: black" href="bug.html">虫害资料</a>
+                                            <a class="dropdown-item" style="color: black" href="#">病害资料</a>
+                                            <a class="dropdown-item" style="color: black" href="#">鼠害资料</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#">区域一览</a>
+                                </li>
+                                <!--登录后隐藏-->
+                                <li id="login">
+                                    <a href="login.html">登录</a>
+                                </li>
+                                <!--登录后隐藏-->
+                                <li id="register">
+                                    <a href="register.html">注册</a>
+                                </li>
+                                <!--未登录时隐藏-->
+                                <li id="logout">
+                                    <a href="#">登出</a>
+                                </li>
+                                <!--未登录时隐藏-->
+                                <li id="dashboard" class="active">
+                                    <a href="dashboard.html">仪表盘</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end header inner -->
+</header>
+<!-- header -->
+<div class="Marketing-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="Marketingheading">
+                    <h3>仪表盘</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="layout_padding">
+    <div class="container">
+
+
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="full comment_blog_line">
+                    <div class="row">
+                        <div class="col-md-1">
+                            <img src="../images/日志.png" alt="#"/>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="full contact_text">
+                                <h3>日志</h3>
+                                <br>
+                                <p>查看用户所有的登录以及注册日志.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <a class="reply_bt" href="log.html">进入</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="full comment_blog_line">
+
+                    <div class="row">
+                        <div class="col-md-1">
+                            <img src="../images/用户.png" alt="#"/>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="full contact_text">
+                                <h3>用户设置</h3>
+                                <br>
+                                <p>设置网站注册用户的基本信息.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <a class="reply_bt" href="#">进入</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="../js/popper.min.js"></script>
+<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script src="../js/plugin.js"></script>
+<!-- Scrollbar Js Files -->
+<script src="../js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="../js/custom.js"></script>
 </body>
 </html>

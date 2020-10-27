@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -29,13 +30,12 @@ public class LogServiceImp implements ILogService {
     }
 
     @Override
-    public void userLogin(String content,Date date) {
+    public void userLogin(String content,String date) {
         logDao.insertLog(content,date);
-
     }
 
     @Override
-    public List<LogEntity> showLogByDate(Date startDate, Date endDate) {
+    public List<LogEntity> showLogByDate(String startDate, String endDate) {
         List<LogEntity> log = logDao.selectLogByDate(startDate,endDate);
         return log;
     }

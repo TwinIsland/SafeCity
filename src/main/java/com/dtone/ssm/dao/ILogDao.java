@@ -23,17 +23,16 @@ public interface ILogDao {
     //显示登录日志信息
     public List<LogEntity> selectAllLog();
 
-    @Select("select * from tb_log where lg_time > #{startDate} and lg_time < #{endDate}")
+    @Select("select * from tb_log where lg_time between #{startDate} and #{endDate}")
     @Results(value = {
             @Result(property = "id", column = "lg_id", id = true),
             @Result(property = "content", column = "lg_content"),
             @Result(property = "date", column = "lg_time"),
     })
     //根据日期区间查询用户登录信息
-    public List<LogEntity> selectLogByDate(@Param("startDate") Date startDate, @Param("endDate") Date endDate);
+    public List<LogEntity> selectLogByDate(@Param("startDate") String startDate, @Param("endDate") String endDate);
 
     @Insert("insert into tb_log (lg_id,lg_content,lg_time) values (null,#{content},#{date})")
     //添加日志信息
-    public void insertLog(@Param("content") String content, @Param("date") Date date);
-
+    public void insertLog(@Param("content") String content, @Param("date") String date);
 }

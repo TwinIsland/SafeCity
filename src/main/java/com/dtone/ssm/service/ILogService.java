@@ -15,10 +15,10 @@ public interface ILogService {
     public List<LogEntity> showAllLog();
 
     //用户登录，添加日志信息
-    public void userLogin(String content,Date date);
+    public void userLogin(String content,String date);
 
     //查找用户登录信息
-    public List<LogEntity> showLogByDate(Date startDate,Date endDate);
+    public List<LogEntity> showLogByDate(String startDate,String endDate);
 
 
 
