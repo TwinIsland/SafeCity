@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <!-- site metas -->
-    <title>登录 CGPMS</title>
+    <title>登录 CPPMS</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -22,47 +22,19 @@
     <link rel="icon" href="../images/icon.png" type="image/gif"/>
     <!-- Scrollbar Custom CSS -->
     <link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
+
     <script src="../js/captGenerate.js"></script>
     <script src="../js/jquery.js"></script>
     <script src="../js/isLogin.js"></script>
-    <script>
-        $(function () {
-            isLogin()
-            $("#submit").click(function () {
-                if(!validate()){
-                    $("#status").empty().append("<p style=\"color: red;font-size: 13px\">&nbsp;&nbsp;&nbsp;&nbsp;验证码错误！</p>")
-                    createCode();
-                    $("#capCode").empty()
-                }else {
-                    $.ajax({
-                        url: "user/login",
-                        type: "POST",
-                        data: {
-                            name: $("#usrName").val(),
-                            password: $("#usrPsw").val(),
-                        },
-                        success: function (result) {
-                            if (result === "success") {
-                                $("#status").empty().append("<p style=\"color: forestgreen;font-size: 13px\">&nbsp;&nbsp;&nbsp;&nbsp;登陆成功，欢迎！</p>")
-                                window.location.href = 'index.html';
-                            } else {
-                                $("#status").empty().append("<p style=\"color: red;font-size: 13px\">&nbsp;&nbsp;&nbsp;&nbsp;用户名或密码错误，请重试！</p>")
-                                document.getElementById("usrName").value = "";
-                                document.getElementById("usrPsw").value = "";
-                            }
-                        }
-                    })
-                }
-            })
-        })
-    </script>
+    <script src="../js/login.js"></script>
+
     <!-- Tweaks for older IEs-->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
-
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+    <!--[endif]-->
 </head>
-<body onload="createCode()">
+<body class="main-layout" onload="createCode()">
 <div class="loader_bg">
     <div class="loader"><img src="../images/loading.gif" alt=""/></div>
 </div>
@@ -93,7 +65,6 @@
                                             灾情防治
                                         </button>
                                         <div class="dropdown-menu">
-                                            <a class="dropdown-item" style="color: black" href="#">区域一览</a>
                                             <a class="dropdown-item" style="color: black" href="#">专家一览</a>
                                             <a class="dropdown-item" style="color: black" href="#">小班管理</a>
                                             <a class="dropdown-item" style="color: black" href="#">事件记录</a>
@@ -142,6 +113,7 @@
     <!-- end header inner -->
 </header>
 <!-- header -->
+
 
 <div class="Marketing-bg">
     <div class="container">
@@ -192,7 +164,7 @@
 
 <script src="../js/popper.min.js"></script>
 <script src="../js/bootstrap.bundle.min.js"></script>
-<script src="../js/jquery-3.0.0.min.js"></script>
+<script src="../js/jquery-3.3.1.min.js"></script>
 <script src="../js/plugin.js"></script>
 <!-- Scrollbar Js Files -->
 <script src="../js/jquery.mCustomScrollbar.concat.min.js"></script>
