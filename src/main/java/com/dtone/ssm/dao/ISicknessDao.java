@@ -17,12 +17,12 @@ public interface ISicknessDao {
     @Results(value = {
             @Result(property = "id", column = "sk_id", id = true),
             @Result(property = "name", column = "sk_name"),
-            @Result(property = "breed", column = "sk_cause"),
-            @Result(property = "host", column = "sk_pattern"),
-            @Result(property = "enemy", column = "sk_law"),
-            @Result(property = "damage", column = "sk_damange"),
-            @Result(property = "prevent", column = "sk_treat"),
-            @Result(property = "larva", column = "sk_img"),
+            @Result(property = "cause", column = "sk_cause"),
+            @Result(property = "pattern", column = "sk_pattern"),
+            @Result(property = "law", column = "sk_law"),
+            @Result(property = "damange", column = "sk_damange"),
+            @Result(property = "treat", column = "sk_treat"),
+            @Result(property = "img", column = "sk_img"),
     })
     //查询所有病害
     public List<SicknessEntity> selectAllSickness();
@@ -31,12 +31,12 @@ public interface ISicknessDao {
     @Results(value = {
             @Result(property = "id", column = "sk_id", id = true),
             @Result(property = "name", column = "sk_name"),
-            @Result(property = "breed", column = "sk_cause"),
-            @Result(property = "host", column = "sk_pattern"),
-            @Result(property = "enemy", column = "sk_law"),
-            @Result(property = "damage", column = "sk_damange"),
-            @Result(property = "prevent", column = "sk_treat"),
-            @Result(property = "larva", column = "sk_img"),
+            @Result(property = "cause", column = "sk_cause"),
+            @Result(property = "pattern", column = "sk_pattern"),
+            @Result(property = "law", column = "sk_law"),
+            @Result(property = "damange", column = "sk_damange"),
+            @Result(property = "treat", column = "sk_treat"),
+            @Result(property = "img", column = "sk_img"),
     })
     //模糊查询病害
     public List<SicknessEntity> selectSicknessByVague(@Param("name") String name, @Param("pattern") String pattern);
