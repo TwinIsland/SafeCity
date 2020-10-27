@@ -64,8 +64,8 @@ function resetTable(){
         pagination : true,//是否分页
         sidePagination : 'client',//server:服务器端分页|client：前端分页
         pageSize : 5,//单页记录数
-        pageList : [ 5, 10],//可选择单页记录数
-        showRefresh : true,//刷新按钮
+        pageList : [5, 10],//可选择单页记录数
+        //showRefresh : false,//刷新按钮
 
         columns : [ {
             title : 'ID',

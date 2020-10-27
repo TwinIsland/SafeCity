@@ -41,6 +41,7 @@
     <script src="../js/jquery-3.3.1.min.js"></script>
     <script src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
     <script src="../bootstrap-table-master/js/bootstrap-table.js"></script>
+    <script src="../js/logout.js"></script>
     <script src="../bootstrap-table-master/js/bootstrap-table-zh-CN.js"></script>
     <script src="../js/log.js"></script>
     <script src="../js/isLogin.js"></script>
@@ -80,8 +81,8 @@
                                             灾情防治
                                         </button>
                                         <div class="dropdown-menu">
-                                            <a class="dropdown-item" style="color: black" href="#">区域一览</a>
                                             <a class="dropdown-item" style="color: black" href="#">专家一览</a>
+                                            <a class="dropdown-item" style="color: black" href="#">药剂管理</a>
                                             <a class="dropdown-item" style="color: black" href="#">小班管理</a>
                                             <a class="dropdown-item" style="color: black" href="#">事件记录</a>
                                         </div>
@@ -101,6 +102,9 @@
                                         </div>
                                     </div>
                                 </li>
+                                <li>
+                                    <a href="zone.html">区域一览</a>
+                                </li>
                                 <!--登录后隐藏-->
                                 <li id="login">
                                     <a href="login.html">登录</a>
@@ -110,7 +114,7 @@
                                     <a href="register.html">注册</a>
                                 </li>
                                 <!--未登录时隐藏-->
-                                <li id="logout">
+                                <li id="logout" onclick="logoutAction()">
                                     <a href="#">登出</a>
                                 </li>
                                 <!--未登录时隐藏-->
@@ -147,25 +151,26 @@
 <div class="container">
     <div class="form-group">
         <br>
-        <label class="date-label">日期：</label>
-        <div class="date-container">
-            <i class="fa fa-calendar date-icon"></i>
-            <input type="text" id="startData" class="form-control date-input" placeholder="开始日期">
-        </div>
-
-    </div>
-    <div class="form-group">
-        <label class="date-label">--</label>
-        <div class="date-container">
-            <i class="fa fa-calendar date-icon"></i>
-            <input type="text" id="endData" class="form-control date-input" placeholder="结束日期">
+        <div class="form-inline row">
+            <input type="text" id="startData" class="form-control date-input" placeholder="开始日期" width="20%">
+            <label class="date-label">&nbsp;&nbsp;--&nbsp;&nbsp;</label>
+            <input type="text" id="aendData" class="form-control date-input" placeholder="结束日期" width="20%">
+            <label>&nbsp;&nbsp;</label>
+            <button onclick="searchedTable($('#startData').val(),$('#endData').val())" type="button" id="submit"
+                    class="btn btn-primary" style="margin-top:0">查询
+            </button>
         </div>
     </div>
 
-    <button onclick="searchedTable($('#startData').val(),$('#endData').val())" type="button" id="submit" class="btn">查询</button>
 
-    <table id="mytable"></table>
+
+<table id="mytable"></table>
 
 </div>
 </body>
+<style>
+    button.btn.btn-default {
+        display: none;
+    }
+</style>
 </html>

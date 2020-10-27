@@ -42,6 +42,7 @@ CREATE TABLE `tb_bug` (
 
 LOCK TABLES `tb_bug` WRITE;
 /*!40000 ALTER TABLE `tb_bug` DISABLE KEYS */;
+INSERT INTO `tb_bug` VALUES (0,'蚊子','1天','人','人','Saks的离开','拉萨凯迪拉克','城门口经常看见','阿斯顿考虑考虑');
 /*!40000 ALTER TABLE `tb_bug` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -121,9 +122,9 @@ DROP TABLE IF EXISTS `tb_log`;
 CREATE TABLE `tb_log` (
   `lg_id` int NOT NULL AUTO_INCREMENT,
   `lg_content` varchar(100) NOT NULL,
-  `lg_time` date NOT NULL,
+  `lg_time` varchar(10) NOT NULL,
   PRIMARY KEY (`lg_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='table for log';
+) ENGINE=InnoDB AUTO_INCREMENT=44 DEFAULT CHARSET=utf8 COMMENT='table for log';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -132,6 +133,7 @@ CREATE TABLE `tb_log` (
 
 LOCK TABLES `tb_log` WRITE;
 /*!40000 ALTER TABLE `tb_log` DISABLE KEYS */;
+INSERT INTO `tb_log` VALUES (9,'登录账号：superadmin 【状态：成功】','2010271835'),(10,'登录账号：superadmin 【状态：成功】','2010271837'),(11,'登录账号：superadmin 【状态：成功】','2010271845'),(12,'登录账号：superadmin 【状态：成功】','2010271848'),(13,'登录账号：superadmin 【状态：成功】','2010271850'),(14,'登录账号：superadmin 【状态：成功】','2010271851'),(15,'登录账号：huang 【状态：失败】','2010271853'),(16,'登录账号：superadmin 【状态：成功】','2010271853'),(17,'登录账号：superadmin 【状态：成功】','2010271855'),(18,'登录账号：superadmin 【状态：成功】','2010271856'),(19,'登录账号：superadmin 【状态：成功】','2010271900'),(20,'登录账号：superadmin 【状态：成功】','2010271903'),(21,'登录账号：superadmin 【状态：成功】','2010271923'),(22,'登录账号：superadmin 【状态：成功】','2010271926'),(23,'登录账号：superadmin 【状态：成功】','2010271927'),(24,'登录账号：superadmi 【状态：失败】','2010280045'),(25,'登录账号： 【状态：失败】','2010280045'),(26,'登录账号：superadmin 【状态：成功】','2010280045'),(27,'注册账号：superadmin 【状态：失败】','2010280050'),(28,'注册账号：aa 【状态：成功】','2010280050'),(29,'登录账号：superadmin 【状态：成功】','2010280051'),(30,'注册账号：hty233 【状态：成功】','2010280052'),(31,'注册账号：hty114514 【状态：成功】','2010280055'),(32,'登录账号：superadmin 【状态：成功】','2010280100'),(33,'登录账号：superadmin 【状态：成功】','2010280101'),(34,'登录账号：superadmin 【状态：成功】','2010280247'),(35,'插入区域数据：null插入area：卡罗拉【状态：成功】','2010280301'),(36,'登录账号：superadmin 【状态：成功】','2010280302'),(37,'插入区域数据：zone22【状态：成功】','2010280303'),(38,'登录账号：superadmin 【状态：成功】','2010280304'),(39,'登录账号：superadmin 【状态：成功】','2010280305'),(40,'登录账号：superadmin 【状态：成功】','2010280309'),(41,'登录账号：superadmin 【状态：成功】','2010280311'),(42,'登录账号：superadmin 【状态：成功】','2010280313'),(43,'登录账号：superadmin 【状态：成功】','2010280314');
 /*!40000 ALTER TABLE `tb_log` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -243,6 +245,32 @@ LOCK TABLES `tb_sickness` WRITE;
 UNLOCK TABLES;
 
 --
+-- Table structure for table `tb_takelist`
+--
+
+DROP TABLE IF EXISTS `tb_takelist`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `tb_takelist` (
+  `take_id` int NOT NULL AUTO_INCREMENT,
+  `take_name` varchar(255) NOT NULL,
+  `take_type` varchar(255) NOT NULL,
+  `take_dtype` varchar(255) NOT NULL,
+  `take_count` int NOT NULL,
+  PRIMARY KEY (`take_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `tb_takelist`
+--
+
+LOCK TABLES `tb_takelist` WRITE;
+/*!40000 ALTER TABLE `tb_takelist` DISABLE KEYS */;
+/*!40000 ALTER TABLE `tb_takelist` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `tb_team`
 --
 
@@ -284,7 +312,7 @@ CREATE TABLE `tb_user` (
   `u_level` varchar(12) DEFAULT NULL,
   `u_realname` varchar(12) NOT NULL,
   PRIMARY KEY (`u_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -293,8 +321,33 @@ CREATE TABLE `tb_user` (
 
 LOCK TABLES `tb_user` WRITE;
 /*!40000 ALTER TABLE `tb_user` DISABLE KEYS */;
-INSERT INTO `tb_user` VALUES (1,'superadmin','943463a9f302f4fecccfc1d4ed2117f0','cj','张三'),(2,'zladmin','0828775892945249cdd5265c1a913c89','zl','李四'),(3,'zqadmin','0828775892945249cdd5265c1a913c89','zq','王五'),(4,'zjadmin','0828775892945249cdd5265c1a913c89','zj','周六'),(5,'yjadmin','0828775892945249cdd5265c1a913c89','yj','吴七');
+INSERT INTO `tb_user` VALUES (1,'superadmin','943463a9f302f4fecccfc1d4ed2117f0','cj','张三'),(2,'zladmin','0828775892945249cdd5265c1a913c89','zl','李四'),(3,'zqadmin','0828775892945249cdd5265c1a913c89','zq','王五'),(4,'zjadmin','0828775892945249cdd5265c1a913c89','zj','周六'),(5,'yjadmin','0828775892945249cdd5265c1a913c89','yj','吴七'),(9,'HUANG3','da0e8e11ea2551f949b3fbf00a9a2d23',NULL,'HTY'),(10,'hty222','da0e8e11ea2551f949b3fbf00a9a2d23',NULL,'HTY'),(11,'aa','d1b8d375409e11a40b85fea20845e7de',NULL,'HTY'),(12,'hty233','f49f869cdb172bb15b1fa6b740e8dedd',NULL,'HTY'),(13,'hty114514','4e6679358164898d44e48c882154aa7e',NULL,'HTY114');
 /*!40000 ALTER TABLE `tb_user` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `tb_wareout`
+--
+
+DROP TABLE IF EXISTS `tb_wareout`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `tb_wareout` (
+  `out_id` int NOT NULL AUTO_INCREMENT,
+  `out_date` date NOT NULL,
+  `out_class` varchar(255) NOT NULL,
+  `out_person` varchar(255) NOT NULL,
+  PRIMARY KEY (`out_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `tb_wareout`
+--
+
+LOCK TABLES `tb_wareout` WRITE;
+/*!40000 ALTER TABLE `tb_wareout` DISABLE KEYS */;
+/*!40000 ALTER TABLE `tb_wareout` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -305,15 +358,14 @@ DROP TABLE IF EXISTS `tb_zone`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `tb_zone` (
-  `zo_id` int NOT NULL,
-  `tn_id` int DEFAULT NULL,
-  `zo_name` varchar(15) NOT NULL,
+  `zo_id` int NOT NULL AUTO_INCREMENT,
+  `zo_area` varchar(15) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
   `zo_ftype` varchar(15) NOT NULL,
   `zo_stype` varchar(15) NOT NULL,
   `zo_tree` varchar(15) NOT NULL,
-  `zo_team` int NOT NULL,
+  `zo_team` varchar(10) NOT NULL,
   PRIMARY KEY (`zo_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -322,6 +374,7 @@ CREATE TABLE `tb_zone` (
 
 LOCK TABLES `tb_zone` WRITE;
 /*!40000 ALTER TABLE `tb_zone` DISABLE KEYS */;
+INSERT INTO `tb_zone` VALUES (1,'华强北','乔木林','林地','柏树','雅安一队'),(2,'拉拉land','jojo林','湿地','红木','成都二队'),(3,'拉吉岛','安安林','山地','松柏','乐山一队'),(4,'卡罗拉','安安','教程','案例','啊啊啊'),(5,'zone22','aaskd','klaksdl','xxx','llk');
 /*!40000 ALTER TABLE `tb_zone` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -357,4 +410,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-10-27 11:07:59
+-- Dump completed on 2020-10-28  3:21:01

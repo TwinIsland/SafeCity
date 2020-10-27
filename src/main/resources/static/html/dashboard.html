@@ -26,6 +26,7 @@
     <script src="../js/captGenerate.js"></script>
     <script src="../js/jquery.js"></script>
     <script src="../js/isLogin.js"></script>
+    <script src="../js/logout.js"></script>
     <script src="../js/login.js"></script>
 
 </head>
@@ -94,7 +95,7 @@
                                     <a href="register.html">注册</a>
                                 </li>
                                 <!--未登录时隐藏-->
-                                <li id="logout">
+                                <li id="logout" onclick="logoutAction()">
                                     <a href="#">登出</a>
                                 </li>
                                 <!--未登录时隐藏-->
@@ -168,7 +169,25 @@
                     </div>
                 </div>
 
+                <div class="full comment_blog_line">
 
+                    <div class="row">
+                        <div class="col-md-1">
+                            <img src="../images/区域.png" alt="#"/>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="full contact_text">
+                                <h3>区域管理</h3>
+                                <br>
+                                <p>管理以及检索区域相关信息
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <a class="reply_bt" href="zoneManage.html">进入</a>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>

@@ -23,32 +23,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eca04396-c129-4481-afcb-7f584bb45cc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/controller/LogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/util/TimeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/tencent.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/html/log.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/日志.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/用户.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/log.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/controller/ZoneController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/html/zone.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/html/zoneManage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/区域.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/getUsrName.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/zone.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/spring.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/controller/BugController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/controller/BugController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/safecity.sql" beforeDir="false" afterPath="$PROJECT_DIR$/safecity.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/controller/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/controller/RegisterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/dao/ILogDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/dao/ILogDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/entity/LogEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/entity/LogEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/ILogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/ILogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/imp/LogServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/imp/LogServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/dao/IZoneDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/dao/IZoneDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/entity/ZoneEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/entity/ZoneEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/IZoneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/IZoneService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/imp/ZoneServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/imp/ZoneServiceImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/util/WebAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/util/WebAppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/bug.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/bug.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/log.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/bug.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/bug.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/log.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/log.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dtone/ssm/SsmApplicationLyTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dtone/ssm/SsmApplicationLyTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,10 +57,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="Class" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -133,8 +131,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.dtone.ssm.util" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\new\Desktop\safecity\src\main\resources\static\images" />
+      <recent name="C:\Users\new\Desktop\safecity\src\main\resources\static\css" />
+      <recent name="C:\Users\new\Desktop\safecity\src\main\resources\static\js" />
+      <recent name="C:\Users\new\Desktop\safecity\src\main\java\com\dtone\ssm\controller" />
+      <recent name="C:\Users\new\Desktop\safecity\src\main\java\com\dtone\ssm\dao" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.dtone.ssm" />
@@ -149,12 +151,8 @@
       <recent name="com.dtone.ssm.dao" />
       <recent name="com.dtone.ssm.entity" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\new\Desktop\safecity\src\main\resources\static\images" />
-      <recent name="C:\Users\new\Desktop\safecity\src\main\resources\static\css" />
-      <recent name="C:\Users\new\Desktop\safecity\src\main\resources\static\js" />
-      <recent name="C:\Users\new\Desktop\safecity\src\main\java\com\dtone\ssm\controller" />
-      <recent name="C:\Users\new\Desktop\safecity\src\main\java\com\dtone\ssm\dao" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.dtone.ssm.util" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.SsmApplication">
@@ -263,7 +261,9 @@
       <workItem from="1603729152558" duration="4251000" />
       <workItem from="1603766566211" duration="1699000" />
       <workItem from="1603768376464" duration="3676000" />
-      <workItem from="1603779942700" duration="17956000" />
+      <workItem from="1603779942700" duration="18213000" />
+      <workItem from="1603798367587" duration="38000" />
+      <workItem from="1603816719997" duration="10096000" />
     </task>
     <task id="LOCAL-00001" summary="上传工程">
       <created>1603360481125</created>
@@ -391,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603787450699</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="log功能完成，dashboard界面设计">
+      <created>1603798216341</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1603798216342</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,7 +434,8 @@
     <MESSAGE value="login.html 导航栏无法下拉bug" />
     <MESSAGE value="增加拦截器" />
     <MESSAGE value="增加登录/未登录用户拦截器" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加登录/未登录用户拦截器" />
+    <MESSAGE value="log功能完成，dashboard界面设计" />
+    <option name="LAST_COMMIT_MESSAGE" value="log功能完成，dashboard界面设计" />
   </component>
   <component name="WindowStateProjectService">
     <state x="280" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603781003459">
@@ -435,72 +443,72 @@
     </state>
     <state x="233" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1603699440652" />
     <state x="280" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1603781003459" />
-    <state x="535" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1603794665868">
+    <state x="535" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1603823095053">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="446" y="66" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1603701754477" />
-    <state x="535" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1603794665868" />
-    <state x="500" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603785604322">
+    <state x="535" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1603823095053" />
+    <state x="500" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603825848466">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="500" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1603785604322" />
-    <state x="371" y="0" key="CommitChangelistDialog2" timestamp="1603787449840">
+    <state x="500" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1603825848466" />
+    <state x="371" y="0" key="CommitChangelistDialog2" timestamp="1603798215229">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="371" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1603787449840" />
+    <state x="371" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1603798215229" />
     <state x="480" y="132" key="FileChooserDialogImpl" timestamp="1603726667543">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="400" y="110" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1603697296603" />
     <state x="480" y="132" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1603726667543" />
-    <state width="1493" height="313" key="GridCell.Tab.0.bottom" timestamp="1603797989516">
+    <state width="1493" height="241" key="GridCell.Tab.0.bottom" timestamp="1603826805272">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="191" key="GridCell.Tab.0.bottom/-1600.531.1600.900/0.0.1536.864@0.0.1536.864" timestamp="1603733955043" />
     <state width="1237" height="180" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1603707355496" />
-    <state width="1493" height="313" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1603797989516" />
-    <state width="1493" height="313" key="GridCell.Tab.0.center" timestamp="1603797989516">
+    <state width="1493" height="241" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1603826805272" />
+    <state width="1493" height="241" key="GridCell.Tab.0.center" timestamp="1603826805272">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="191" key="GridCell.Tab.0.center/-1600.531.1600.900/0.0.1536.864@0.0.1536.864" timestamp="1603733955043" />
     <state width="1237" height="180" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1603707355495" />
-    <state width="1493" height="313" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1603797989516" />
-    <state width="1493" height="313" key="GridCell.Tab.0.left" timestamp="1603797989516">
+    <state width="1493" height="241" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1603826805272" />
+    <state width="1493" height="241" key="GridCell.Tab.0.left" timestamp="1603826805272">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="191" key="GridCell.Tab.0.left/-1600.531.1600.900/0.0.1536.864@0.0.1536.864" timestamp="1603733955043" />
     <state width="1237" height="180" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1603707355495" />
-    <state width="1493" height="313" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1603797989516" />
-    <state width="1493" height="313" key="GridCell.Tab.0.right" timestamp="1603797989516">
+    <state width="1493" height="241" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1603826805272" />
+    <state width="1493" height="241" key="GridCell.Tab.0.right" timestamp="1603826805272">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="191" key="GridCell.Tab.0.right/-1600.531.1600.900/0.0.1536.864@0.0.1536.864" timestamp="1603733955043" />
     <state width="1237" height="180" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1603707355495" />
-    <state width="1493" height="313" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1603797989516" />
-    <state width="1493" height="313" key="GridCell.Tab.1.bottom" timestamp="1603797989517">
+    <state width="1493" height="241" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1603826805272" />
+    <state width="1493" height="241" key="GridCell.Tab.1.bottom" timestamp="1603826805272">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="191" key="GridCell.Tab.1.bottom/-1600.531.1600.900/0.0.1536.864@0.0.1536.864" timestamp="1603733955043" />
     <state width="1237" height="180" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1603707355496" />
-    <state width="1493" height="313" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1603797989517" />
-    <state width="1493" height="313" key="GridCell.Tab.1.center" timestamp="1603797989517">
+    <state width="1493" height="241" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1603826805272" />
+    <state width="1493" height="241" key="GridCell.Tab.1.center" timestamp="1603826805272">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="191" key="GridCell.Tab.1.center/-1600.531.1600.900/0.0.1536.864@0.0.1536.864" timestamp="1603733955043" />
     <state width="1237" height="180" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1603707355496" />
-    <state width="1493" height="313" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1603797989517" />
-    <state width="1493" height="313" key="GridCell.Tab.1.left" timestamp="1603797989517">
+    <state width="1493" height="241" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1603826805272" />
+    <state width="1493" height="241" key="GridCell.Tab.1.left" timestamp="1603826805272">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="191" key="GridCell.Tab.1.left/-1600.531.1600.900/0.0.1536.864@0.0.1536.864" timestamp="1603733955043" />
     <state width="1237" height="180" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1603707355496" />
-    <state width="1493" height="313" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1603797989517" />
-    <state width="1493" height="313" key="GridCell.Tab.1.right" timestamp="1603797989517">
+    <state width="1493" height="241" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1603826805272" />
+    <state width="1493" height="241" key="GridCell.Tab.1.right" timestamp="1603826805272">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="191" key="GridCell.Tab.1.right/-1600.531.1600.900/0.0.1536.864@0.0.1536.864" timestamp="1603733955043" />
     <state width="1237" height="180" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1603707355496" />
-    <state width="1493" height="313" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1603797989517" />
+    <state width="1493" height="241" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1603826805272" />
     <state width="1493" height="224" key="GridCell.Tab.2.bottom" timestamp="1603725411550">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -525,21 +533,21 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="300" y="88" key="Maven.ArtifactSearchDialog/0.0.1536.864@0.0.1536.864" timestamp="1603720288795" />
-    <state x="332" y="145" key="MultipleFileMergeDialog" timestamp="1603787472043">
+    <state x="332" y="145" key="MultipleFileMergeDialog" timestamp="1603798301929">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="277" y="121" key="MultipleFileMergeDialog/0.0.1280.720@0.0.1280.720" timestamp="1603449054979" />
-    <state x="332" y="145" key="MultipleFileMergeDialog/0.0.1536.864@0.0.1536.864" timestamp="1603787472043" />
+    <state x="332" y="145" key="MultipleFileMergeDialog/0.0.1536.864@0.0.1536.864" timestamp="1603798301929" />
     <state x="145" y="0" key="SettingsEditor" timestamp="1603721879659">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1603697320056" />
     <state x="145" y="0" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1603721879659" />
-    <state x="280" y="112" key="Vcs.Push.Dialog.v2" timestamp="1603787487507">
+    <state x="280" y="112" key="Vcs.Push.Dialog.v2" timestamp="1603798312255">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="233" y="93" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1603449078773" />
-    <state x="280" y="112" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1603787487507" />
+    <state x="280" y="112" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1603798312255" />
     <state x="-1101" y="531" width="1117" height="853" key="dock-window-1" timestamp="1603730883016">
       <screen x="-1600" y="531" width="1600" height="900" />
     </state>
@@ -569,6 +577,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="339" y="63" width="603" height="594" key="find.popup/0.0.1280.720@0.0.1280.720" timestamp="1603441234352" />
+    <state x="431" y="182" width="672" height="678" key="search.everywhere.popup" timestamp="1603824399220">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="182" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1603824399220" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/safecity$md5.ic" NAME="md5 Coverage Results" MODIFIED="1603768135154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

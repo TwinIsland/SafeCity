@@ -10,9 +10,18 @@ import lombok.Data;
 @Data
 public class ZoneEntity {
     private int id;
-    private String name;
-    private String tree;
     private String area;
-    private String better;
+    private String forest;
+    private String land;
+    private String tree;
     private String team;
+
+    public ZoneEntity(int id, String area, String forest, String land, String tree, String team) {
+        this.id = id;
+        this.area = area;
+        this.forest = forest;
+        this.land = land;
+        this.tree = tree;
+        this.team = team;
+    }
 }

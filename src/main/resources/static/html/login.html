@@ -25,6 +25,7 @@
 
     <script src="../js/captGenerate.js"></script>
     <script src="../js/jquery.js"></script>
+    <script src="../js/logout.js"></script>
     <script src="../js/isLogin.js"></script>
     <script src="../js/login.js"></script>
 
@@ -81,7 +82,7 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <a href="#">区域一览</a>
+                                    <a href="zone.html">区域一览</a>
                                 </li>
                                 <!--登录后隐藏-->
                                 <li id="login" class="active">
@@ -92,7 +93,7 @@
                                     <a href="register.html">注册</a>
                                 </li>
                                 <!--未登录时隐藏-->
-                                <li id="logout">
+                                <li id="logout" onclick="logoutAction()">
                                     <a href="#">登出</a>
                                 </li>
                                 <!--未登录时隐藏-->

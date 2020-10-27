@@ -1,7 +1,6 @@
 package com.dtone.ssm.service;
 
 import com.dtone.ssm.entity.ZoneEntity;
-import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -12,7 +11,9 @@ import java.util.List;
  */
 public interface IZoneService {
     //模糊查询区域信息
-    public List<ZoneEntity> selectPartZone(String name,String tree,String team);
+    public List<ZoneEntity> selectPartZone(String area,String forest,String team);
+
+    public List<ZoneEntity> selectAllZone();
 
     //添加区域
     public void addZone(ZoneEntity zoneEntity);

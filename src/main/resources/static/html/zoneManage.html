@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh" xmlns="http://www.w3.org/1999/html">
 <head>
     <!-- basic -->
     <meta charset="utf-8">
@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <!-- site metas -->
-    <title>虫害管理 CPPMS</title>
+    <title>区域管理 CPPMS</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -29,7 +29,6 @@
     <script src="../js/bootstrap.bundle.min.js"></script>
     <script src="../js/jquery-3.3.1.min.js"></script>
     <script src="../js/plugin.js"></script>
-    <script src="../js/logout.js"></script>
     <!-- Scrollbar Js Files -->
     <script src="../js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="../js/custom.js"></script>
@@ -41,10 +40,37 @@
     <link href="../bootstrap-table-master/css/bootstrap-table.css" rel="stylesheet"/>
     <script src="../js/jquery-3.3.1.min.js"></script>
     <script src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <script src="../js/logout.js"></script>
     <script src="../bootstrap-table-master/js/bootstrap-table.js"></script>
     <script src="../bootstrap-table-master/js/bootstrap-table-zh-CN.js"></script>
-    <script src="../js/bug.js"></script>
+    <script src="../js/zone.js"></script>
     <script src="../js/isLogin.js"></script>
+    <script>
+        $(function (){
+            $('#add').click(function (){
+                $.ajax({
+                    url:"manage/addZone.action",
+                    type:"POST",
+                    data:{
+                        area:$("#Aarea").val(),
+                        forest:$("#Aforest").val(),
+                        land:$("#Aland").val(),
+                        tree:$("#Atree").val(),
+                        team:$("#Ateam").val()
+                    },
+                    success:function (result){
+                        if(result === "false"){
+                            alert("添加失败！")
+                        }else{
+
+                            resetTable()
+                        }
+                    }
+                })
+            })
+        })
+    </script>
+
 </head>
 <!-- body -->
 <body class="main-layout" onload="createCode()">
@@ -129,12 +155,14 @@
     </div>
     <!-- end header inner -->
 </header>
+
+
 <div class="Marketing-bg">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="Marketingheading">
-                    <h3>虫害管理</h3>
+                    <h3>区域管理</h3>
                 </div>
             </div>
         </div>
@@ -144,16 +172,56 @@
 
 <!-- end section -->
 <!-- section -->
+
 <div class="container">
+    <div class="form-group">
+        <br>
+        <div class="form-inline row">
+            <label>搜索区域： </label>
+            <input type="text" id="area" class="form-control date-input" placeholder="地区" width="20%">
+            <label class="date-label">&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" id="forest" class="form-control date-input" placeholder="优势树种" width="20%">
+            <label>&nbsp;&nbsp;</label>
+            <input type="text" id="team" class="form-control date-input" placeholder="管理小队" width="20%">
+            <label>&nbsp;&nbsp;</label>
+            <button onclick="searchedTable($('#area').val(),$('#forest').val(),$('#team').val())" type="button" id="submit"
+                    class="btn btn-primary" style="margin-top:0">查询
+            </button>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <br>
+        <div class="form-inline row">
+            <label>添加区域： </label>
+            <input type="text" id="Aarea" class="form-control date-input" placeholder="地区" style="width: 15%">
+            <label class="date-label">&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" id="Aforest" class="form-control date-input" placeholder="林种"  style="width: 10%">
+            <label>&nbsp;&nbsp;</label>
+            <input type="text" id="Aland" class="form-control date-input" placeholder="地类"  style="width: 10%">
+            <label>&nbsp;&nbsp;</label>
+            <input type="text" id="Atree" class="form-control date-input" placeholder="优势树种"  style="width: 10%">
+            <label>&nbsp;&nbsp;</label>
+            <input type="text" id="Ateam" class="form-control date-input" placeholder="负责小班"  style="width: 15%">
+            <label>&nbsp;&nbsp;</label>
+            <button onclick="searchedTable($('#area').val(),$('#forest').val(),$('#team').val())" type="button" id="add"
+                    class="btn btn-primary" style="margin-top:0">添加
+            </button>
+        </div>
+    </div>
+
 
     <table id="mytable"></table>
 
 </div>
 </body>
-
 <style>
     button.btn.btn-default {
         display: none;
+    }
+    label {
+        font-size: 18px;
+        color: #52565a;
     }
 </style>
 </html>

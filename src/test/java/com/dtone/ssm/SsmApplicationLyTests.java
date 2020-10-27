@@ -38,17 +38,6 @@ public class SsmApplicationLyTests {
         System.out.println(zoneEntities);
     }
 
-    @Test
-    void insertZoneTest(){
-        ZoneEntity zoneEntity = new ZoneEntity();
-
-        zoneEntity.setName("1");
-        zoneEntity.setTree("1");
-        zoneEntity.setArea("1");
-        zoneEntity.setBetter("1");
-        zoneEntity.setTeam("1");
-        zoneDao.insertZone(zoneEntity);
-    }
 
     @Test
     void selectAllTeamTest(){
