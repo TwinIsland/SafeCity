@@ -7,6 +7,22 @@
 
 package com.dtone.ssm.util;
 
-public class WebAppConfig {
+import org.springframework.beans.factory.annotation.Configurable;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.config.annotation.InterceptorRegistration;
+import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+
+@Configuration
+public class WebAppConfig extends WebMvcConfigurerAdapter  {
+
+    public void addInterceptors(InterceptorRegistry registry) {
+
+        InterceptorRegistration registration = registry.addInterceptor(new LoginInterceptor());
+        registration.addPathPatterns("/html/dashboard.html");
+        registration.addPathPatterns("/html/logout.html");
+        InterceptorRegistration registration2 = registry.addInterceptor(new AlreadyLoginInterceptor());
+        registration2.addPathPatterns("/html/login.html");
+    }
 }
 
