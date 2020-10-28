@@ -22,7 +22,6 @@ import java.util.List;
  * @desc
  */
 @RestController
-@RequestMapping("html/")
 @Slf4j  //获取日志对象
 public class ExpertController
 {
@@ -60,5 +59,12 @@ public class ExpertController
         iExpertService.addExpert(expertEntity);
         logService.userLogin("增加专家：" + expertEntity.getId(),TimeUtil.getCurTime() + " 【状态：成功】");
         return "true";
+    }
+    @RequestMapping("user/findOneExpert")
+    public ExpertEntity getName(String expertName){
+        log.info("收到请求：user/findOneBug,expertName="+expertName);
+        ExpertEntity expertEntity = iExpertService.selectExpertByName(expertName);
+        log.info("响应请求：user/findOneBug,expertEntity=" +expertEntity);
+        return expertEntity;
     }
 }

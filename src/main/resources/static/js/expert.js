@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $("#mytable").bootstrapTable({
-        url:"info/expert",  //请求地址
+        url:"/info/expert",  //请求地址
         striped : true, //是否显示行间隔色
         pageNumber : 1, //初始化加载第一页
         pagination : true,//是否分页
@@ -28,6 +28,11 @@ $(document).ready(function () {
             title : '电话',
             field : 'phone',
             sortable : true
+        }, {
+            title : '操作',
+            field : 'name',
+            // events : operateEvents, //给按钮注册事件
+            formatter : actionFormatter, //表格中增加按钮
         }]
     })
 })
@@ -37,7 +42,7 @@ function searchedTable(name,company,expertise) {
         resetTable()
     }else{
         $("#mytable").bootstrapTable('refresh',{
-            url:"info/searchedExpert?name="+name+"&company="+company+"&expertise="+expertise,//请求地址
+            url:"/info/searchedExpert?name="+name+"&company="+company+"&expertise="+expertise,//请求地址
             striped : true, //是否显示行间隔色
             pageNumber : 1, //初始化加载第一页
             pagination : true,//是否分页
@@ -65,6 +70,11 @@ function searchedTable(name,company,expertise) {
                 title : '电话',
                 field : 'phone',
                 sortable : true
+            }, {
+                title : '操作',
+                field : 'name',
+                // events : operateEvents, //给按钮注册事件
+                formatter : actionFormatter, //表格中增加按钮
             }]
         })
     }
@@ -73,7 +83,7 @@ function searchedTable(name,company,expertise) {
 
 function resetTable(){
     $("#mytable").bootstrapTable("refresh",{
-        url:"info/expert",  //请求地址
+        url:"/info/expert",  //请求地址
         striped : true, //是否显示行间隔色
         pageNumber : 1, //初始化加载第一页
         pagination : true,//是否分页
@@ -101,6 +111,11 @@ function resetTable(){
             title : '电话',
             field : 'phone',
             sortable : true
+        }, {
+            title : '操作',
+            field : 'name',
+            // events : operateEvents, //给按钮注册事件
+            formatter : actionFormatter, //表格中增加按钮
         }]
     })
 }
@@ -108,7 +123,7 @@ function resetTable(){
 $(function (){
     $('#add').click(function (){
         $.ajax({
-            url:"manage/addExpert.action",
+            url:"/manage/addExpert.action",
             type:"POST",
             data:{
                 name:$("#aname").val(),
@@ -128,4 +143,49 @@ $(function (){
     })
 })
 
+//列表行操作按钮
+function actionFormatter(value,row,index) {
+    var name = value;
+    var result = "";
+    //return '<button id="TableEditor" style="color: #0d95e8" type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">查看详情</button>'
+    result += "<a href='javascript:;' class='btn btn-xs green' onclick=\"expertName('" + name + "', view='view')\" title='查看详情' data-toggle=\"modal\" data-target=\"#myModal\">查看详情<span class='glyphicon glyphicon-hand-up'></span></a>";
+    return result;
+}
+//根据name查看详情
+function expertName(name) {
+    $.ajax({
+        url: "/user/findOneExpert",
+        type: "post",
+        data: {expertName: name},
+        success: showQuery
+    });
+}
+
+function showQuery(expertEntity) {
+    $("#modeltable").empty();
+    var table_content = $(
+        "<tr><td class='column'>姓名：</td>" +
+        "<td>" + expertEntity.name + "</td></tr>" +
+        "<tr><td class='column'>出生年月：</td>" +
+        "<td>" + expertEntity.date + "</td></tr>" +
+        "<tr> <td class='column'>性别：</td>" +
+        "<td>" + expertEntity.sex + "</td></tr>" +
+        "<tr> <td class='column'>专长：</td>" +
+        "<td>" + expertEntity.expertise + "</td></tr>" +
+        "<tr> <td class='column'>职务：</td>" +
+        "<td>" + expertEntity.post + "</td></tr>" +
+        "<tr> <td class='column'>通讯地址：</td>" +
+        "<td>" + expertEntity.addr + "</td></tr>"+
+        "<tr> <td class='column'>电话：</td>" +
+        "<td>" + expertEntity.phone + "</td></tr>"+
+        "<tr> <td class='column'>工作单位：</td>" +
+        "<td>" + expertEntity.company + "</td></tr>"+
+        "<tr> <td class='column'>邮箱：</td>" +
+        "<td>" + expertEntity.email + "</td></tr>"+
+        "<tr> <td class='column'>照片：</td>" +
+        "<td>" + expertEntity.img + "</td></tr>"
+    );
+    $("#modeltable").append(table_content);
+
+}
 

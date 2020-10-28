@@ -37,4 +37,10 @@ public class ExpertServiceImp implements IExpertService {
         List<ExpertEntity> expertEntities = expertDao.selectAllExpert();
         return  expertEntities;
     }
+    @Override
+    public ExpertEntity selectExpertByName(String name)
+    {
+        ExpertEntity expertEntity = expertDao.selectExpertByName(name);
+        return expertEntity;
+    }
 }
