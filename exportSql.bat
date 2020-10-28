@@ -1,2 +1,2 @@
 cd desktop
-mysql -uroot -p safecity > safecityDump.sql
+mysqldump -uroot -p safecity > safecityDump.sql
