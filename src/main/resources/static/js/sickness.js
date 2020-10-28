@@ -112,3 +112,22 @@ function sicknessName(name) {
         success:showQuery
     });
 }
+function  showQuery(sicknessEntity) {
+    $("#modeltable").empty();
+    var table_content = $(
+        "<tr><td class='column'>病名：</td>" +
+        "<td>" + sicknessEntity.name + "</td></tr>" +
+        "<tr><td class='column'>原因：</td>" +
+        "<td>" + sicknessEntity.cause + "</td></tr>" +
+        "<tr> <td class='column'>发病症状：</td>" +
+        "<td>" + sicknessEntity.pattern + "</td></tr>" +
+        "<tr> <td class='column'>发病规律：</td>" +
+        "<td>" + sicknessEntity.law + "</td></tr>" +
+        "<tr> <td class='column'>主要危害：</td>" +
+        "<td>" + sicknessEntity.damange + "</td></tr>" +
+        "<tr> <td class='column'>预防措施：</td>" +
+        "<td>" + sicknessEntity.treat + "</td></tr>"
+
+    );
+    $("#modeltable").append(table_content);
+}
