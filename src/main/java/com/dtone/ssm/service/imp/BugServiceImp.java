@@ -30,4 +30,10 @@ public class BugServiceImp implements IBugService {
         List<BugEntity> bugByVague = bugDao.selectBugByVague(name,host);
         return bugByVague;
     }
+
+    @Override
+    public BugEntity findBugByName(String name) {
+        BugEntity bugEntity = bugDao.selectBugByName(name);
+        return bugEntity;
+    }
 }
