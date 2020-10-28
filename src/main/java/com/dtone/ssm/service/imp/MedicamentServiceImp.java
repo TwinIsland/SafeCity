@@ -2,6 +2,7 @@ package com.dtone.ssm.service.imp;
 
 import com.dtone.ssm.dao.IMedicamentDao;
 import com.dtone.ssm.entity.MedicamentEntity;
+import com.dtone.ssm.entity.RecordEntity;
 import com.dtone.ssm.service.IMedicamentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -16,7 +17,7 @@ import java.util.List;
  */
 @Service
 @Transactional //申明式事务管理
-class MedicamentServiceImp implements IMedicamentService {
+public class MedicamentServiceImp implements IMedicamentService {
 
     @Autowired
     private IMedicamentDao medicamentDao;
@@ -45,5 +46,20 @@ class MedicamentServiceImp implements IMedicamentService {
     public void delMediByID(int med_id)
     {
         medicamentDao.deleteMediByID(med_id);
+    }
+
+    @Override
+    public List<MedicamentEntity> getMedByRecId(int id) {
+        return medicamentDao.getMedInfoByRecId(id);
+    }
+
+    @Override
+    public int getCountById(int id) {
+        return medicamentDao.getCountById(id).get(0);
+    }
+
+    @Override
+    public void updateCount(int id, int count) {
+        medicamentDao.updateCount(id,count);
     }
 }

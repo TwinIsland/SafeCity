@@ -27,6 +27,12 @@ public interface IMedicamentDao
     })
     public List<MedicamentEntity> selectAllMedi();
 
+    @Select("select med_count from tb_medicament where med_id = #{id}")
+    public List<Integer> getCountById(int id);
+
+    @Update("update tb_medicament set med_count = #{newCount} where med_id = #{medId}")
+    public void updateCount(@Param("medId") int medId,@Param("newCount") int newCount);
+
     //药剂器械管理可以通过名称、防治类型和类别模糊查询药剂器械。
     @Select("select * from tb_medicament where med_name like concat('%',#{med_name},'%') and " +
             "med_ptype = #{med_ptype} and med_type = #{med_type}")
@@ -38,4 +44,8 @@ public interface IMedicamentDao
     //根据id删除药剂管理记录
     @Delete("delete from tb_medicament where med_id = #{med_id}")
     public void deleteMediByID(int med_id);
+
+    //根据record id 查药品信息
+    @Select("Select * from tb_medicament where med_id = (select rec_medId from tb_record where rec_id = #{id})")
+    public List<MedicamentEntity> getMedInfoByRecId(int id);
 }

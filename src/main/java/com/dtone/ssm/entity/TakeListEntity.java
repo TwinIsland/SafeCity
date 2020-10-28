@@ -10,8 +10,12 @@ import lombok.Data;
 @Data
 public class TakeListEntity
 {
-    private String take_name;
-    private String take_type;
-    private String take_dtype;
-    private int take_count;
+    private int id;
+    private String date;
+    private String name;
+    private String team;
+    private int count;
+    private String medName;
+    private String medPType;
+    private String medType;
 }

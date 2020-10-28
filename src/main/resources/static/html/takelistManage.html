@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <!-- site metas -->
-    <title>注册 CPPMS</title>
+    <title>领用检索 CPPMS</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -29,6 +29,7 @@
     <script src="../js/bootstrap.bundle.min.js"></script>
     <script src="../js/jquery-3.3.1.min.js"></script>
     <script src="../js/plugin.js"></script>
+    <script src="../js/logout.js"></script>
     <!-- Scrollbar Js Files -->
     <script src="../js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="../js/custom.js"></script>
@@ -42,7 +43,8 @@
     <script src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
     <script src="../bootstrap-table-master/js/bootstrap-table.js"></script>
     <script src="../bootstrap-table-master/js/bootstrap-table-zh-CN.js"></script>
-    <script src="../js/record.js"></script>
+    <script src="../js/takelist.js"></script>
+    <script src="../js/isLogin.js"></script>
 </head>
 <!-- body -->
 <body class="main-layout" onload="createCode()">
@@ -59,7 +61,7 @@
             <div class="col-lg-3 logo_section">
                 <div class="full">
                     <div class="center-desk">
-                        <div class="logo"> <a href="index.html"><img src="../images/logo.png" alt="#"></a> </div>
+                        <div class="logo"><a href="index.html"><img src="../images/logo.png" alt="#"></a></div>
                     </div>
                 </div>
             </div>
@@ -73,12 +75,13 @@
                                 </li>
                                 <li>
                                     <div class="dropdown">
-                                        <button type="button" id="btn1" class="btn dropdown-toggle" data-toggle="dropdown">
+                                        <button type="button" id="btn1" class="btn dropdown-toggle"
+                                                data-toggle="dropdown">
                                             灾情防治
                                         </button>
                                         <div class="dropdown-menu">
-                                            <a class="dropdown-item" style="color: black" href="#">区域一览</a>
                                             <a class="dropdown-item" style="color: black" href="#">专家一览</a>
+                                            <a class="dropdown-item" style="color: black" href="medication.html">药剂一览</a>
                                             <a class="dropdown-item" style="color: black" href="#">小班管理</a>
                                             <a class="dropdown-item" style="color: black" href="#">事件记录</a>
                                         </div>
@@ -87,18 +90,22 @@
                                 <li>
                                     <!--虫/鼠害...害信息查询-->
                                     <div class="dropdown">
-                                        <button type="button" id="btn2" class="btn dropdown-toggle" data-toggle="dropdown">
+                                        <button type="button" id="btn2" class="btn dropdown-toggle"
+                                                data-toggle="dropdown">
                                             资料检索
                                         </button>
                                         <div class="dropdown-menu">
-                                            <a class="dropdown-item" style="color: black" href="#">虫害资料</a>
+                                            <a class="dropdown-item" style="color: black" href="bug.html">虫害资料</a>
                                             <a class="dropdown-item" style="color: black" href="#">病害资料</a>
                                             <a class="dropdown-item" style="color: black" href="#">鼠害资料</a>
                                         </div>
                                     </div>
                                 </li>
+                                <li>
+                                    <a href="zone.html">区域一览</a>
+                                </li>
                                 <!--登录后隐藏-->
-                                <li id="login" >
+                                <li id="login">
                                     <a href="login.html">登录</a>
                                 </li>
                                 <!--登录后隐藏-->
@@ -106,7 +113,7 @@
                                     <a href="register.html">注册</a>
                                 </li>
                                 <!--未登录时隐藏-->
-                                <li id="logout">
+                                <li id="logout" onclick="logoutAction()">
                                     <a href="#">登出</a>
                                 </li>
                                 <!--未登录时隐藏-->
@@ -123,13 +130,12 @@
     <!-- end header inner -->
 </header>
 
-
 <div class="Marketing-bg">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="Marketingheading">
-                    <h3>专家会商结果记录</h3>
+                    <h3>领用检索</h3>
                 </div>
             </div>
         </div>
@@ -139,6 +145,50 @@
 
 <!-- end section -->
 <!-- section -->
-<table id="mytable"></table>
+<div class="container">
+
+    <div class="form-group">
+        <br>
+        <div class="form-inline row">
+            <input type="text" id="startData" class="form-control date-input" placeholder="开始日期" width="20%">
+            <label class="date-label">&nbsp;&nbsp;--&nbsp;&nbsp;</label>
+            <input type="text" id="endData" class="form-control date-input" placeholder="结束日期" width="20%">
+            <label>&nbsp;&nbsp;</label>
+            <input type="text" id="name" class="form-control date-input" placeholder="领用人" width="20%">
+            <label>&nbsp;&nbsp;</label>
+            <button onclick="searchedTable($('#startData').val(),$('#endData').val(),$('#name').val())" type="button" id="submit"
+                    class="btn btn-primary" style="margin-top:0">查询
+            </button>
+        </div>
+    </div>
+
+    <table id="mytable"></table>
+
+    <!-- 模态框（Modal） -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                        &times;
+                    </button>
+                </div>
+                <table id="modeltable">
+
+                </table>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+    </div>
+
+</div>
 </body>
+
+<style>
+    button.btn.btn-default {
+        display: none;
+    }
+    h4#myModalLabel {
+        display: none;
+    }
+</style>
 </html>

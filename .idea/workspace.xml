@@ -23,28 +23,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eca04396-c129-4481-afcb-7f584bb45cc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/controller/MedicationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/html/medicationManage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/药箱.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/medicament.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/controller/TakeListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/dao/ITakelistDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/ITakeListService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/imp/TakeListServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/html/applyTakeMed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/物品领用.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/takelist.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/controller/LogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/controller/LogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/controller/RecordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/controller/RecordController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/dao/IMedicamentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/dao/IMedicamentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/dao/IMouseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/dao/IMouseDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/imp/MedecamentServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/imp/MedecamentServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/imp/MouseServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/imp/MouseServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/dao/IRecordDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/dao/IRecordDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/entity/RecordEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/entity/RecordEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/entity/TakeListEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/entity/TakeListEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/IMedicamentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/IMedicamentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/IRecordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/IRecordService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/imp/MedecamentServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/imp/MedicamentServiceImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/imp/RecordImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/service/imp/RecordImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/util/WebAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dtone/ssm/util/WebAppConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/bug.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/bug.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/log.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/medication.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/medication.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/zone.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/zone.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/zoneManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/zoneManage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/medicationManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/medicationManage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/record.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/takelistManage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +131,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -153,13 +158,13 @@
       <recent name="C:\Users\new\Desktop\safecity\src\main\java\com\dtone\ssm\dao" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SsmApplication">
-    <configuration name="TimeUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dtone.ssm.util.TimeUtil" />
+  <component name="RunManager" selected="Application.MedicamentServiceImp">
+    <configuration name="MedicamentServiceImp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dtone.ssm.service.imp.MedicamentServiceImp" />
       <module name="ssm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dtone.ssm.util.*" />
+          <option name="PATTERN" value="com.dtone.ssm.service.imp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,8 +172,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="md5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dtone.ssm.util.md5" />
+    <configuration name="TimeUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dtone.ssm.util.TimeUtil" />
       <module name="ssm" />
       <extension name="coverage">
         <pattern>
@@ -220,11 +225,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MedicamentServiceImp" />
         <item itemvalue="Spring Boot.SsmApplication" />
         <item itemvalue="JUnit.SsmApplicationTests" />
         <item itemvalue="Node.js.log.js" />
         <item itemvalue="Application.TimeUtil" />
-        <item itemvalue="Application.md5" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +269,7 @@
       <workItem from="1603779942700" duration="18213000" />
       <workItem from="1603798367587" duration="38000" />
       <workItem from="1603816719997" duration="10274000" />
-      <workItem from="1603855415980" duration="6787000" />
+      <workItem from="1603855415980" duration="24785000" />
     </task>
     <task id="LOCAL-00001" summary="上传工程">
       <created>1603360481125</created>
@@ -406,7 +411,28 @@
       <option name="project" value="LOCAL" />
       <updated>1603827052933</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="药物一览以及管理功能实装">
+      <created>1603862309590</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1603862309590</updated>
+    </task>
+    <task id="LOCAL-00022" summary="sql更新">
+      <created>1603862445807</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1603862445807</updated>
+    </task>
+    <task id="LOCAL-00023" summary="导出sql脚本更新">
+      <created>1603862553601</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1603862553601</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -444,7 +470,10 @@
     <MESSAGE value="增加登录/未登录用户拦截器" />
     <MESSAGE value="log功能完成，dashboard界面设计" />
     <MESSAGE value="完成区域管理和一览，修复登出、导航栏、日志模块bug，zone所有层的重写以及美化排版" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成区域管理和一览，修复登出、导航栏、日志模块bug，zone所有层的重写以及美化排版" />
+    <MESSAGE value="药物一览以及管理功能实装" />
+    <MESSAGE value="sql更新" />
+    <MESSAGE value="导出sql脚本更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="导出sql脚本更新" />
   </component>
   <component name="WindowStateProjectService">
     <state x="280" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603781003459">
@@ -452,72 +481,76 @@
     </state>
     <state x="233" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1603699440652" />
     <state x="280" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1603781003459" />
-    <state x="535" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1603856412878">
+    <state x="535" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1603884600472">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="446" y="66" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1603701754477" />
-    <state x="535" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1603856412878" />
+    <state x="535" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1603884600472" />
+    <state x="548" y="300" width="440" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1603872911243">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="548" y="300" width="440" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.864@0.0.1536.864" timestamp="1603872911243" />
     <state x="500" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603825848466">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="500" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1603825848466" />
-    <state x="371" y="0" key="CommitChangelistDialog2" timestamp="1603827051721">
+    <state x="371" y="0" key="CommitChangelistDialog2" timestamp="1603862552835">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="371" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1603827051721" />
+    <state x="371" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1603862552835" />
     <state x="480" y="132" key="FileChooserDialogImpl" timestamp="1603726667543">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="400" y="110" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1603697296603" />
     <state x="480" y="132" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1603726667543" />
-    <state width="1493" height="241" key="GridCell.Tab.0.bottom" timestamp="1603862265725">
+    <state width="1493" height="241" key="GridCell.Tab.0.bottom" timestamp="1603885876627">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="191" key="GridCell.Tab.0.bottom/-1600.531.1600.900/0.0.1536.864@0.0.1536.864" timestamp="1603733955043" />
     <state width="1237" height="180" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1603707355496" />
-    <state width="1493" height="241" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1603862265725" />
-    <state width="1493" height="241" key="GridCell.Tab.0.center" timestamp="1603862265725">
+    <state width="1493" height="241" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1603885876627" />
+    <state width="1493" height="241" key="GridCell.Tab.0.center" timestamp="1603885876626">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="191" key="GridCell.Tab.0.center/-1600.531.1600.900/0.0.1536.864@0.0.1536.864" timestamp="1603733955043" />
     <state width="1237" height="180" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1603707355495" />
-    <state width="1493" height="241" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1603862265725" />
-    <state width="1493" height="241" key="GridCell.Tab.0.left" timestamp="1603862265725">
+    <state width="1493" height="241" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1603885876626" />
+    <state width="1493" height="241" key="GridCell.Tab.0.left" timestamp="1603885876625">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="191" key="GridCell.Tab.0.left/-1600.531.1600.900/0.0.1536.864@0.0.1536.864" timestamp="1603733955043" />
     <state width="1237" height="180" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1603707355495" />
-    <state width="1493" height="241" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1603862265725" />
-    <state width="1493" height="241" key="GridCell.Tab.0.right" timestamp="1603862265725">
+    <state width="1493" height="241" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1603885876625" />
+    <state width="1493" height="241" key="GridCell.Tab.0.right" timestamp="1603885876627">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="191" key="GridCell.Tab.0.right/-1600.531.1600.900/0.0.1536.864@0.0.1536.864" timestamp="1603733955043" />
     <state width="1237" height="180" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1603707355495" />
-    <state width="1493" height="241" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1603862265725" />
-    <state width="1493" height="241" key="GridCell.Tab.1.bottom" timestamp="1603862265726">
+    <state width="1493" height="241" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1603885876627" />
+    <state width="1493" height="241" key="GridCell.Tab.1.bottom" timestamp="1603885876627">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="191" key="GridCell.Tab.1.bottom/-1600.531.1600.900/0.0.1536.864@0.0.1536.864" timestamp="1603733955043" />
     <state width="1237" height="180" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1603707355496" />
-    <state width="1493" height="241" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1603862265726" />
-    <state width="1493" height="241" key="GridCell.Tab.1.center" timestamp="1603862265726">
+    <state width="1493" height="241" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1603885876627" />
+    <state width="1493" height="241" key="GridCell.Tab.1.center" timestamp="1603885876627">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="191" key="GridCell.Tab.1.center/-1600.531.1600.900/0.0.1536.864@0.0.1536.864" timestamp="1603733955043" />
     <state width="1237" height="180" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1603707355496" />
-    <state width="1493" height="241" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1603862265726" />
-    <state width="1493" height="241" key="GridCell.Tab.1.left" timestamp="1603862265726">
+    <state width="1493" height="241" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1603885876627" />
+    <state width="1493" height="241" key="GridCell.Tab.1.left" timestamp="1603885876627">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="191" key="GridCell.Tab.1.left/-1600.531.1600.900/0.0.1536.864@0.0.1536.864" timestamp="1603733955043" />
     <state width="1237" height="180" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1603707355496" />
-    <state width="1493" height="241" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1603862265726" />
-    <state width="1493" height="241" key="GridCell.Tab.1.right" timestamp="1603862265726">
+    <state width="1493" height="241" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1603885876627" />
+    <state width="1493" height="241" key="GridCell.Tab.1.right" timestamp="1603885876627">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="191" key="GridCell.Tab.1.right/-1600.531.1600.900/0.0.1536.864@0.0.1536.864" timestamp="1603733955043" />
     <state width="1237" height="180" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1603707355496" />
-    <state width="1493" height="241" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1603862265726" />
+    <state width="1493" height="241" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1603885876627" />
     <state width="1493" height="224" key="GridCell.Tab.2.bottom" timestamp="1603725411550">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -547,16 +580,16 @@
     </state>
     <state x="277" y="121" key="MultipleFileMergeDialog/0.0.1280.720@0.0.1280.720" timestamp="1603449054979" />
     <state x="332" y="145" key="MultipleFileMergeDialog/0.0.1536.864@0.0.1536.864" timestamp="1603798301929" />
-    <state x="145" y="0" key="SettingsEditor" timestamp="1603721879659">
+    <state x="145" y="0" key="SettingsEditor" timestamp="1603873931757">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1603697320056" />
-    <state x="145" y="0" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1603721879659" />
-    <state x="280" y="112" key="Vcs.Push.Dialog.v2" timestamp="1603827072200">
+    <state x="145" y="0" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1603873931757" />
+    <state x="280" y="112" key="Vcs.Push.Dialog.v2" timestamp="1603862558599">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="233" y="93" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1603449078773" />
-    <state x="280" y="112" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1603827072200" />
+    <state x="280" y="112" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1603862558599" />
     <state x="-1101" y="531" width="1117" height="853" key="dock-window-1" timestamp="1603730883016">
       <screen x="-1600" y="531" width="1600" height="900" />
     </state>

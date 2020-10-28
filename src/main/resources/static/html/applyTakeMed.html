@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <!-- site metas -->
-    <title>虫害管理 CPPMS</title>
+    <title>领用申请 CPPMS</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -43,8 +43,34 @@
     <script src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
     <script src="../bootstrap-table-master/js/bootstrap-table.js"></script>
     <script src="../bootstrap-table-master/js/bootstrap-table-zh-CN.js"></script>
-    <script src="../js/bug.js"></script>
+    <script src="../js/takelist.js"></script>
     <script src="../js/isLogin.js"></script>
+    <script>
+        $(function () {
+            $("#submit").click(function () {
+                $.ajax({
+                    url: "info/insertTakeList.action",
+                    type: "POST",
+                    data: {
+                        name: $("#name").val(),
+                        team: $("#team").val(),
+                        count: $("#count").val(),
+                        medID: $("#medID").val()
+                    },
+                    success: function (INeedBangDream) {
+                        if (INeedBangDream === "true") {
+                            alert("申请成功！")
+                            resetTable()
+                        } else if(INeedBangDream === "insufficient"){
+                            alert("库存不足！")
+                        } else {
+                            alert("申请失败")
+                        }
+                    }
+                })
+            })
+        })
+    </script>
 </head>
 <!-- body -->
 <body class="main-layout" onload="createCode()">
@@ -81,7 +107,8 @@
                                         </button>
                                         <div class="dropdown-menu">
                                             <a class="dropdown-item" style="color: black" href="#">专家一览</a>
-                                            <a class="dropdown-item" style="color: black" href="medication.html">药剂一览</a>
+                                            <a class="dropdown-item" style="color: black"
+                                               href="medication.html">药剂一览</a>
                                             <a class="dropdown-item" style="color: black" href="#">小班管理</a>
                                             <a class="dropdown-item" style="color: black" href="#">事件记录</a>
                                         </div>
@@ -135,7 +162,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="Marketingheading">
-                    <h3>虫害管理</h3>
+                    <h3>领用申请</h3>
                 </div>
             </div>
         </div>
@@ -147,7 +174,25 @@
 <!-- section -->
 <div class="container">
 
+    <div class="form-group">
+        <br>
+        <div class="form-inline row">
+            <input type="text" id="name" class="form-control date-input" placeholder="领用人" width="20%">
+            <label class="date-label">&nbsp;&nbsp;</label>
+            <input type="text" id="team" class="form-control date-input" placeholder="领用小队" width="20%">
+            <label>&nbsp;&nbsp;</label>
+            <input type="text" id="medID" class="form-control date-input" placeholder="领用药剂ID" width="20%">
+            <label>&nbsp;&nbsp;</label>
+            <input type="text" id="count" class="form-control date-input" placeholder="领用数量" width="20%">
+            <label>&nbsp;&nbsp;</label>
+            <button type="button" id="submit"
+                    class="btn btn-primary" style="margin-top:0">申请
+            </button>
+        </div>
+    </div>
+
     <table id="mytable"></table>
+
     <!-- 模态框（Modal） -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -156,9 +201,6 @@
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
                         &times;
                     </button>
-                    <h4 class="modal-title" id="myModalLabel">
-                        模态框（Modal）标题
-                    </h4>
                 </div>
                 <table id="modeltable">
 
@@ -174,6 +216,7 @@
     button.btn.btn-default {
         display: none;
     }
+
     h4#myModalLabel {
         display: none;
     }

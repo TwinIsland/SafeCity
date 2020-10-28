@@ -22,7 +22,7 @@ import java.util.List;
 @Slf4j  //获取日志对象
 public class LogController {
     @Autowired
-    ILogService logService = new LogServiceImp();
+    ILogService logService;
 
     @RequestMapping("info/log")
     public List<LogEntity> getLog(){
@@ -31,8 +31,6 @@ public class LogController {
 
     @RequestMapping("info/newLog")
     public List<LogEntity> getSLog(String sDate, String eDate){
-        System.out.println(sDate);
-        System.out.println(eDate);
         return logService.showLogByDate(sDate,eDate);
     }
 }

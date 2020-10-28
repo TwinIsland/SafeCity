@@ -1,6 +1,7 @@
 package com.dtone.ssm.service;
 
 import com.dtone.ssm.entity.MedicamentEntity;
+import com.dtone.ssm.entity.RecordEntity;
 
 import java.util.List;
 
@@ -19,4 +20,9 @@ public interface IMedicamentService
     public int addMedi(MedicamentEntity medicamentEntity);
     //根据id删除药剂管理记录
     public void delMediByID(int med_id);
+    //根据recId查信息
+    public List<MedicamentEntity> getMedByRecId(int id);
+    //根据MedId查count
+    public int getCountById(int id);
+    public void updateCount(int id,int count);
 }
