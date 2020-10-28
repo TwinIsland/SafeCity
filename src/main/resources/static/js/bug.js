@@ -115,22 +115,3 @@ function bugName(name) {
         success:showQuery
     });
 }
-function  showQuery(bugEntity) {
-    $("#modeltable").empty();
-    var table_content = $(
-        "<tr><td class='column'>虫名：</td>" +
-        "<td>" + bugEntity.name + "</td></tr>" +
-        "<tr><td class='column'>繁殖：</td>" +
-        "<td>" + bugEntity.breed + "</td></tr>" +
-        "<tr> <td class='column'>寄主：</td>" +
-        "<td>" + bugEntity.host + "</td></tr>" +
-        "<tr> <td class='column'>天敌：</td>" +
-        "<td>" + bugEntity.enemy + "</td></tr>" +
-        "<tr> <td class='column'>主要危害：</td>" +
-        "<td>" + bugEntity.damage + "</td></tr>" +
-        "<tr> <td class='column'>预防措施：</td>" +
-        "<td>" + bugEntity.prevent + "</td></tr>"
-
-    );
-    $("#modeltable").append(table_content);
-}
