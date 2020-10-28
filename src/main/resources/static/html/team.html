@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns="http://www.w3.org/1999/html">
+<head>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>小队一览 CGPMS</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="../css/responsive.css">
+    <!-- fevicon -->
+    <link rel="icon" href="../images/icon.png" type="image/gif"/>
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
+    <script src="../js/jquery.js"></script>
+    <script src="../js/captGenerate.js"></script>
+    <script src="../js/register.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/plugin.js"></script>
+    <!-- Scrollbar Js Files -->
+    <script src="../js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="../js/custom.js"></script>
+    <!-- Tweaks for older IEs-->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+    <!--表格设计-->
+    <link href="../bootstrap-table-master/css/bootstrap-table.css" rel="stylesheet"/>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <script src="../bootstrap-table-master/js/bootstrap-table.js"></script>
+    <script src="../js/logout.js"></script>
+    <script src="../bootstrap-table-master/js/bootstrap-table-zh-CN.js"></script>
+    <script src="../js/team.js"></script>
+    <script src="../js/isLogin.js"></script>
+
+</head>
+<!-- body -->
+<body class="main-layout" onload="createCode()">
+<!-- loader  -->
+<div class="loader_bg">
+    <div class="loader"><img src="../images/loading.gif" alt=""/></div>
+</div>
+<!-- end loader -->
+<!-- header -->
+<header>
+    <!-- header inner -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 logo_section">
+                <div class="full">
+                    <div class="center-desk">
+                        <div class="logo"><a href="index.html"><img src="../images/logo.png" alt="#"></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="menu-area">
+                    <div class="limit-box">
+                        <nav class="main-menu">
+                            <ul class="menu-area-main">
+                                <li>
+                                    <a href="index.html">首页</a>
+                                </li>
+                                <li>
+                                    <div class="dropdown">
+                                        <button type="button" id="btn1" class="btn dropdown-toggle"
+                                                data-toggle="dropdown">
+                                            灾情防治
+                                        </button>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" style="color: black" href="expert.html">专家一览</a>
+                                            <a class="dropdown-item" style="color: black"
+                                               href="medication.html">药剂一览</a>
+                                            <a class="dropdown-item" style="color: black" href="team.html">小班管理</a>
+                                            <a class="dropdown-item" style="color: black" href="event.html">事件记录</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <!--虫/鼠害...害信息查询-->
+                                    <div class="dropdown">
+                                        <button type="button" id="btn2" class="btn dropdown-toggle"
+                                                data-toggle="dropdown">
+                                            资料检索
+                                        </button>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" style="color: black" href="bug.html">虫害资料</a>
+                                            <a class="dropdown-item" style="color: black" href="sickness.html">病害资料</a>
+                                            <a class="dropdown-item" style="color: black" href="mouse.html">鼠害资料</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="zone.html">区域一览</a>
+                                </li>
+                                <!--登录后隐藏-->
+                                <li id="login">
+                                    <a href="login.html">登录</a>
+                                </li>
+                                <!--登录后隐藏-->
+                                <li id="register">
+                                    <a href="register.html">注册</a>
+                                </li>
+                                <!--未登录时隐藏-->
+                                <li id="logout" onclick="logoutAction()">
+                                    <a href="#">登出</a>
+                                </li>
+                                <!--未登录时隐藏-->
+                                <li id="dashboard">
+                                    <a href="dashboard.html">仪表盘</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end header inner -->
+</header>
+
+
+<div class="Marketing-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="Marketingheading">
+                    <h3>小队一览</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- end section -->
+<!-- section -->
+
+<div class="container">
+    <div class="form-group">
+        <br>
+        <div class="form-inline row">
+            <input type="text" id="name" class="form-control date-input" placeholder="小队名称" width="20%">
+            <label>&nbsp;&nbsp;</label>
+            <input type="text" id="zone" class="form-control date-input" placeholder="管理区域" width="20%">
+            <label>&nbsp;&nbsp;</label>
+            <button onclick="searchedTable($('#name').val(),$('#zone').val())" type="button" id="submit"
+                    class="btn btn-primary" style="margin-top:0">查询
+            </button>
+        </div>
+    </div>
+
+    <table id="mytable"></table>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                        &times;
+                    </button>
+                </div>
+                <table id="modeltable">
+
+                </table>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+    </div>
+</div>
+</body>
+<style>
+    button.btn.btn-default {
+        display: none;
+    }
+</style>
+</html>

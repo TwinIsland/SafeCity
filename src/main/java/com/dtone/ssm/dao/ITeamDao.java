@@ -12,42 +12,53 @@ import java.util.List;
  */
 @Mapper
 public interface ITeamDao {
-    @Select("select * from tb_team")
+
+    @Select("select * from tb_team t,tb_zone z where t.zo_id = z.zo_id")
     @Results(value = {
-            @Result(property = "id",column = "tm_id",id=true),
-            @Result(property = "name",column = "tm_name"),
-            @Result(property = "peo",column = "tm_peo"),
-            @Result(property = "tel",column = "tm_tel"),
-            @Result(property = "area",column = "tm_area"),
-            @Result(property = "num",column = "tm_num"),
-            @Result(property = "date",column = "tm_date"),
+            @Result(property = "id",column = "tn_id",id=true),
+            @Result(property = "name",column = "tn_name"),
+            @Result(property = "zone",column = "zo_area"),
+            @Result(property = "lType",column = "zo_stype"),
+            @Result(property = "fType",column = "zo_ftype"),
+            @Result(property = "tree",column = "zo_tree"),
+            @Result(property = "num",column = "tn_num"),
+            @Result(property = "tel",column = "tn_tel"),
+            @Result(property = "date",column = "tn_date"),
+            @Result(property = "team",column = "zo_team"),
+
     })
-    //查询所有小班信息
     public List<TeamEntity> selectAllTeam();
 
-    @Select("select * from tb_team where tm_name like '%${name}%' and tm_area like '%${area}%'")
+
+    @Select("select * from tb_team t,tb_zone z where t.zo_id = z.zo_id and z.zo_area like concat('%',#{zone},'%') and z.zo_team like concat('%',#{team},'%')")
     @Results(value = {
-            @Result(property = "id",column = "tm_id",id=true),
-            @Result(property = "name",column = "tm_name"),
-            @Result(property = "peo",column = "tm_peo"),
-            @Result(property = "tel",column = "tm_tel"),
-            @Result(property = "area",column = "tm_area"),
-            @Result(property = "num",column = "tm_num"),
-            @Result(property = "date",column = "tm_date"),
+            @Result(property = "id",column = "tn_id",id=true),
+            @Result(property = "name",column = "tn_name"),
+            @Result(property = "zone",column = "zo_area"),
+            @Result(property = "lType",column = "zo_stype"),
+            @Result(property = "fType",column = "zo_ftype"),
+            @Result(property = "tree",column = "zo_tree"),
+            @Result(property = "num",column = "tn_num"),
+            @Result(property = "tel",column = "tn_tel"),
+            @Result(property = "date",column = "tn_date"),
+            @Result(property = "team",column = "zo_team"),
     })
-    //模糊查询小班信息
-    public List<TeamEntity> selectTeamByVague(@Param("name") String name, @Param("area") String area);
+    public List<TeamEntity> selectTeamByVague(@Param("zone") String name,@Param("team") String team);
 
-    @Update("update tb_team set tm_peo = #{peo},tm_tel = #{tel} where tm_id = #{id}")
-    //修改负责人姓名和电话
-    public void updateTeam(@Param("peo") String peo, @Param("tel") String tel, @Param("id") int id);
 
-    @Insert("insert into tb_team (tm_id,tm_name,tm_peo,tm_tel,tm_area,tm_num,tm_date) values (null,#{name},#{peo},#{tel},#{area},#{num},#{date})")
-    //添加小班信息
-    public void insertTeam(TeamEntity teamEntity);
-
-    //查询详细小班信息
-    public List<TeamEntity> selectTeamDetailed();
-
+    @Select("select * from tb_team t,tb_zone z where t.zo_id = z.zo_id and t.tn_id = #{id}")
+    @Results(value = {
+            @Result(property = "id",column = "tn_id",id=true),
+            @Result(property = "name",column = "tn_name"),
+            @Result(property = "zone",column = "zo_area"),
+            @Result(property = "lType",column = "zo_stype"),
+            @Result(property = "fType",column = "zo_ftype"),
+            @Result(property = "tree",column = "zo_tree"),
+            @Result(property = "num",column = "tn_num"),
+            @Result(property = "tel",column = "tn_tel"),
+            @Result(property = "date",column = "tn_date"),
+            @Result(property = "team",column = "zo_team"),
+    })
+    public TeamEntity selectTeamById(int id);
 
 }

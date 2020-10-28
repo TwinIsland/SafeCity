@@ -53,22 +53,5 @@ public class SsmApplicationLyTests {
         System.out.println(teamEntities);
     }
 
-    @Test
-    void updateTeamTest(){
-        teamDao.updateTeam("周垣枳","1355555",1);
-    }
 
-    @Test
-    void insertTeamTest(){
-        TeamEntity teamEntity = new TeamEntity();
-        teamEntity.setName("好大哥");
-        teamDao.insertTeam(teamEntity);
-    }
-
-    @Test
-     void selectTeamDetailedTest(){
-        List<TeamEntity> teamEntities = teamDao.selectTeamDetailed();
-        Assert.notNull(teamEntities);
-        System.out.println(teamEntities);
-     }
 }

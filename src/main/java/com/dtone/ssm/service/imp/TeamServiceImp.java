@@ -20,24 +20,18 @@ public class TeamServiceImp implements ITeamService {
      @Autowired
     private ITeamDao teamDao;
     @Override
-    public List<TeamEntity> selectPartTeam(String name, String area) {
-        List<TeamEntity> teamEntities = teamDao.selectTeamByVague(null,null);
+    public List<TeamEntity> selectPartTeam(String team, String area) {
+        List<TeamEntity> teamEntities = teamDao.selectTeamByVague(area,team);
         return teamEntities;
     }
 
     @Override
     public List<TeamEntity> selectTeamInfo() {
-        List<TeamEntity> teamEntities = teamDao.selectTeamDetailed();
-        return teamEntities;
+        return teamDao.selectAllTeam();
     }
 
     @Override
-    public void updateNameAndTel(String peo, String tel, int id) {
-        teamDao.updateTeam(null,null,1);
-    }
-
-    @Override
-    public void addTeam(TeamEntity teamEntity) {
-        teamDao.insertTeam(teamEntity);
+    public TeamEntity selectTeamById(int id) {
+        return teamDao.selectTeamById(id);
     }
 }

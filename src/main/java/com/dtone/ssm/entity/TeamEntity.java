@@ -13,10 +13,12 @@ import java.util.Date;
 public class TeamEntity {
     private int id;
     private String name;
-    private String peo;
-    private String tel;
-    private String area;
+    private String zone;
+    private String lType;
+    private String fType;
+    private String tree;
     private int num;
-    private Date date;
-    private ZoneEntity zone;
+    private String tel;
+    private String date;
+    private String team;
 }

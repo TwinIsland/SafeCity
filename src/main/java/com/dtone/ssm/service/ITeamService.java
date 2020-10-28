@@ -11,11 +11,9 @@ import java.util.List;
  */
 public interface ITeamService {
     //模糊查询小班信息
-    public List<TeamEntity> selectPartTeam(String name, String area);
+    public List<TeamEntity> selectPartTeam(String team, String area);
     //查看小班详细信息
     public List<TeamEntity> selectTeamInfo();
-    //修改小班信息
-    public void updateNameAndTel(String peo,String tel,int id);
-    //添加新小班
-    public void addTeam(TeamEntity teamEntity);
+    public TeamEntity selectTeamById(int id);
+
 }
