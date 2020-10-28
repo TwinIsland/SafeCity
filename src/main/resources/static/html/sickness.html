@@ -43,6 +43,8 @@
     <script src="../bootstrap-table-master/js/bootstrap-table.js"></script>
     <script src="../bootstrap-table-master/js/bootstrap-table-zh-CN.js"></script>
     <script src="../js/sickness.js"></script>
+    <script src="../js/isLogin.js"></script>
+    <script src="../js/logout.js"></script>
 </head>
 
 <!--<body onload="createCode()">
@@ -51,6 +53,9 @@
 </div>-->
 <!-- end loader -->
 <!-- header -->
+<div class="loader_bg">
+    <div class="loader"><img src="../images/loading.gif" alt=""/></div>
+</div>
 <header>
     <!-- header inner -->
     <div class="container-fluid">
@@ -58,7 +63,7 @@
             <div class="col-lg-3 logo_section">
                 <div class="full">
                     <div class="center-desk">
-                        <div class="logo"> <a href="index.html"><img src="../images/logo.png" alt="#"></a> </div>
+                        <div class="logo"><a href="index.html"><img src="../images/logo.png" alt="#"></a></div>
                     </div>
                 </div>
             </div>
@@ -72,32 +77,38 @@
                                 </li>
                                 <li>
                                     <div class="dropdown">
-                                        <button type="button" id="btn1" class="btn dropdown-toggle" data-toggle="dropdown">
+                                        <button type="button" id="btn1" class="btn dropdown-toggle"
+                                                data-toggle="dropdown">
                                             灾情防治
                                         </button>
                                         <div class="dropdown-menu">
-                                            <a class="dropdown-item" style="color: black" href="#">区域一览</a>
-                                            <a class="dropdown-item" style="color: black" href="#">专家一览</a>
-                                            <a class="dropdown-item" style="color: black" href="#">小班管理</a>
-                                            <a class="dropdown-item" style="color: black" href="#">事件记录</a>
+                                            <a class="dropdown-item" style="color: black" href="expert.html">专家一览</a>
+                                            <a class="dropdown-item" style="color: black"
+                                               href="medication.html">药剂一览</a>
+                                            <a class="dropdown-item" style="color: black" href="team.html">小班管理</a>
+                                            <a class="dropdown-item" style="color: black" href="event.html">事件记录</a>
                                         </div>
                                     </div>
                                 </li>
                                 <li>
                                     <!--虫/鼠害...害信息查询-->
                                     <div class="dropdown">
-                                        <button type="button" id="btn2" class="btn dropdown-toggle" data-toggle="dropdown">
+                                        <button type="button" id="btn2" class="btn dropdown-toggle"
+                                                data-toggle="dropdown">
                                             资料检索
                                         </button>
                                         <div class="dropdown-menu">
-                                            <a class="dropdown-item" style="color: black" href="#">虫害资料</a>
-                                            <a class="dropdown-item" style="color: black" href="#">病害资料</a>
-                                            <a class="dropdown-item" style="color: black" href="#">鼠害资料</a>
+                                            <a class="dropdown-item" style="color: black" href="bug.html">虫害资料</a>
+                                            <a class="dropdown-item" style="color: black" href="sickness.html">病害资料</a>
+                                            <a class="dropdown-item" style="color: black" href="mouse.html">鼠害资料</a>
                                         </div>
                                     </div>
                                 </li>
+                                <li>
+                                    <a href="zone.html">区域一览</a>
+                                </li>
                                 <!--登录后隐藏-->
-                                <li id="login" >
+                                <li id="login">
                                     <a href="login.html">登录</a>
                                 </li>
                                 <!--登录后隐藏-->
@@ -105,7 +116,7 @@
                                     <a href="register.html">注册</a>
                                 </li>
                                 <!--未登录时隐藏-->
-                                <li id="logout">
+                                <li id="logout" onclick="logoutAction()">
                                     <a href="#">登出</a>
                                 </li>
                                 <!--未登录时隐藏-->
@@ -121,6 +132,7 @@
     </div>
     <!-- end header inner -->
 </header>
+
 <div class="Marketing-bg">
     <div class="container">
         <div class="row">
