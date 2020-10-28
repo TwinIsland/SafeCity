@@ -18,4 +18,14 @@ public class ExpertEntity {
     private  String addr;
     private  String email;
     private String img;
+    public ExpertEntity(){}
+
+    public ExpertEntity(String name, String company, String expertise, String post, String phone)
+    {
+        this.name = name;
+        this.company = company;
+        this.expertise = expertise;
+        this.post = post;
+        this.phone = phone;
+    }
 }
