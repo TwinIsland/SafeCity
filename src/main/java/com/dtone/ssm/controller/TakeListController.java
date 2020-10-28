@@ -8,6 +8,7 @@
 package com.dtone.ssm.controller;
 
 import com.dtone.ssm.entity.TakeListEntity;
+import com.dtone.ssm.service.ILogService;
 import com.dtone.ssm.service.IMedicamentService;
 import com.dtone.ssm.service.ITakeListService;
 import com.dtone.ssm.service.imp.TakeListServiceImp;
@@ -27,6 +28,8 @@ public class TakeListController {
     private ITakeListService takeListService;
     @Autowired
     private IMedicamentService medicamentService;
+    @Autowired
+    private ILogService logService;
 
     @RequestMapping("info/takelist")
     public List<TakeListEntity> getTakeList(){
@@ -41,13 +44,16 @@ public class TakeListController {
     @RequestMapping("info/insertTakeList.action")
     public String insertTakeList(String name,String team,int count,int medID){
         if(medicamentService.getCountById(medID) <= count){
+            logService.userLogin("插入申请信息：" + name + " 【状态：失败】",TimeUtil.getCurTime());
             return "insufficient";
         }
         try {
             takeListService.addTakeList(TimeUtil.getCurTime(), name, team, medID, count);
             medicamentService.updateCount(medID,medicamentService.getCountById(medID)-count);
+            logService.userLogin("插入申请信息：" + name + " 【状态：成功】",TimeUtil.getCurTime());
             return "true";
         }catch (Exception e){
+            logService.userLogin("插入申请信息：" + name + " 【状态：失败】",TimeUtil.getCurTime());
             return e.toString();
         }
     }

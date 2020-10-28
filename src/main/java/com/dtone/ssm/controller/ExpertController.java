@@ -29,7 +29,7 @@ public class ExpertController
     @Autowired
     private IExpertService iExpertService;
     @Autowired
-    private ILogService iLogService;
+    private ILogService logService;
 
     @RequestMapping("info/expert")
     public List<ExpertEntity> getExpert()
@@ -54,9 +54,11 @@ public class ExpertController
     {
         if (expertEntity.getName().equals("") || expertEntity.getCompany().equals("") || expertEntity.getExpertise().equals("") || expertEntity.getPost().equals("") || expertEntity.getPhone().equals(""))
         {
+            logService.userLogin("增加专家：" + expertEntity.getId(),TimeUtil.getCurTime() + " 【状态：失败】");
             return "false";
         }
         iExpertService.addExpert(expertEntity);
+        logService.userLogin("增加专家：" + expertEntity.getId(),TimeUtil.getCurTime() + " 【状态：成功】");
         return "true";
     }
 }
