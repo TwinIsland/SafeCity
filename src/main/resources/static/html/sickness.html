@@ -136,8 +136,42 @@
 
 <!-- end section -->
 <!-- section -->
+<div class="container">
 
+<div class="form-group">
+    <br>
+    <div class="form-inline row">
+        <input type="text" id="area" class="form-control date-input" placeholder="病名" width="20%">
+        <label class="date-label">&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="forest" class="form-control date-input" placeholder="发病症状" width="20%">
+        <label>&nbsp;&nbsp;</label>
+        <button onclick="searchedTable($('#area').val(),$('#forest').val(),$('#team').val())" type="button" id="submit"
+                class="btn btn-primary" style="margin-top:0">查询
+        </button>
+    </div>
+</div>
 
 <table id="mytable"></table>
+
+<!-- 模态框（Modal） -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    &times;
+                </button>
+            </div>
+            <table id="modeltable">
+
+            </table>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
+                </button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+</div>
 </body>
 </html>

@@ -1,6 +1,7 @@
 package com.dtone.ssm.controller;
 
 import com.dtone.ssm.entity.BugEntity;
+import com.dtone.ssm.entity.ZoneEntity;
 import com.dtone.ssm.service.IBugService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,5 +35,13 @@ public class BugController {
         BugEntity bugEntity = bugService.findBugByName(bugName);
         log.info("响应请求：user/findOneBug,bugEntity=" + bugEntity);
         return bugEntity;
+    }
+
+    @RequestMapping("info/searchedBug")
+    public List<BugEntity> getSearchedBug(String name, String host) {
+        log.info("收到请求：info/searchedBug,name="+name +"host=" + host);
+        List<BugEntity> bugEntities = bugService.findBugByVague(name,host);
+        log.info("收到请求：info/searchedBug,bugEntities="+bugEntities);
+        return bugEntities;
     }
 }

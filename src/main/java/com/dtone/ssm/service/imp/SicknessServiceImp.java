@@ -32,4 +32,10 @@ public class SicknessServiceImp implements ISicknessService {
         List<SicknessEntity> sicknessByVague = sicknessDao.selectSicknessByVague(name,pattern);
         return sicknessByVague;
     }
+
+    @Override
+    public SicknessEntity findSicknessByName(String name) {
+        SicknessEntity sicknessEntity = sicknessDao.selectSicknessByName(name);
+        return sicknessEntity;
+    }
 }
