@@ -16,8 +16,9 @@ public class ExpertServiceImp implements IExpertService {
     IExpertDao expertDao;
 
     @Override
-    public void addExpert(ExpertEntity exp) {
-        expertDao.insertExpert(exp);
+    public void addExpert(ExpertEntity expertEntity)
+    {
+        expertDao.insertExpert(expertEntity);
     }
 
     @Override
@@ -26,8 +27,9 @@ public class ExpertServiceImp implements IExpertService {
     }
 
     @Override
-    public void searchExpert(String name, String expertise, String company) {
-        expertDao.selectExpert(name,expertise,company);
+    public List<ExpertEntity> searchExpert(String name, String expertise, String company) {
+        List<ExpertEntity> expertEntities = expertDao.selectExpert(name, expertise, company);
+        return expertEntities;
     }
 
     @Override

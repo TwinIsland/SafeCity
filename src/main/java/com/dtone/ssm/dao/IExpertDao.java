@@ -30,7 +30,7 @@ public interface IExpertDao {
     public List<ExpertEntity> selectAllExpert();
 
     @Select("select * from tb_expert where " +
-            "ex_expertise=#{exp} and ex_company=#{comp} and ex_name like CONCAT('%',#{name},'%')")
+            "ex_expertise like CONCAT('%',#{expertise},'%') and ex_company like CONCAT('%',#{company},'%') and ex_name like CONCAT('%',#{name},'%')")
     @Results(value = {
             @Result(property = "id", column = "ex_id", id = true),
             @Result(property = "name", column = "ex_name"),
@@ -46,14 +46,14 @@ public interface IExpertDao {
             @Result(property = "img", column = "ex_img"),
     })
     //模糊查询专家信息
-    public List<ExpertEntity>selectExpert(@Param("name")String name,@Param("exp")String expertise,@Param("comp")String company);
+    public List<ExpertEntity>selectExpert(@Param("name")String name,@Param("expertise")String expertise,@Param("company")String company);
 
     @Delete("delete from tb_expert where ex_id = #{id}")
     //删除专家
     public void deleteExpert(int id);
 
-    @Insert("insert into tb_user values " +
-            "(null,#{name},#{company},#{expertise},#{phone},#{date},#{sex},#{addr},#{email},#{img},#{usrId})")
+    @Insert("insert into tb_expert values " +
+            "(null,0,#{name},#{company},#{post},#{expertise},#{phone},#{date},#{sex},#{addr},#{email},#{img})")
     //增加专家
-    public void insertExpert(ExpertEntity exp);
+    public void insertExpert(ExpertEntity expertEntity);
 }

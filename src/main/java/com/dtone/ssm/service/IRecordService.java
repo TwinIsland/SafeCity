@@ -12,7 +12,6 @@ import java.util.List;
 public interface IRecordService
 {
     //查询所有
-
     public List<RecordEntity> findAllRecord();
     //添加
     public int addRecord(RecordEntity recordEntity);

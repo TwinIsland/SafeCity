@@ -13,7 +13,7 @@ import java.util.Date;
 public class RecordEntity
 {
     private int id;
-    private Date date;
+    private String date;
     private String person;
     private String result;
 }

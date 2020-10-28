@@ -1,5 +1,6 @@
 package com.dtone.ssm.controller;
 
+import com.dtone.ssm.entity.BugEntity;
 import com.dtone.ssm.entity.SicknessEntity;
 import com.dtone.ssm.service.ISicknessService;
 import lombok.extern.slf4j.Slf4j;
@@ -27,6 +28,22 @@ public class SicknessController {
         log.info("收到请求:user/sickness");
         List<SicknessEntity> sicknessEntities = sicknessService.findAllSickness();
         log.info("返回对象");
+        return sicknessEntities;
+    }
+
+    @RequestMapping("user/findsickness")
+    public SicknessEntity getName(String sicknessName){
+        log.info("收到请求：user/user/findsickness="+sicknessName);
+        SicknessEntity sicknessEntity = sicknessService.findSicknessByName(sicknessName);
+        log.info("响应请求：user/user/findsickness=" + sicknessEntity);
+        return sicknessEntity;
+    }
+
+    @RequestMapping("info/searchedSickness")
+    public List<SicknessEntity> getSearchedBug(String name, String pattern) {
+        log.info("收到请求：info/searchedSickness,name="+name +"pattern=" + pattern);
+        List<SicknessEntity> sicknessEntities = sicknessService.findSicknessByVague(name,pattern);
+        log.info("收到请求：info/searchedSickness,sicknessEntities="+sicknessEntities);
         return sicknessEntities;
     }
 }

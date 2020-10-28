@@ -37,10 +37,11 @@ class SsmApplicationTests {
     void searchExpert() {
         List<ExpertEntity> expList = expertDao.selectExpert("张三", "编程", "淘宝");
         Assert.notNull(expList);
+        System.out.println(expList);
     }
-
+    @Test
     //懒得测了
-    void insertExpert(ExpertEntity en) {
+    void insertExpert(ExpertEntity expertEntity) {
         ExpertEntity enT = new ExpertEntity();
         enT.setUsrId(1);
         expertDao.insertExpert(enT);

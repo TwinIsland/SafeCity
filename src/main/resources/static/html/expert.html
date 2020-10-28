@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh" xmlns="http://www.w3.org/1999/html">
 <head>
     <!-- basic -->
     <meta charset="utf-8">
@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <!-- site metas -->
-    <title>注册 CPPMS</title>
+    <title>专家一览 CPPMS</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -40,9 +40,13 @@
     <link href="../bootstrap-table-master/css/bootstrap-table.css" rel="stylesheet"/>
     <script src="../js/jquery-3.3.1.min.js"></script>
     <script src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <script src="../js/logout.js"></script>
     <script src="../bootstrap-table-master/js/bootstrap-table.js"></script>
     <script src="../bootstrap-table-master/js/bootstrap-table-zh-CN.js"></script>
     <script src="../js/expert.js"></script>
+    <script src="../js/isLogin.js"></script>
+
+
 </head>
 <!-- body -->
 <body class="main-layout" onload="createCode()">
@@ -59,7 +63,7 @@
             <div class="col-lg-3 logo_section">
                 <div class="full">
                     <div class="center-desk">
-                        <div class="logo"> <a href="index.html"><img src="../images/logo.png" alt="#"></a> </div>
+                        <div class="logo"><a href="index.html"><img src="../images/logo.png" alt="#"></a></div>
                     </div>
                 </div>
             </div>
@@ -73,12 +77,13 @@
                                 </li>
                                 <li>
                                     <div class="dropdown">
-                                        <button type="button" id="btn1" class="btn dropdown-toggle" data-toggle="dropdown">
+                                        <button type="button" id="btn1" class="btn dropdown-toggle"
+                                                data-toggle="dropdown">
                                             灾情防治
                                         </button>
                                         <div class="dropdown-menu">
-                                            <a class="dropdown-item" style="color: black" href="#">区域一览</a>
-                                            <a class="dropdown-item" style="color: black" href="#">专家一览</a>
+                                            <a class="dropdown-item" style="color: black" href="expert.html">专家一览</a>
+                                            <a class="dropdown-item" style="color: black" href="#">药剂管理</a>
                                             <a class="dropdown-item" style="color: black" href="#">小班管理</a>
                                             <a class="dropdown-item" style="color: black" href="#">事件记录</a>
                                         </div>
@@ -87,18 +92,22 @@
                                 <li>
                                     <!--虫/鼠害...害信息查询-->
                                     <div class="dropdown">
-                                        <button type="button" id="btn2" class="btn dropdown-toggle" data-toggle="dropdown">
+                                        <button type="button" id="btn2" class="btn dropdown-toggle"
+                                                data-toggle="dropdown">
                                             资料检索
                                         </button>
                                         <div class="dropdown-menu">
-                                            <a class="dropdown-item" style="color: black" href="#">虫害资料</a>
+                                            <a class="dropdown-item" style="color: black" href="bug.html">虫害资料</a>
                                             <a class="dropdown-item" style="color: black" href="#">病害资料</a>
                                             <a class="dropdown-item" style="color: black" href="#">鼠害资料</a>
                                         </div>
                                     </div>
                                 </li>
+                                <li>
+                                    <a href="zone.html">区域一览</a>
+                                </li>
                                 <!--登录后隐藏-->
-                                <li id="login" >
+                                <li id="login">
                                     <a href="login.html">登录</a>
                                 </li>
                                 <!--登录后隐藏-->
@@ -106,7 +115,7 @@
                                     <a href="register.html">注册</a>
                                 </li>
                                 <!--未登录时隐藏-->
-                                <li id="logout">
+                                <li id="logout" onclick="logoutAction()">
                                     <a href="#">登出</a>
                                 </li>
                                 <!--未登录时隐藏-->
@@ -135,8 +144,56 @@
         </div>
     </div>
 </div>
+<!-- end section -->
+<!-- section -->
+<div class="container">
+    <div class="form-group">
+        <br>
+        <div class="form-inline row">
+            <label>搜索区域： </label>
+            <input type="text" id="name" class="form-control date-input" placeholder="专家姓名" width="20%">
+            <label class="date-label">&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" id="company" class="form-control date-input" placeholder="工作单位" width="20%">
+            <label>&nbsp;&nbsp;</label>
+            <input type="text" id="expertise" class="form-control date-input" placeholder="专长" width="20%">
+            <label>&nbsp;&nbsp;</label>
+            <button onclick="searchedTable($('#name').val(),$('#company').val(),$('#expertise').val())" type="button" id="submit"
+                    class="btn btn-primary" style="margin-top:0">查询
+            </button>
+        </div>
+    </div>
 
-
+    <div class="form-group">
+        <br>
+        <div class="form-inline row">
+            <label>添加信息： </label>
+            <input type="text" id="aname" class="form-control date-input" placeholder="专家姓名" style="width: 15%">
+            <label class="date-label">&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" id="acompany" class="form-control date-input" placeholder="工作单位"  style="width: 10%">
+            <label>&nbsp;&nbsp;</label>
+            <input type="text" id="aexpertise" class="form-control date-input" placeholder="专长"  style="width: 10%">
+            <label>&nbsp;&nbsp;</label>
+            <input type="text" id="apost" class="form-control date-input" placeholder="职务"  style="width: 10%">
+            <label>&nbsp;&nbsp;</label>
+            <input type="text" id="aphone" class="form-control date-input" placeholder="电话"  style="width: 15%">
+            <label>&nbsp;&nbsp;</label>
+            <button onclick="searchedTable($('#name').val(),$('#company').val(),$('#expertise').val(),$('#post').val(),$('#phone').val())" type="button" id="add"
+                    class="btn btn-primary" style="margin-top:0">添加
+            </button>
+        </div>
+    </div>
+</div>
+</body>
+<style>
+    button.btn.btn-default {
+        display: none;
+    }
+    label {
+        font-size: 18px;
+        color: #52565a;
+    }
+</style>
+</html>
 <!-- end section -->
 <!-- section -->
 <table id="mytable"></table>

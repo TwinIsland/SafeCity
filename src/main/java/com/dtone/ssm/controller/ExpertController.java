@@ -4,7 +4,9 @@ import com.dtone.ssm.entity.BugEntity;
 import com.dtone.ssm.entity.ExpertEntity;
 import com.dtone.ssm.entity.UserEntity;
 import com.dtone.ssm.service.IExpertService;
+import com.dtone.ssm.service.ILogService;
 import com.dtone.ssm.service.IUserService;
+import com.dtone.ssm.util.TimeUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -20,19 +22,41 @@ import java.util.List;
  * @desc
  */
 @RestController
+@RequestMapping("html/")
 @Slf4j  //获取日志对象
 public class ExpertController
 {
-        @Autowired
-        private IExpertService iExpertService;
-        @RequestMapping("info/expert")
-        public List<ExpertEntity> getExpert() {
-            log.info("收到请求:info/expert");
-            List<ExpertEntity> expertEntities = iExpertService.selectAllExpert();
-            log.info("返回对象");
-            return expertEntities;
+    @Autowired
+    private IExpertService iExpertService;
+    @Autowired
+    private ILogService iLogService;
+
+    @RequestMapping("info/expert")
+    public List<ExpertEntity> getExpert()
+    {
+        log.info("收到请求:info/expert");
+        List<ExpertEntity> expertEntities = iExpertService.selectAllExpert();
+        log.info("返回对象");
+        return expertEntities;
+    }
+
+    @RequestMapping("info/searchedExpert")
+    public List<ExpertEntity> getSearchedExpert(String name, String expertise, String company)
+    {
+        log.info("收到请求:info/searchedExpert");
+
+        List<ExpertEntity> expertEntities = iExpertService.searchExpert(name, expertise, company);
+        log.info("返回对象2");
+        return expertEntities;
+    }
+    @RequestMapping("manage/addExpert.action")
+    public String addExpert(ExpertEntity expertEntity)
+    {
+        if (expertEntity.getName().equals("") || expertEntity.getCompany().equals("") || expertEntity.getExpertise().equals("") || expertEntity.getPost().equals("") || expertEntity.getPhone().equals(""))
+        {
+            return "false";
         }
-
-
-
+        iExpertService.addExpert(expertEntity);
+        return "true";
+    }
 }
