@@ -34,4 +34,10 @@ public class MouseServiceImp implements IMouseService {
         List<MouseEntity> mouseByVague = mouseDao.selectMouseByVague(name);
         return mouseByVague;
     }
+
+    @Override
+    public MouseEntity findMouseByName(String name) {
+        MouseEntity mouseEntity = mouseDao.selectMouseByName(name);
+        return mouseEntity;
+    }
 }

@@ -29,4 +29,20 @@ public class MouseController {
         List<MouseEntity> mouseEntities = mouseService.findAllMouse();
         return mouseEntities;
     }
+
+    @RequestMapping("user/findMouse")
+    public MouseEntity getName(String mouseName){
+        log.info("收到请求：user/findOneBug,bugName="+mouseName);
+        MouseEntity mouseEntity = mouseService.findMouseByName(mouseName);
+        log.info("响应请求：user/findOneBug,bugEntity=" + mouseEntity);
+        return mouseEntity;
+    }
+
+    @RequestMapping("info/searchedMouse")
+    public List<MouseEntity> getSearchedBug(String name) {
+        log.info("收到请求：info/searchedMouse,name="+name);
+        List<MouseEntity> mouseEntities = mouseService.findMouseByVague(name);
+        log.info("收到请求：info/searchedMouse,mouseEntities="+mouseEntities);
+        return mouseEntities;
+    }
 }

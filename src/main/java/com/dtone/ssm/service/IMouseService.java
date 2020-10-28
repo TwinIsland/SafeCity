@@ -15,4 +15,7 @@ public interface IMouseService {
 
     //模糊查询鼠害
     public List<MouseEntity> findMouseByVague(String name);
+
+    //查询鼠害详情
+    public MouseEntity findMouseByName(String name);
 }

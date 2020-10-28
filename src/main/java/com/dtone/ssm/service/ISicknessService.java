@@ -15,4 +15,7 @@ public interface ISicknessService {
 
     //模糊查询得到病害
     public List<SicknessEntity> findSicknessByVague(String name, String pattern);
+
+    //根据name获取详情
+    public SicknessEntity findSicknessByName(String name);
 }

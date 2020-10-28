@@ -40,4 +40,18 @@ public interface IMouseDao {
     })
     //模糊查询鼠害信息
     public List<MouseEntity> selectMouseByVague(@Param("name") String name);
+
+    @Select("select * from tb_mouse where ms_name = #{name}")
+    @Results(value = {
+            @Result(property = "id", column = "ms_id", id = true),
+            @Result(property = "name", column = "ms_name"),
+            @Result(property = "breed", column = "ms_breed"),
+            @Result(property = "food", column = "ms_food"),
+            @Result(property = "enemy", column = "ms_enemy"),
+            @Result(property = "damage", column = "ms_damage"),
+            @Result(property = "prevent", column = "ms_prevent"),
+            @Result(property = "img", column = "ms_img"),
+    })
+    //根据name查询详情
+    public MouseEntity selectMouseByName(@Param("name") String name);
 }

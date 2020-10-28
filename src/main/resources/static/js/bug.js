@@ -13,7 +13,7 @@ $(document).ready(function () {
             field : 'name',
             sortable : true
         }, {
-            title : '天敌',
+            title : '寄主',
             field : 'host',
             sortable : true
         }, {
@@ -28,6 +28,75 @@ $(document).ready(function () {
         }]
     })
 })
+
+function searchedTable(name,host){
+    if(name==="" && host===""){
+        resetTable()
+    }else{
+        $("#mytable").bootstrapTable('refresh',{
+            url:"/info/searchedBug?name=" + name + "&host=" + host,  //请求地址
+            striped : true, //是否显示行间隔色
+            pageNumber : 1, //初始化加载第一页
+            pagination : true,//是否分页
+            sidePagination : 'client',//server:服务器端分页|client：前端分页
+            pageSize : 5,//单页记录数
+            pageList : [5, 10],//可选择单页记录数
+            showRefresh : true,//刷新按钮
+
+            columns : [ {
+                title : '害虫名',
+                field : 'name',
+                sortable : true
+            }, {
+                title : '寄主',
+                field : 'host',
+                sortable : true
+            }, {
+                title : '主要危害',
+                field : 'damage',
+                sortable : true
+            }, {
+                title : '操作',
+                field : 'name',
+                //events : operateEvents, //给按钮注册事件
+                formatter : actionFormatter, //表格中增加按钮
+            }]
+        })
+    }
+}
+
+function resetTable(){
+    $("#mytable").bootstrapTable("refresh",{
+        url:"/info/bug",  //请求地址
+        striped : true, //是否显示行间隔色
+        pageNumber : 1, //初始化加载第一页
+        pagination : true,//是否分页
+        sidePagination : 'client',//server:服务器端分页|client：前端分页
+        pageSize : 5,//单页记录数
+        pageList : [5, 10],//可选择单页记录数
+        //showRefresh : false,//刷新按钮
+
+        columns : [ {
+            title : '害虫名',
+            field : 'name',
+            sortable : true
+        }, {
+            title : '寄主',
+            field : 'host',
+            sortable : true
+        }, {
+            title : '主要危害',
+            field : 'damage',
+            sortable : true
+        }, {
+            title : '操作',
+            field : 'name',
+            //events : operateEvents, //给按钮注册事件
+            formatter : actionFormatter, //表格中增加按钮
+        }]
+    })
+}
+
 //列表行操作按钮
 function actionFormatter(value,row,index){
     var name = value;
