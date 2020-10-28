@@ -7676,3 +7676,1018 @@ java.lang.IllegalStateException: Optional int parameter 'medID' is present but c
 2020-10-28 20:55:53.869  INFO 9588 --- [http-nio-8080-exec-2] com.dtone.ssm.util.LoginInterceptor      : 未登录用户拦截器启动
 2020-10-28 20:56:15.837  INFO 9588 --- [http-nio-8080-exec-4] com.dtone.ssm.util.LoginInterceptor      : 未登录用户拦截器启动
 2020-10-28 20:56:55.391  INFO 9588 --- [http-nio-8080-exec-1] com.dtone.ssm.util.LoginInterceptor      : 未登录用户拦截器启动
+2020-10-28 21:32:48.729  INFO 5112 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on Huang with PID 5112 (C:\Users\new\Desktop\safecity\target\classes started by new in C:\Users\new\Desktop\safecity)
+2020-10-28 21:32:48.736  INFO 5112 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-28 21:32:48.789  INFO 5112 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-28 21:32:48.790  INFO 5112 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-28 21:32:49.667  INFO 5112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-28 21:32:49.673  INFO 5112 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-28 21:32:49.673  INFO 5112 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-28 21:32:49.725  INFO 5112 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-28 21:32:49.726  INFO 5112 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 936 ms
+2020-10-28 21:32:50.120  INFO 5112 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 21:32:50.272  INFO 5112 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-28 21:32:50.302  INFO 5112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-28 21:32:50.310  INFO 5112 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 1.902 seconds (JVM running for 2.788)
+2020-10-28 21:33:11.770  INFO 5112 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 21:33:11.790  INFO 5112 --- [http-nio-8080-exec-1] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 21:33:11.982  WARN 5112 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [189] milliseconds.
+2020-10-28 21:34:55.795  INFO 4476 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on Huang with PID 4476 (C:\Users\new\Desktop\safecity\target\classes started by new in C:\Users\new\Desktop\safecity)
+2020-10-28 21:34:55.798  INFO 4476 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-28 21:34:55.861  INFO 4476 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-28 21:34:55.861  INFO 4476 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-28 21:34:56.784  INFO 4476 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-28 21:34:56.800  INFO 4476 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-28 21:34:56.800  INFO 4476 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-28 21:34:56.847  INFO 4476 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-28 21:34:56.848  INFO 4476 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 987 ms
+2020-10-28 21:34:57.284  INFO 4476 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 21:34:57.446  INFO 4476 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-28 21:34:57.476  INFO 4476 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-28 21:34:57.485  INFO 4476 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 1.985 seconds (JVM running for 2.809)
+2020-10-28 21:34:59.771  INFO 4476 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 21:35:00.533  WARN 4476 --- [http-nio-8080-exec-8] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [273] milliseconds.
+2020-10-28 21:35:44.900  INFO 1480 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on Huang with PID 1480 (C:\Users\new\Desktop\safecity\target\classes started by new in C:\Users\new\Desktop\safecity)
+2020-10-28 21:35:44.902  INFO 1480 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-28 21:35:44.965  INFO 1480 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-28 21:35:44.965  INFO 1480 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-28 21:35:45.853  INFO 1480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-28 21:35:45.860  INFO 1480 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-28 21:35:45.860  INFO 1480 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-28 21:35:45.905  INFO 1480 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-28 21:35:45.906  INFO 1480 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 940 ms
+2020-10-28 21:35:46.308  INFO 1480 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 21:35:46.458  INFO 1480 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-28 21:35:46.488  INFO 1480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-28 21:35:46.497  INFO 1480 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 1.9 seconds (JVM running for 2.72)
+2020-10-28 21:35:50.794  INFO 1480 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 21:35:51.283  INFO 1480 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-28 21:35:51.520  WARN 1480 --- [http-nio-8080-exec-2] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [286] milliseconds.
+2020-10-28 21:35:51.597  INFO 1480 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-28 21:38:51.376  INFO 10104 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on Huang with PID 10104 (C:\Users\new\Desktop\safecity\target\classes started by new in C:\Users\new\Desktop\safecity)
+2020-10-28 21:38:51.379  INFO 10104 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-28 21:38:51.467  INFO 10104 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-28 21:38:51.467  INFO 10104 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-28 21:38:52.452  INFO 10104 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-28 21:38:52.459  INFO 10104 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-28 21:38:52.459  INFO 10104 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-28 21:38:52.508  INFO 10104 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-28 21:38:52.508  INFO 10104 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1041 ms
+2020-10-28 21:38:52.922  INFO 10104 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 21:38:53.077  INFO 10104 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-28 21:38:53.107  INFO 10104 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-28 21:38:53.116  INFO 10104 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 2.074 seconds (JVM running for 3.042)
+2020-10-28 21:38:56.462  INFO 10104 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 21:38:56.967  INFO 10104 --- [http-nio-8080-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-28 21:38:57.256  WARN 10104 --- [http-nio-8080-exec-5] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [340] milliseconds.
+2020-10-28 21:38:57.357  INFO 10104 --- [http-nio-8080-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-28 21:40:04.416  INFO 14360 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on Huang with PID 14360 (C:\Users\new\Desktop\safecity\target\classes started by new in C:\Users\new\Desktop\safecity)
+2020-10-28 21:40:04.427  INFO 14360 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-28 21:40:04.502  INFO 14360 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-28 21:40:04.503  INFO 14360 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-28 21:40:05.464  INFO 14360 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-28 21:40:05.471  INFO 14360 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-28 21:40:05.471  INFO 14360 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-28 21:40:05.516  INFO 14360 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-28 21:40:05.516  INFO 14360 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1012 ms
+2020-10-28 21:40:05.980  INFO 14360 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 21:40:06.179  INFO 14360 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-28 21:40:06.215  INFO 14360 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-28 21:40:06.226  INFO 14360 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 2.189 seconds (JVM running for 3.139)
+2020-10-28 21:40:09.693  INFO 14360 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 21:40:10.243  INFO 14360 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-28 21:40:10.464  WARN 14360 --- [http-nio-8080-exec-7] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [281] milliseconds.
+2020-10-28 21:40:10.544  INFO 14360 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-28 22:04:10.440  INFO 924 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on Huang with PID 924 (C:\Users\new\Desktop\safecity\target\classes started by new in C:\Users\new\Desktop\safecity)
+2020-10-28 22:04:10.448  INFO 924 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-28 22:04:10.514  INFO 924 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-28 22:04:10.514  INFO 924 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-28 22:04:11.420  INFO 924 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-28 22:04:11.427  INFO 924 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-28 22:04:11.427  INFO 924 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-28 22:04:11.474  INFO 924 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-28 22:04:11.474  INFO 924 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 960 ms
+2020-10-28 22:04:11.879  INFO 924 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 22:04:12.028  INFO 924 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-28 22:04:12.058  INFO 924 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-28 22:04:12.068  INFO 924 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 2.04 seconds (JVM running for 2.973)
+2020-10-28 22:04:15.790  INFO 924 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 22:04:15.811  INFO 924 --- [http-nio-8080-exec-1] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:04:15.996  WARN 924 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [183] milliseconds.
+2020-10-28 22:04:23.495  INFO 924 --- [http-nio-8080-exec-7] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =superadminpassword=superadmin
+2020-10-28 22:04:23.500  INFO 924 --- [http-nio-8080-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-28 22:04:23.747  INFO 924 --- [http-nio-8080-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-28 22:04:23.816  INFO 924 --- [http-nio-8080-exec-7] com.dtone.ssm.controller.UserController  : 返回响应:user/login登陆成功
+2020-10-28 22:04:29.198  INFO 924 --- [http-nio-8080-exec-9] c.dtone.ssm.controller.ExpertController  : 收到请求:info/expert
+2020-10-28 22:04:29.215  INFO 924 --- [http-nio-8080-exec-9] c.dtone.ssm.controller.ExpertController  : 返回对象
+2020-10-28 22:04:54.978  INFO 924 --- [http-nio-8080-exec-4] com.dtone.ssm.util.LoginInterceptor      : 未登录用户拦截器启动
+2020-10-28 22:05:27.880  INFO 13732 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on Huang with PID 13732 (C:\Users\new\Desktop\safecity\target\classes started by new in C:\Users\new\Desktop\safecity)
+2020-10-28 22:05:27.883  INFO 13732 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-28 22:05:27.946  INFO 13732 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-28 22:05:27.947  INFO 13732 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-28 22:05:29.104  INFO 13732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-28 22:05:29.111  INFO 13732 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-28 22:05:29.111  INFO 13732 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-28 22:05:29.156  INFO 13732 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-28 22:05:29.157  INFO 13732 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1210 ms
+2020-10-28 22:05:29.568  INFO 13732 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 22:05:29.730  INFO 13732 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-28 22:05:29.762  INFO 13732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-28 22:05:29.772  INFO 13732 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 2.215 seconds (JVM running for 3.026)
+2020-10-28 22:05:30.881  INFO 13732 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 22:05:31.469  INFO 13732 --- [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-28 22:05:31.728  WARN 13732 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [320] milliseconds.
+2020-10-28 22:05:31.798  INFO 13732 --- [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-28 22:05:36.153  INFO 13732 --- [http-nio-8080-exec-1] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:07:26.322  INFO 3440 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on Huang with PID 3440 (C:\Users\new\Desktop\safecity\target\classes started by new in C:\Users\new\Desktop\safecity)
+2020-10-28 22:07:26.325  INFO 3440 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-28 22:07:26.400  INFO 3440 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-28 22:07:26.400  INFO 3440 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-28 22:07:27.506  INFO 3440 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-28 22:07:27.516  INFO 3440 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-28 22:07:27.517  INFO 3440 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-28 22:07:27.582  INFO 3440 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-28 22:07:27.582  INFO 3440 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1182 ms
+2020-10-28 22:07:28.127  INFO 3440 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 22:07:28.464  INFO 3440 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-28 22:07:28.508  INFO 3440 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-28 22:07:28.524  INFO 3440 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 2.548 seconds (JVM running for 3.489)
+2020-10-28 22:07:31.794  INFO 3440 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 22:07:31.815  INFO 3440 --- [http-nio-8080-exec-1] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:07:32.025  WARN 3440 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [207] milliseconds.
+2020-10-28 22:07:36.031  INFO 3440 --- [http-nio-8080-exec-6] c.d.ssm.controller.SicknessController    : 收到请求:user/sickness
+2020-10-28 22:07:36.040  INFO 3440 --- [http-nio-8080-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-28 22:07:36.408  INFO 3440 --- [http-nio-8080-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-28 22:07:36.465  INFO 3440 --- [http-nio-8080-exec-6] c.d.ssm.controller.SicknessController    : 返回对象
+2020-10-28 22:07:39.765  INFO 3440 --- [http-nio-8080-exec-9] c.d.ssm.controller.SicknessController    : 收到请求：user/user/findsickness=霍乱
+2020-10-28 22:07:39.772  INFO 3440 --- [http-nio-8080-exec-9] c.d.ssm.controller.SicknessController    : 响应请求：user/user/findsickness=SicknessEntity(id=1, name=霍乱, cause=虫叮咬, pattern=感染, law=null, damange=70%, treat=抗体, img=null)
+2020-10-28 22:07:44.765  INFO 3440 --- [http-nio-8080-exec-6] c.d.ssm.controller.SicknessController    : 收到请求:user/sickness
+2020-10-28 22:07:44.770  INFO 3440 --- [http-nio-8080-exec-6] c.d.ssm.controller.SicknessController    : 返回对象
+2020-10-28 22:07:50.186  INFO 3440 --- [http-nio-8080-exec-1] c.dtone.ssm.controller.MouseController   : 收到请求：user/findOneBug,bugName=null
+2020-10-28 22:07:50.368 ERROR 3440 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'ms_name' in 'where clause'
+### The error may exist in com/dtone/ssm/dao/IMouseDao.java (best guess)
+### The error may involve com.dtone.ssm.dao.IMouseDao.selectMouseByName-Inline
+### The error occurred while setting parameters
+### SQL: select * from tb_mouse where ms_name = ?
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'ms_name' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'ms_name' in 'where clause'] with root cause
+
+java.sql.SQLSyntaxErrorException: Unknown column 'ms_name' in 'where clause'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java) ~[HikariCP-3.4.5.jar:na]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64) ~[mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79) ~[mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63) ~[mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325) ~[mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156) ~[mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109) ~[mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:89) ~[mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147) ~[mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140) ~[mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:76) ~[mybatis-3.5.5.jar:3.5.5]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426) ~[mybatis-spring-2.0.5.jar:2.0.5]
+	at com.sun.proxy.$Proxy61.selectOne(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:159) ~[mybatis-spring-2.0.5.jar:2.0.5]
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87) ~[mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:152) ~[mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85) ~[mybatis-3.5.5.jar:3.5.5]
+	at com.sun.proxy.$Proxy71.selectMouseByName(Unknown Source) ~[na:na]
+	at com.dtone.ssm.service.imp.MouseServiceImp.findMouseByName(MouseServiceImp.java:40) ~[classes/:na]
+	at com.dtone.ssm.service.imp.MouseServiceImp$$FastClassBySpringCGLIB$$c3fe873b.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771) ~[spring-aop-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) ~[spring-aop-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:367) ~[spring-tx-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118) ~[spring-tx-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) ~[spring-aop-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691) ~[spring-aop-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at com.dtone.ssm.service.imp.MouseServiceImp$$EnhancerBySpringCGLIB$$45084fcc.findMouseByName(<generated>) ~[classes/:na]
+	at com.dtone.ssm.controller.MouseController.getName(MouseController.java:36) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652) ~[tomcat-embed-core-9.0.38.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.38.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135) [na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.base/java.lang.Thread.run(Thread.java:844) [na:na]
+
+2020-10-28 22:08:36.140  INFO 3440 --- [http-nio-8080-exec-3] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:08:42.365  INFO 3440 --- [http-nio-8080-exec-10] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =superadminpassword=superadmin
+2020-10-28 22:08:42.392  INFO 3440 --- [http-nio-8080-exec-10] com.dtone.ssm.controller.UserController  : 返回响应:user/login登陆成功
+2020-10-28 22:08:45.380  INFO 3440 --- [http-nio-8080-exec-7] com.dtone.ssm.util.LoginInterceptor      : 未登录用户拦截器启动
+2020-10-28 22:08:49.517  INFO 3440 --- [http-nio-8080-exec-4] com.dtone.ssm.util.LoginInterceptor      : 未登录用户拦截器启动
+2020-10-28 22:08:49.518  INFO 3440 --- [http-nio-8080-exec-4] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:08:49.519  INFO 3440 --- [http-nio-8080-exec-4] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:08:49.520  INFO 3440 --- [http-nio-8080-exec-4] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:08:49.521  INFO 3440 --- [http-nio-8080-exec-4] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:08:49.563  INFO 3440 --- [http-nio-8080-exec-5] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:08:55.868  INFO 3440 --- [http-nio-8080-exec-6] com.dtone.ssm.util.LoginInterceptor      : 未登录用户拦截器启动
+2020-10-28 22:09:01.783  INFO 3440 --- [http-nio-8080-exec-5] com.dtone.ssm.util.LoginInterceptor      : 未登录用户拦截器启动
+2020-10-28 22:09:01.784  INFO 3440 --- [http-nio-8080-exec-5] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:09:01.784  INFO 3440 --- [http-nio-8080-exec-5] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:09:01.784  INFO 3440 --- [http-nio-8080-exec-5] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:09:01.784  INFO 3440 --- [http-nio-8080-exec-5] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:09:01.821  INFO 3440 --- [http-nio-8080-exec-7] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:09:24.817  INFO 3440 --- [http-nio-8080-exec-7] com.dtone.ssm.util.LoginInterceptor      : 未登录用户拦截器启动
+2020-10-28 22:09:24.818  INFO 3440 --- [http-nio-8080-exec-7] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:09:24.819  INFO 3440 --- [http-nio-8080-exec-7] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:09:24.819  INFO 3440 --- [http-nio-8080-exec-7] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:09:24.819  INFO 3440 --- [http-nio-8080-exec-7] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:09:24.868  INFO 3440 --- [http-nio-8080-exec-10] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:10:24.798  INFO 17796 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on Huang with PID 17796 (C:\Users\new\Desktop\safecity\target\classes started by new in C:\Users\new\Desktop\safecity)
+2020-10-28 22:10:24.802  INFO 17796 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-28 22:10:24.858  INFO 17796 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-28 22:10:24.858  INFO 17796 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-28 22:10:25.774  INFO 17796 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-28 22:10:25.781  INFO 17796 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-28 22:10:25.781  INFO 17796 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-28 22:10:25.826  INFO 17796 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-28 22:10:25.826  INFO 17796 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 968 ms
+2020-10-28 22:10:26.241  INFO 17796 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 22:10:26.414  INFO 17796 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-28 22:10:26.454  INFO 17796 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-28 22:10:26.464  INFO 17796 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 2.007 seconds (JVM running for 2.928)
+2020-10-28 22:10:28.124  INFO 17796 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 22:10:28.981  WARN 17796 --- [http-nio-8080-exec-10] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [266] milliseconds.
+2020-10-28 22:10:28.981  WARN 17796 --- [http-nio-8080-exec-8] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [266] milliseconds.
+2020-10-28 22:10:31.204  INFO 17796 --- [http-nio-8080-exec-4] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:10:37.703  INFO 17796 --- [http-nio-8080-exec-10] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =superadminpassword=superadmin
+2020-10-28 22:10:37.708  INFO 17796 --- [http-nio-8080-exec-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-28 22:10:37.956  INFO 17796 --- [http-nio-8080-exec-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-28 22:10:38.024  INFO 17796 --- [http-nio-8080-exec-10] com.dtone.ssm.controller.UserController  : 返回响应:user/login登陆成功
+2020-10-28 22:10:40.967  INFO 17796 --- [http-nio-8080-exec-10] com.dtone.ssm.util.LoginInterceptor      : 未登录用户拦截器启动
+2020-10-28 22:10:44.885  INFO 17796 --- [http-nio-8080-exec-2] com.dtone.ssm.util.LoginInterceptor      : 未登录用户拦截器启动
+2020-10-28 22:10:44.886  INFO 17796 --- [http-nio-8080-exec-2] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:10:44.886  INFO 17796 --- [http-nio-8080-exec-2] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:10:44.887  INFO 17796 --- [http-nio-8080-exec-2] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:10:44.887  INFO 17796 --- [http-nio-8080-exec-2] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:10:44.943  INFO 17796 --- [http-nio-8080-exec-6] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:11.186  INFO 10024 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on Huang with PID 10024 (C:\Users\new\Desktop\safecity\target\classes started by new in C:\Users\new\Desktop\safecity)
+2020-10-28 22:12:11.190  INFO 10024 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-28 22:12:11.257  INFO 10024 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-28 22:12:11.257  INFO 10024 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-28 22:12:12.250  INFO 10024 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-28 22:12:12.257  INFO 10024 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-28 22:12:12.258  INFO 10024 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-28 22:12:12.311  INFO 10024 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-28 22:12:12.311  INFO 10024 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1054 ms
+2020-10-28 22:12:12.765  INFO 10024 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 22:12:12.936  INFO 10024 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-28 22:12:12.976  INFO 10024 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-28 22:12:12.989  INFO 10024 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 2.159 seconds (JVM running for 3.058)
+2020-10-28 22:12:15.817  INFO 10024 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 22:12:15.907  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.163  WARN 10024 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [244] milliseconds.
+2020-10-28 22:12:16.165  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.165  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:16.166  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:16.207  INFO 10024 --- [http-nio-8080-exec-2] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:16.207  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.207  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.207  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:16.207  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:16.253  INFO 10024 --- [http-nio-8080-exec-3] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:16.253  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.253  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.254  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:16.254  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:16.284  INFO 10024 --- [http-nio-8080-exec-4] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:16.285  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.285  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.285  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:16.285  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:16.314  INFO 10024 --- [http-nio-8080-exec-5] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:16.314  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.314  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.314  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:16.314  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:16.344  INFO 10024 --- [http-nio-8080-exec-6] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:16.344  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.344  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.345  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:16.345  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:16.387  INFO 10024 --- [http-nio-8080-exec-7] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:16.387  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.387  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.388  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:16.388  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:16.451  INFO 10024 --- [http-nio-8080-exec-8] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:16.452  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.453  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.453  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:16.453  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:16.532  INFO 10024 --- [http-nio-8080-exec-9] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:16.533  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.533  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.533  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:16.533  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:16.560  INFO 10024 --- [http-nio-8080-exec-10] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:16.560  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.560  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.560  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:16.560  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:16.584  INFO 10024 --- [http-nio-8080-exec-1] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:16.584  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.584  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.584  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:16.584  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:16.632  INFO 10024 --- [http-nio-8080-exec-2] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:16.632  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.632  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.632  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:16.632  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:16.671  INFO 10024 --- [http-nio-8080-exec-3] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:16.671  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.671  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.671  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:16.671  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:16.703  INFO 10024 --- [http-nio-8080-exec-4] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:16.703  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.703  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.703  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:16.703  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:16.733  INFO 10024 --- [http-nio-8080-exec-5] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:16.733  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.734  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.734  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:16.734  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:16.761  INFO 10024 --- [http-nio-8080-exec-6] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:16.762  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.762  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.762  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:16.762  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:16.786  INFO 10024 --- [http-nio-8080-exec-7] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:16.786  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.786  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.786  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:16.786  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:16.815  INFO 10024 --- [http-nio-8080-exec-8] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:16.815  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.815  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.815  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:16.816  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:16.845  INFO 10024 --- [http-nio-8080-exec-9] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:16.846  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.846  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.846  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:16.846  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:16.878  INFO 10024 --- [http-nio-8080-exec-10] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:16.879  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.879  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:16.879  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:16.879  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:18.062  INFO 10024 --- [http-nio-8080-exec-1] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:18.062  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.062  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.062  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:18.062  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:18.118  INFO 10024 --- [http-nio-8080-exec-2] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:18.119  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.119  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.119  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:18.119  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:18.142  INFO 10024 --- [http-nio-8080-exec-3] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:18.142  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.142  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.142  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:18.146  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:18.169  INFO 10024 --- [http-nio-8080-exec-4] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:18.169  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.169  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.169  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:18.169  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:18.200  INFO 10024 --- [http-nio-8080-exec-5] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:18.201  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.201  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.201  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:18.201  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:18.240  INFO 10024 --- [http-nio-8080-exec-6] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:18.240  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.240  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.240  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:18.240  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:18.263  INFO 10024 --- [http-nio-8080-exec-7] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:18.263  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.263  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.263  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:18.263  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:18.289  INFO 10024 --- [http-nio-8080-exec-8] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:18.289  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.289  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.289  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:18.289  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:18.318  INFO 10024 --- [http-nio-8080-exec-9] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:18.318  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.318  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.318  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:18.318  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:18.351  INFO 10024 --- [http-nio-8080-exec-10] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:18.351  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.351  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.351  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:18.351  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:18.381  INFO 10024 --- [http-nio-8080-exec-1] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:18.381  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.381  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.381  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:18.381  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:18.427  INFO 10024 --- [http-nio-8080-exec-2] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:18.427  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.427  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.427  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:18.427  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:18.468  INFO 10024 --- [http-nio-8080-exec-3] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:18.469  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.469  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.469  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:18.469  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:18.499  INFO 10024 --- [http-nio-8080-exec-4] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:18.500  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.500  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.500  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:18.500  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:18.547  INFO 10024 --- [http-nio-8080-exec-5] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:18.547  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.547  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.547  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:18.547  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:18.605  INFO 10024 --- [http-nio-8080-exec-6] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:18.605  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.605  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.606  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:18.607  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:18.858  INFO 10024 --- [http-nio-8080-exec-7] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:18.859  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.859  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.859  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:18.860  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:18.899  INFO 10024 --- [http-nio-8080-exec-8] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:18.899  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.899  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.899  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:18.899  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:18.924  INFO 10024 --- [http-nio-8080-exec-9] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:18.924  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.924  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.924  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:18.924  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:18.949  INFO 10024 --- [http-nio-8080-exec-10] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:18.949  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.949  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:18.949  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:18.949  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:23.454  INFO 10024 --- [http-nio-8080-exec-1] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:23.455  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:23.455  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:23.455  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:23.455  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:23.512  INFO 10024 --- [http-nio-8080-exec-2] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:23.512  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:23.512  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:23.512  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:23.512  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:23.545  INFO 10024 --- [http-nio-8080-exec-3] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:23.545  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:23.545  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:23.545  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:23.545  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:23.567  INFO 10024 --- [http-nio-8080-exec-4] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:23.568  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:23.568  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:23.568  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:23.568  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:23.591  INFO 10024 --- [http-nio-8080-exec-5] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:23.591  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:23.591  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:23.591  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:23.591  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:23.618  INFO 10024 --- [http-nio-8080-exec-6] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:23.618  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:23.618  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:23.618  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:23.618  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:23.648  INFO 10024 --- [http-nio-8080-exec-7] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:23.648  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:23.648  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:23.648  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:23.648  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:23.735  INFO 10024 --- [http-nio-8080-exec-8] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:23.735  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:23.735  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:23.735  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:23.736  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:23.831  INFO 10024 --- [http-nio-8080-exec-9] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:23.832  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:23.834  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:23.835  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:23.835  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:23.866  INFO 10024 --- [http-nio-8080-exec-10] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:23.867  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:23.867  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:23.867  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:23.867  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:23.900  INFO 10024 --- [http-nio-8080-exec-1] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:23.900  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:23.900  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:23.900  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:23.900  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:23.942  INFO 10024 --- [http-nio-8080-exec-2] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:23.942  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:23.942  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:23.942  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:23.942  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:23.981  INFO 10024 --- [http-nio-8080-exec-3] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:23.982  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:23.982  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:23.982  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:23.982  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:24.007  INFO 10024 --- [http-nio-8080-exec-4] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:24.007  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:24.007  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:24.007  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:24.007  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:24.030  INFO 10024 --- [http-nio-8080-exec-5] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:24.030  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:24.030  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:24.030  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:24.030  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:24.052  INFO 10024 --- [http-nio-8080-exec-6] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:24.052  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:24.052  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:24.052  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:24.052  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:24.075  INFO 10024 --- [http-nio-8080-exec-7] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:24.075  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:24.075  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:24.075  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:24.075  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:24.101  INFO 10024 --- [http-nio-8080-exec-8] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:24.102  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:24.102  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:24.102  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:24.102  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:24.142  INFO 10024 --- [http-nio-8080-exec-9] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:24.142  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:24.142  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:24.142  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:24.142  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:24.179  INFO 10024 --- [http-nio-8080-exec-10] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:24.179  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:24.179  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:24.179  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:24.179  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:25.268  INFO 10024 --- [http-nio-8080-exec-1] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:25.268  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.268  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.268  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:25.268  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:25.312  INFO 10024 --- [http-nio-8080-exec-2] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:25.313  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.313  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.313  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:25.313  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:25.359  INFO 10024 --- [http-nio-8080-exec-3] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:25.360  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.360  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.360  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:25.360  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:25.388  INFO 10024 --- [http-nio-8080-exec-4] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:25.388  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.388  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.388  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:25.388  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:25.421  INFO 10024 --- [http-nio-8080-exec-5] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:25.421  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.421  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.421  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:25.421  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:25.447  INFO 10024 --- [http-nio-8080-exec-6] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:25.447  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.447  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.447  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:25.447  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:25.472  INFO 10024 --- [http-nio-8080-exec-7] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:25.472  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.472  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.472  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:25.472  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:25.502  INFO 10024 --- [http-nio-8080-exec-8] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:25.502  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.502  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.503  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:25.503  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:25.536  INFO 10024 --- [http-nio-8080-exec-9] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:25.536  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.536  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.536  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:25.536  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:25.578  INFO 10024 --- [http-nio-8080-exec-10] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:25.578  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.578  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.578  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:25.578  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:25.639  INFO 10024 --- [http-nio-8080-exec-1] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:25.639  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.639  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.639  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:25.639  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:25.686  INFO 10024 --- [http-nio-8080-exec-2] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:25.686  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.686  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.686  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:25.686  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:25.717  INFO 10024 --- [http-nio-8080-exec-3] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:25.717  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.717  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.717  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:25.717  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:25.749  INFO 10024 --- [http-nio-8080-exec-4] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:25.749  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.749  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.749  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:25.749  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:25.779  INFO 10024 --- [http-nio-8080-exec-5] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:25.779  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.779  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.779  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:25.779  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:25.816  INFO 10024 --- [http-nio-8080-exec-6] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:25.816  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.816  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.816  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:25.816  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:25.854  INFO 10024 --- [http-nio-8080-exec-7] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:25.854  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.854  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.854  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:25.854  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:25.892  INFO 10024 --- [http-nio-8080-exec-8] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:25.892  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.892  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.892  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:25.892  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:25.936  INFO 10024 --- [http-nio-8080-exec-9] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:25.936  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.936  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.936  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:25.936  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:25.967  INFO 10024 --- [http-nio-8080-exec-10] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:25.967  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.967  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:25.967  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:25.967  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:31.021  INFO 10024 --- [http-nio-8080-exec-1] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:31.022  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.022  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.022  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:31.022  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:31.052  INFO 10024 --- [http-nio-8080-exec-2] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:31.052  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.052  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.052  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:31.052  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:31.081  INFO 10024 --- [http-nio-8080-exec-3] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:31.081  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.081  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.081  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:31.081  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:31.107  INFO 10024 --- [http-nio-8080-exec-4] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:31.108  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.108  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.108  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:31.108  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:31.132  INFO 10024 --- [http-nio-8080-exec-5] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:31.132  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.132  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.132  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:31.132  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:31.156  INFO 10024 --- [http-nio-8080-exec-6] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:31.156  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.156  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.156  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:31.156  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:31.189  INFO 10024 --- [http-nio-8080-exec-7] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:31.189  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.189  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.190  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:31.190  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:31.231  INFO 10024 --- [http-nio-8080-exec-8] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:31.232  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.232  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.232  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:31.232  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:31.262  INFO 10024 --- [http-nio-8080-exec-9] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:31.263  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.263  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.263  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:31.263  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:31.300  INFO 10024 --- [http-nio-8080-exec-10] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:31.300  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.300  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.300  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:31.300  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:31.341  INFO 10024 --- [http-nio-8080-exec-1] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:31.341  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.341  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.341  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:31.341  INFO 10024 --- [http-nio-8080-exec-1] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:31.391  INFO 10024 --- [http-nio-8080-exec-2] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:31.391  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.391  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.391  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:31.391  INFO 10024 --- [http-nio-8080-exec-2] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:31.421  INFO 10024 --- [http-nio-8080-exec-3] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:31.421  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.421  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.421  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:31.421  INFO 10024 --- [http-nio-8080-exec-3] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:31.449  INFO 10024 --- [http-nio-8080-exec-4] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:31.450  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.450  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.450  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:31.450  INFO 10024 --- [http-nio-8080-exec-4] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:31.482  INFO 10024 --- [http-nio-8080-exec-5] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:31.482  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.482  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.482  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:31.482  INFO 10024 --- [http-nio-8080-exec-5] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:31.508  INFO 10024 --- [http-nio-8080-exec-6] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:31.508  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.508  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.508  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:31.508  INFO 10024 --- [http-nio-8080-exec-6] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:31.537  INFO 10024 --- [http-nio-8080-exec-7] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:31.537  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.537  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.537  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:31.537  INFO 10024 --- [http-nio-8080-exec-7] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:31.564  INFO 10024 --- [http-nio-8080-exec-8] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:31.565  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.565  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.565  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:31.565  INFO 10024 --- [http-nio-8080-exec-8] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:31.591  INFO 10024 --- [http-nio-8080-exec-9] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:31.591  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.591  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.591  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:31.591  INFO 10024 --- [http-nio-8080-exec-9] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:12:31.622  INFO 10024 --- [http-nio-8080-exec-10] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:12:31.622  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.ZlInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.622  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.ZjInterceptor         : 资料管理员用户拦截器启动
+2020-10-28 22:12:31.622  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.yjInterceptor         : 库房管理员拦截器启动
+2020-10-28 22:12:31.622  INFO 10024 --- [http-nio-8080-exec-10] com.dtone.ssm.util.ZqInterceptor         : 灾情管理员拦截器启动
+2020-10-28 22:13:02.437  INFO 14816 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on Huang with PID 14816 (C:\Users\new\Desktop\safecity\target\classes started by new in C:\Users\new\Desktop\safecity)
+2020-10-28 22:13:02.451  INFO 14816 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-28 22:13:02.555  INFO 14816 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-28 22:13:02.556  INFO 14816 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-28 22:13:03.725  INFO 14816 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-28 22:13:03.735  INFO 14816 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-28 22:13:03.735  INFO 14816 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-28 22:13:03.805  INFO 14816 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-28 22:13:03.806  INFO 14816 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1250 ms
+2020-10-28 22:13:04.319  INFO 14816 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 22:13:04.507  INFO 14816 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-28 22:13:04.542  INFO 14816 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-28 22:13:04.553  INFO 14816 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 2.704 seconds (JVM running for 3.756)
+2020-10-28 22:13:04.743  INFO 14816 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 22:13:04.766  INFO 14816 --- [http-nio-8080-exec-1] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:13:04.988  WARN 14816 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [218] milliseconds.
+2020-10-28 22:13:07.731  INFO 14816 --- [http-nio-8080-exec-5] c.d.ssm.util.AlreadyLoginInterceptor     : 登录用户拦截器启动
+2020-10-28 22:13:13.996  INFO 14816 --- [http-nio-8080-exec-6] com.dtone.ssm.controller.UserController  : 收到请求:user/login :name =superadminpassword=superadmin
+2020-10-28 22:13:14.003  INFO 14816 --- [http-nio-8080-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-28 22:13:14.233  INFO 14816 --- [http-nio-8080-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-28 22:13:14.299  INFO 14816 --- [http-nio-8080-exec-6] com.dtone.ssm.controller.UserController  : 返回响应:user/login登陆成功
+2020-10-28 22:13:17.141  INFO 14816 --- [http-nio-8080-exec-9] com.dtone.ssm.util.LoginInterceptor      : 未登录用户拦截器启动
+2020-10-28 22:13:20.383  INFO 14816 --- [http-nio-8080-exec-6] com.dtone.ssm.util.LoginInterceptor      : 未登录用户拦截器启动
+2020-10-28 22:13:28.527  INFO 14816 --- [http-nio-8080-exec-8] com.dtone.ssm.util.LoginInterceptor      : 未登录用户拦截器启动
+2020-10-28 22:14:32.545  INFO 14816 --- [http-nio-8080-exec-8] c.dtone.ssm.controller.MouseController   : 收到请求：user/findOneBug,bugName=null
+2020-10-28 22:14:32.641 ERROR 14816 --- [http-nio-8080-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'ms_name' in 'where clause'
+### The error may exist in com/dtone/ssm/dao/IMouseDao.java (best guess)
+### The error may involve com.dtone.ssm.dao.IMouseDao.selectMouseByName-Inline
+### The error occurred while setting parameters
+### SQL: select * from tb_mouse where ms_name = ?
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'ms_name' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'ms_name' in 'where clause'] with root cause
+
+java.sql.SQLSyntaxErrorException: Unknown column 'ms_name' in 'where clause'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java) ~[HikariCP-3.4.5.jar:na]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64) ~[mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79) ~[mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63) ~[mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325) ~[mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156) ~[mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109) ~[mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:89) ~[mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147) ~[mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140) ~[mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:76) ~[mybatis-3.5.5.jar:3.5.5]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426) ~[mybatis-spring-2.0.5.jar:2.0.5]
+	at com.sun.proxy.$Proxy61.selectOne(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:159) ~[mybatis-spring-2.0.5.jar:2.0.5]
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87) ~[mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:152) ~[mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85) ~[mybatis-3.5.5.jar:3.5.5]
+	at com.sun.proxy.$Proxy71.selectMouseByName(Unknown Source) ~[na:na]
+	at com.dtone.ssm.service.imp.MouseServiceImp.findMouseByName(MouseServiceImp.java:40) ~[classes/:na]
+	at com.dtone.ssm.service.imp.MouseServiceImp$$FastClassBySpringCGLIB$$c3fe873b.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771) ~[spring-aop-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) ~[spring-aop-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:367) ~[spring-tx-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118) ~[spring-tx-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) ~[spring-aop-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691) ~[spring-aop-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at com.dtone.ssm.service.imp.MouseServiceImp$$EnhancerBySpringCGLIB$$68f6dd63.findMouseByName(<generated>) ~[classes/:na]
+	at com.dtone.ssm.controller.MouseController.getName(MouseController.java:36) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652) ~[tomcat-embed-core-9.0.38.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.38.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135) [na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.base/java.lang.Thread.run(Thread.java:844) [na:na]
+
+2020-10-28 22:15:34.140  INFO 4540 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on Huang with PID 4540 (C:\Users\new\Desktop\safecity\target\classes started by new in C:\Users\new\Desktop\safecity)
+2020-10-28 22:15:34.145  INFO 4540 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-28 22:15:34.222  INFO 4540 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-28 22:15:34.222  INFO 4540 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-28 22:15:35.162  INFO 4540 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-28 22:15:35.168  INFO 4540 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-28 22:15:35.169  INFO 4540 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-28 22:15:35.217  INFO 4540 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-28 22:15:35.217  INFO 4540 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 995 ms
+2020-10-28 22:15:35.612  INFO 4540 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 22:15:35.763  INFO 4540 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-28 22:15:35.792  INFO 4540 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-28 22:15:35.809  INFO 4540 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 2.038 seconds (JVM running for 2.998)
+2020-10-28 22:15:37.790  INFO 4540 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 22:15:38.925  WARN 4540 --- [http-nio-8080-exec-2] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [390] milliseconds.
+2020-10-28 22:15:38.959  INFO 4540 --- [http-nio-8080-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-28 22:15:39.445  INFO 4540 --- [http-nio-8080-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-28 22:15:44.568  INFO 4540 --- [http-nio-8080-exec-7] c.dtone.ssm.controller.MouseController   : 收到请求：user/findOneBug,bugName=杰瑞
+2020-10-28 22:15:44.574  INFO 4540 --- [http-nio-8080-exec-7] c.dtone.ssm.controller.MouseController   : 响应请求：user/findOneBug,bugEntity=MouseEntity(id=1, name=杰瑞, breed=1天一窝, food=垃圾, enemy=猫, damage=家具，感染, prevent=杀虫剂, img=aassas)
+2020-10-28 22:15:58.789  INFO 4540 --- [http-nio-8080-exec-5] c.d.ssm.controller.SicknessController    : 收到请求:user/sickness
+2020-10-28 22:15:58.807  INFO 4540 --- [http-nio-8080-exec-5] c.d.ssm.controller.SicknessController    : 返回对象
+2020-10-28 22:16:02.818  INFO 4540 --- [http-nio-8080-exec-3] c.d.ssm.controller.SicknessController    : 收到请求：user/user/findsickness=霍乱
+2020-10-28 22:16:02.822  INFO 4540 --- [http-nio-8080-exec-3] c.d.ssm.controller.SicknessController    : 响应请求：user/user/findsickness=SicknessEntity(id=1, name=霍乱, cause=虫叮咬, pattern=感染, law=null, damange=70%, treat=抗体, img=null)
+2020-10-28 22:16:05.116  INFO 4540 --- [http-nio-8080-exec-9] c.d.ssm.controller.SicknessController    : 收到请求：user/user/findsickness=霍乱
+2020-10-28 22:16:05.119  INFO 4540 --- [http-nio-8080-exec-9] c.d.ssm.controller.SicknessController    : 响应请求：user/user/findsickness=SicknessEntity(id=1, name=霍乱, cause=虫叮咬, pattern=感染, law=null, damange=70%, treat=抗体, img=null)
+2020-10-28 22:19:37.496  INFO 4540 --- [http-nio-8080-exec-3] c.d.ssm.controller.SicknessController    : 收到请求：user/user/findsickness=霍乱
+2020-10-28 22:19:37.513  INFO 4540 --- [http-nio-8080-exec-3] c.d.ssm.controller.SicknessController    : 响应请求：user/user/findsickness=SicknessEntity(id=1, name=霍乱, cause=虫叮咬, pattern=感染, law=null, damange=70%, treat=抗体, img=null)
+2020-10-28 22:20:57.554  INFO 5164 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on Huang with PID 5164 (C:\Users\new\Desktop\safecity\target\classes started by new in C:\Users\new\Desktop\safecity)
+2020-10-28 22:20:57.557  INFO 5164 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-28 22:20:57.626  INFO 5164 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-28 22:20:57.627  INFO 5164 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-28 22:20:58.566  INFO 5164 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-28 22:20:58.574  INFO 5164 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-28 22:20:58.574  INFO 5164 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-28 22:20:58.628  INFO 5164 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-28 22:20:58.628  INFO 5164 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1001 ms
+2020-10-28 22:20:59.067  INFO 5164 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 22:20:59.292  INFO 5164 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-28 22:20:59.347  INFO 5164 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-28 22:20:59.356  INFO 5164 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 2.165 seconds (JVM running for 3.085)
+2020-10-28 22:21:01.977  INFO 5164 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 22:21:02.682  INFO 5164 --- [http-nio-8080-exec-5] c.d.ssm.controller.SicknessController    : 收到请求:user/sickness
+2020-10-28 22:21:02.691  INFO 5164 --- [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-28 22:21:02.940  WARN 5164 --- [http-nio-8080-exec-6] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [309] milliseconds.
+2020-10-28 22:21:03.025  INFO 5164 --- [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-28 22:21:03.085  INFO 5164 --- [http-nio-8080-exec-5] c.d.ssm.controller.SicknessController    : 返回对象
+2020-10-28 22:21:06.816  INFO 5164 --- [http-nio-8080-exec-9] c.d.ssm.controller.SicknessController    : 收到请求：user/user/findsickness=霍乱
+2020-10-28 22:21:06.824  INFO 5164 --- [http-nio-8080-exec-9] c.d.ssm.controller.SicknessController    : 响应请求：user/user/findsickness=SicknessEntity(id=1, name=霍乱, cause=虫叮咬, pattern=null, law=感染, damange=70%, treat=抗体, img=null)
+2020-10-28 22:21:23.911  INFO 5164 --- [http-nio-8080-exec-8] c.d.ssm.controller.SicknessController    : 收到请求：user/user/findsickness=霍乱
+2020-10-28 22:21:23.915  INFO 5164 --- [http-nio-8080-exec-8] c.d.ssm.controller.SicknessController    : 响应请求：user/user/findsickness=SicknessEntity(id=1, name=霍乱, cause=虫叮咬, pattern=null, law=感染, damange=70%, treat=抗体, img=null)
+2020-10-28 22:22:56.518  INFO 5164 --- [http-nio-8080-exec-6] c.d.ssm.controller.SicknessController    : 收到请求：user/user/findsickness=霍乱
+2020-10-28 22:22:56.522  INFO 5164 --- [http-nio-8080-exec-6] c.d.ssm.controller.SicknessController    : 响应请求：user/user/findsickness=SicknessEntity(id=1, name=霍乱, cause=虫叮咬, pattern=null, law=感染, damange=70%, treat=抗体, img=null)
+2020-10-28 22:24:07.626  INFO 10144 --- [restartedMain] com.dtone.ssm.SsmApplication             : Starting SsmApplication on Huang with PID 10144 (C:\Users\new\Desktop\safecity\target\classes started by new in C:\Users\new\Desktop\safecity)
+2020-10-28 22:24:07.630  INFO 10144 --- [restartedMain] com.dtone.ssm.SsmApplication             : No active profile set, falling back to default profiles: default
+2020-10-28 22:24:07.706  INFO 10144 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-28 22:24:07.706  INFO 10144 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-28 22:24:08.640  INFO 10144 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-28 22:24:08.651  INFO 10144 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-28 22:24:08.651  INFO 10144 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-28 22:24:08.699  INFO 10144 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-28 22:24:08.699  INFO 10144 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 992 ms
+2020-10-28 22:24:09.125  INFO 10144 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 22:24:09.273  INFO 10144 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-28 22:24:09.303  INFO 10144 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-28 22:24:09.311  INFO 10144 --- [restartedMain] com.dtone.ssm.SsmApplication             : Started SsmApplication in 2.03 seconds (JVM running for 2.88)
+2020-10-28 22:24:13.655  INFO 10144 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 22:24:14.210  INFO 10144 --- [http-nio-8080-exec-3] c.d.ssm.controller.SicknessController    : 收到请求:user/sickness
+2020-10-28 22:24:14.233  INFO 10144 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-28 22:24:14.494  WARN 10144 --- [http-nio-8080-exec-4] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [338] milliseconds.
+2020-10-28 22:24:14.591  INFO 10144 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-28 22:24:14.659  INFO 10144 --- [http-nio-8080-exec-3] c.d.ssm.controller.SicknessController    : 返回对象
+2020-10-28 22:24:18.630  INFO 10144 --- [http-nio-8080-exec-7] c.d.ssm.controller.SicknessController    : 收到请求：user/user/findsickness=霍乱
+2020-10-28 22:24:18.637  INFO 10144 --- [http-nio-8080-exec-7] c.d.ssm.controller.SicknessController    : 响应请求：user/user/findsickness=SicknessEntity(id=1, name=霍乱, cause=虫叮咬, pattern=蚊虫叮咬, law=感染, damange=70%, treat=抗体, img=null)

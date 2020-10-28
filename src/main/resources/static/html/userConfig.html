@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh" xmlns="http://www.w3.org/1999/html">
 <head>
     <!-- basic -->
     <meta charset="utf-8">
@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <!-- site metas -->
-    <title>仪表盘 CGPMS</title>
+    <title>用户设置 CGPMS</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -22,19 +22,55 @@
     <link rel="icon" href="../images/icon.png" type="image/gif"/>
     <!-- Scrollbar Custom CSS -->
     <link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
-
-    <script src="../js/captGenerate.js"></script>
     <script src="../js/jquery.js"></script>
-    <script src="../js/isLogin.js"></script>
+    <script src="../js/captGenerate.js"></script>
+    <script src="../js/register.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/plugin.js"></script>
+    <!-- Scrollbar Js Files -->
+    <script src="../js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="../js/custom.js"></script>
+    <!-- Tweaks for older IEs-->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+    <!--表格设计-->
+    <link href="../bootstrap-table-master/css/bootstrap-table.css" rel="stylesheet"/>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <script src="../bootstrap-table-master/js/bootstrap-table.js"></script>
     <script src="../js/logout.js"></script>
-    <script src="../js/login.js"></script>
+    <script src="../bootstrap-table-master/js/bootstrap-table-zh-CN.js"></script>
+    <script src="../js/userConfig.js"></script>
+    <script src="../js/isLogin.js"></script>
+    <script>
+        $(function (){
+            $("#submit").click(function (){
+                $.ajax({
+                    url:"user/setLevel",
+                    type:"POST",
+                    data:{
+                        id:$("#id").val(),
+                        level:$("#level  option:selected").val()
+                    },
+                    success:function (){
+                        resetTable()
+                    }
+                })
+            })
+        })
+    </script>
 
 </head>
+<!-- body -->
 <body class="main-layout" onload="createCode()">
+<!-- loader  -->
 <div class="loader_bg">
     <div class="loader"><img src="../images/loading.gif" alt=""/></div>
 </div>
-
+<!-- end loader -->
 <!-- header -->
 <header>
     <!-- header inner -->
@@ -100,7 +136,7 @@
                                     <a href="#">登出</a>
                                 </li>
                                 <!--未登录时隐藏-->
-                                <li id="dashboard" class="active">
+                                <li id="dashboard">
                                     <a href="dashboard.html">仪表盘</a>
                                 </li>
                             </ul>
@@ -114,135 +150,49 @@
 </header>
 
 
-<!-- header -->
 <div class="Marketing-bg">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="Marketingheading">
-                    <h3>仪表盘</h3>
+                    <h3>用户管理</h3>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<section class="layout_padding">
-    <div class="container">
 
 
+<!-- end section -->
+<!-- section -->
 
-        <div class="row">
-            <div class="col-md-12">
-                <div class="full comment_blog_line">
-                    <div class="row">
-                        <div class="col-md-1">
-                            <img src="../images/日志.png" alt="#"/>
-                        </div>
-                        <div class="col-md-9">
-                            <div class="full contact_text">
-                                <h3>日志</h3>
-                                <br>
-                                <p>查看用户所有的登录以及注册日志.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-md-2">
-                            <a class="reply_bt" href="log.html">进入</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="full comment_blog_line">
-
-                    <div class="row">
-                        <div class="col-md-1">
-                            <img src="../images/用户.png" alt="#"/>
-                        </div>
-                        <div class="col-md-9">
-                            <div class="full contact_text">
-                                <h3>用户设置</h3>
-                                <br>
-                                <p>设置网站注册用户的基本信息.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-md-2">
-                            <a class="reply_bt" href="userConfig.html">进入</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="full comment_blog_line">
-
-                    <div class="row">
-                        <div class="col-md-1">
-                            <img src="../images/区域.png" alt="#"/>
-                        </div>
-                        <div class="col-md-9">
-                            <div class="full contact_text">
-                                <h3>区域管理</h3>
-                                <br>
-                                <p>管理以及检索区域相关信息
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-md-2">
-                            <a class="reply_bt" href="zoneManage.html">进入</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="full comment_blog_line">
-
-                    <div class="row">
-                        <div class="col-md-1">
-                            <img src="../images/药箱.png" alt="#"/>
-                        </div>
-                        <div class="col-md-9">
-                            <div class="full contact_text">
-                                <h3>药剂管理</h3>
-                                <br>
-                                <p>管理以及检索药剂以及器械相关信息
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-md-2">
-                            <a class="reply_bt" href="medicationManage.html">进入</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="full comment_blog_line">
-
-                    <div class="row">
-                        <div class="col-md-1">
-                            <img src="../images/物品领用.png" alt="#"/>
-                        </div>
-                        <div class="col-md-9">
-                            <div class="full contact_text">
-                                <h3>领用检索</h3>
-                                <br>
-                                <p>检索药剂以及器械的领用信息
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-md-2">
-                            <a class="reply_bt" href="takelistManage.html">进入</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+<div class="container">
+    <div class="form-group">
+        <br>
+        <div class="form-inline row">
+            <input type="text" id="id" class="form-control date-input" placeholder="用户ID" width="20%">
+            <label class="date-label">&nbsp;&nbsp;</label>
+            <select id="level" class="form-control">
+                <option value="cj">超级管理员 (cj)</option>
+                <option value="zl">资料管理员 (zl)</option>
+                <option value="cj">灾情管理员 (zq)</option>
+                <option value="zj">专家 (zj)</option>
+                <option value="yj">药剂管理员 (yj)</option>
+            </select>
+            <label>&nbsp;&nbsp;</label>
+            <button type="button" id="submit"
+                    class="btn btn-primary" style="margin-top:0">更改
+            </button>
         </div>
     </div>
-</section>
 
-<script src="../js/popper.min.js"></script>
-<script src="../js/bootstrap.bundle.min.js"></script>
-<script src="../js/jquery-3.3.1.min.js"></script>
-<script src="../js/plugin.js"></script>
-<!-- Scrollbar Js Files -->
-<script src="../js/jquery.mCustomScrollbar.concat.min.js"></script>
-<script src="../js/custom.js"></script>
+    <table id="mytable"></table>
+
+</div>
 </body>
+<style>
+    button.btn.btn-default {
+        display: none;
+    }
+</style>
 </html>

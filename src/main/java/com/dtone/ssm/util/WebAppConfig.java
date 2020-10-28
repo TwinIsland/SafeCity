@@ -25,10 +25,12 @@ public class WebAppConfig extends WebMvcConfigurerAdapter  {
         registration.addPathPatterns("/html/zoneManage.html");
         registration.addPathPatterns("/html/medicationManage.html");
         registration.addPathPatterns("/html/applyTakeMed.html");
-
+        registration.addPathPatterns("/html/userConfig.html");
 
         InterceptorRegistration registration2 = registry.addInterceptor(new AlreadyLoginInterceptor());
         registration2.addPathPatterns("/html/login.html");
+
+
     }
 }
 

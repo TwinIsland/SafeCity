@@ -24,7 +24,8 @@ public class LoginInterceptor extends HandlerInterceptorAdapter {
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         log.info("未登录用户拦截器启动");
-        if (request.getSession().getAttribute("isLogin") == null){
+        if (request.getSession().getAttribute("isLogin") == null ||
+                request.getSession().getAttribute("isLogin") == "") {
             response.sendRedirect("login.html");
             return false;
         }

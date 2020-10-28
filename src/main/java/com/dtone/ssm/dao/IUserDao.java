@@ -40,4 +40,10 @@ public interface IUserDao {
     //判断用户名是否重复
     @Select("select count(*) from tb_user where u_name = #{name}")
     public int selectUserCount(String name);
+
+    @Update("update tb_user set u_level = #{level} where u_id = #{id}")
+    public void setLevel(int id,String level);
+
+    @Select("select u_level from tb_user where u_name = #{name} and u_password = #{password}")
+    public String getLevel(@Param("name") String name,@Param("password") String password);
 }
