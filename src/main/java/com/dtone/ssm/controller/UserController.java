@@ -1,5 +1,6 @@
 package com.dtone.ssm.controller;
 
+import com.dtone.ssm.entity.UserEntity;
 import com.dtone.ssm.service.ILogService;
 import com.dtone.ssm.service.IUserService;
 import com.dtone.ssm.service.imp.LogServiceImp;
@@ -14,6 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.util.Date;
+import java.util.List;
 
 
 /**
@@ -39,6 +41,7 @@ public class UserController {
             HttpSession session = request.getSession();
             session.setAttribute("name",userService.getUsrRealName(name));
             session.setAttribute("isLogin",true);
+            session.setAttribute("level","superadmin");
             logService.userLogin("登录账号：" + name + " 【状态：成功】", TimeUtil.getCurTime());
             log.info("返回响应:user/login" + "登陆成功");
             return "success";
@@ -67,4 +70,15 @@ public class UserController {
     public boolean isLogin(HttpServletRequest request){
         return request.getSession().getAttribute("isLogin") != null;
     }
+
+    @RequestMapping("user/setLevel")
+    public void setLevel(int id,String level){
+        userService.setLevel(id,level);
+    }
+
+    @RequestMapping("user/getUser")
+    public List<UserEntity> getAllUser(){
+        return userService.selectAllUser();
+    }
+
 }

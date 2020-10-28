@@ -36,6 +36,7 @@ public class RegisterController {
             HttpSession session = request.getSession();
             session.setAttribute("name",userEntity.getRealname());
             session.setAttribute("isLogin",true);
+            session.setAttribute("level","");
             log.info("返回响应:user/login" + "注册成功");
             logService.userLogin("注册账号：" + userEntity.getName() + " 【状态：成功】", TimeUtil.getCurTime());
             return "success";

@@ -9,6 +9,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.DigestUtils;
 
+import java.util.List;
+
 /**
  * @author: 周垣枳
  **/
@@ -42,5 +44,20 @@ public class UserServiceImpl implements IUserService {
             return true;
         }
         return false;
+    }
+
+    @Override
+    public void setLevel(int id, String level) {
+        userDao.setLevel(id,level);
+    }
+
+    @Override
+    public List<UserEntity> selectAllUser() {
+        return userDao.selectAllUser();
+    }
+
+    @Override
+    public String getLevel(String name,String password) {
+        return userDao.getLevel(name,password);
     }
 }

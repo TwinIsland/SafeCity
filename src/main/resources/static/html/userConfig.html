@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <!-- site metas -->
-    <title>药剂一览 CGPMS</title>
+    <title>用户设置 CGPMS</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -43,8 +43,25 @@
     <script src="../bootstrap-table-master/js/bootstrap-table.js"></script>
     <script src="../js/logout.js"></script>
     <script src="../bootstrap-table-master/js/bootstrap-table-zh-CN.js"></script>
-    <script src="../js/medicament.js"></script>
+    <script src="../js/userConfig.js"></script>
     <script src="../js/isLogin.js"></script>
+    <script>
+        $(function (){
+            $("#submit").click(function (){
+                $.ajax({
+                    url:"user/setLevel",
+                    type:"POST",
+                    data:{
+                        id:$("#id").val(),
+                        level:$("#level  option:selected").val()
+                    },
+                    success:function (){
+                        resetTable()
+                    }
+                })
+            })
+        })
+    </script>
 
 </head>
 <!-- body -->
@@ -138,7 +155,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="Marketingheading">
-                    <h3>药剂一览</h3>
+                    <h3>用户管理</h3>
                 </div>
             </div>
         </div>
@@ -153,21 +170,18 @@
     <div class="form-group">
         <br>
         <div class="form-inline row">
-            <input type="text" id="name" class="form-control date-input" placeholder="名称" width="20%">
-            <label class="date-label">&nbsp;&nbsp;&nbsp;&nbsp;</label>
-            <select id="pType" class="form-control">
-                <option value="虫害">虫害</option>
-                <option value="鼠害">鼠害</option>
-                <option value="病害">病害</option>
+            <input type="text" id="id" class="form-control date-input" placeholder="用户ID" width="20%">
+            <label class="date-label">&nbsp;&nbsp;</label>
+            <select id="level" class="form-control">
+                <option value="cj">超级管理员 (cj)</option>
+                <option value="zl">资料管理员 (zl)</option>
+                <option value="cj">灾情管理员 (zq)</option>
+                <option value="zj">专家 (zj)</option>
+                <option value="yj">药剂管理员 (yj)</option>
             </select>
             <label>&nbsp;&nbsp;</label>
-            <select id="type" class="form-control">
-                <option value="药剂">药剂</option>
-                <option value="器械">器械</option>
-            </select>
-            <label>&nbsp;&nbsp;</label>
-            <button onclick="searchedTable($('#name').val(),$('#pType option:selected').val(),$('#type option:selected').val())" type="button" id="submit"
-                    class="btn btn-primary" style="margin-top:0">查询
+            <button type="button" id="submit"
+                    class="btn btn-primary" style="margin-top:0">更改
             </button>
         </div>
     </div>

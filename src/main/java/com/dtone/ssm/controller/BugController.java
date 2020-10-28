@@ -22,7 +22,6 @@ public class BugController {
     private IBugService bugService;
 
 
-
     @RequestMapping("info/bug")
     public List<BugEntity> getBug() {
         List<BugEntity> bugEntities = bugService.findAllBug();

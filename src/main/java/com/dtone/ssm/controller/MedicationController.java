@@ -10,6 +10,7 @@ package com.dtone.ssm.controller;
 import com.dtone.ssm.entity.MedicamentEntity;
 import com.dtone.ssm.service.ILogService;
 import com.dtone.ssm.service.IMedicamentService;
+import com.dtone.ssm.util.TimeUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -39,12 +40,15 @@ public class MedicationController {
         if (medicamentEntity.getMed_purpose().equals("") ||
                 medicamentEntity.getMed_count() == 0 ||
                 medicamentEntity.getMed_name().equals("")) {
+            logService.userLogin("增加药物信息：" + medicamentEntity.getMed_name() + " 【状态：失败】", TimeUtil.getCurTime());
             return "false";
         }
         try {
             medicamentService.addMedi(medicamentEntity);
+            logService.userLogin("增加药物信息：" + medicamentEntity.getMed_name() + " 【状态：成功】", TimeUtil.getCurTime());
             return "true";
         } catch (Exception e) {
+            logService.userLogin("增加药物信息：" + medicamentEntity.getMed_name() + " 【状态：失败】", TimeUtil.getCurTime());
             return "false";
         }
     }
@@ -53,8 +57,10 @@ public class MedicationController {
     public String delMedication(int id) {
         try {
             medicamentService.delMediByID(id);
+            logService.userLogin("删除药物信息：" + id + " 【状态：成功】", TimeUtil.getCurTime());
             return "true";
         } catch (Exception e) {
+            logService.userLogin("删除药物信息：" + id + " 【状态：失败】", TimeUtil.getCurTime());
             return "false";
         }
     }
