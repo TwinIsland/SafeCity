@@ -53,7 +53,7 @@ public interface IExpertDao {
     public void deleteExpert(int id);
 
     @Insert("insert into tb_expert values " +
-            "(null,#{name},#{company},#{expertise},#{post},#{phone},#{date},#{sex},#{addr},#{email},#{img},#{usrId})")
+            "(null,0,#{name},#{company},#{post},#{expertise},#{phone},#{date},#{sex},#{addr},#{email},#{img})")
     //增加专家
     public void insertExpert(ExpertEntity expertEntity);
 }

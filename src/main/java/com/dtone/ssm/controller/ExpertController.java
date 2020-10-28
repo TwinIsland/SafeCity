@@ -50,15 +50,13 @@ public class ExpertController
         return expertEntities;
     }
     @RequestMapping("manage/addExpert.action")
-    public String addExpert(String name,String company,String expertise,String post,String phone)
+    public String addExpert(ExpertEntity expertEntity)
     {
-        if (name.equals("") || company.equals("") || expertise.equals("") || post.equals("") || phone.equals(""))
+        if (expertEntity.getName().equals("") || expertEntity.getCompany().equals("") || expertEntity.getExpertise().equals("") || expertEntity.getPost().equals("") || expertEntity.getPhone().equals(""))
         {
-            iLogService.userLogin("插入区域数据：" + name + "【状态：失败】", TimeUtil.getCurTime());
             return "false";
         }
-        iLogService.userLogin("插入区域数据：" + name + "【状态：成功】", TimeUtil.getCurTime());
-        iExpertService.addExpert(new ExpertEntity(name, company, expertise, post, phone));
-        return name;
+        iExpertService.addExpert(expertEntity);
+        return "true";
     }
 }

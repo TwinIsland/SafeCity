@@ -29,6 +29,8 @@ public class ZoneController {
     @Autowired
     ILogService logService;
 
+
+
     @RequestMapping("info/zone")
     public List<ZoneEntity> getAllZone() {
         return zoneService.selectAllZone();
