@@ -124,7 +124,7 @@ CREATE TABLE `tb_log` (
   `lg_content` varchar(100) NOT NULL,
   `lg_time` varchar(10) NOT NULL,
   PRIMARY KEY (`lg_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=44 DEFAULT CHARSET=utf8 COMMENT='table for log';
+) ENGINE=InnoDB AUTO_INCREMENT=53 DEFAULT CHARSET=utf8 COMMENT='table for log';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -133,7 +133,7 @@ CREATE TABLE `tb_log` (
 
 LOCK TABLES `tb_log` WRITE;
 /*!40000 ALTER TABLE `tb_log` DISABLE KEYS */;
-INSERT INTO `tb_log` VALUES (9,'登录账号：superadmin 【状态：成功】','2010271835'),(10,'登录账号：superadmin 【状态：成功】','2010271837'),(11,'登录账号：superadmin 【状态：成功】','2010271845'),(12,'登录账号：superadmin 【状态：成功】','2010271848'),(13,'登录账号：superadmin 【状态：成功】','2010271850'),(14,'登录账号：superadmin 【状态：成功】','2010271851'),(15,'登录账号：huang 【状态：失败】','2010271853'),(16,'登录账号：superadmin 【状态：成功】','2010271853'),(17,'登录账号：superadmin 【状态：成功】','2010271855'),(18,'登录账号：superadmin 【状态：成功】','2010271856'),(19,'登录账号：superadmin 【状态：成功】','2010271900'),(20,'登录账号：superadmin 【状态：成功】','2010271903'),(21,'登录账号：superadmin 【状态：成功】','2010271923'),(22,'登录账号：superadmin 【状态：成功】','2010271926'),(23,'登录账号：superadmin 【状态：成功】','2010271927'),(24,'登录账号：superadmi 【状态：失败】','2010280045'),(25,'登录账号： 【状态：失败】','2010280045'),(26,'登录账号：superadmin 【状态：成功】','2010280045'),(27,'注册账号：superadmin 【状态：失败】','2010280050'),(28,'注册账号：aa 【状态：成功】','2010280050'),(29,'登录账号：superadmin 【状态：成功】','2010280051'),(30,'注册账号：hty233 【状态：成功】','2010280052'),(31,'注册账号：hty114514 【状态：成功】','2010280055'),(32,'登录账号：superadmin 【状态：成功】','2010280100'),(33,'登录账号：superadmin 【状态：成功】','2010280101'),(34,'登录账号：superadmin 【状态：成功】','2010280247'),(35,'插入区域数据：null插入area：卡罗拉【状态：成功】','2010280301'),(36,'登录账号：superadmin 【状态：成功】','2010280302'),(37,'插入区域数据：zone22【状态：成功】','2010280303'),(38,'登录账号：superadmin 【状态：成功】','2010280304'),(39,'登录账号：superadmin 【状态：成功】','2010280305'),(40,'登录账号：superadmin 【状态：成功】','2010280309'),(41,'登录账号：superadmin 【状态：成功】','2010280311'),(42,'登录账号：superadmin 【状态：成功】','2010280313'),(43,'登录账号：superadmin 【状态：成功】','2010280314');
+INSERT INTO `tb_log` VALUES (9,'登录账号：superadmin 【状态：成功】','2010271835'),(10,'登录账号：superadmin 【状态：成功】','2010271837'),(11,'登录账号：superadmin 【状态：成功】','2010271845'),(12,'登录账号：superadmin 【状态：成功】','2010271848'),(13,'登录账号：superadmin 【状态：成功】','2010271850'),(14,'登录账号：superadmin 【状态：成功】','2010271851'),(15,'登录账号：huang 【状态：失败】','2010271853'),(16,'登录账号：superadmin 【状态：成功】','2010271853'),(17,'登录账号：superadmin 【状态：成功】','2010271855'),(18,'登录账号：superadmin 【状态：成功】','2010271856'),(19,'登录账号：superadmin 【状态：成功】','2010271900'),(20,'登录账号：superadmin 【状态：成功】','2010271903'),(21,'登录账号：superadmin 【状态：成功】','2010271923'),(22,'登录账号：superadmin 【状态：成功】','2010271926'),(23,'登录账号：superadmin 【状态：成功】','2010271927'),(24,'登录账号：superadmi 【状态：失败】','2010280045'),(25,'登录账号： 【状态：失败】','2010280045'),(26,'登录账号：superadmin 【状态：成功】','2010280045'),(27,'注册账号：superadmin 【状态：失败】','2010280050'),(28,'注册账号：aa 【状态：成功】','2010280050'),(29,'登录账号：superadmin 【状态：成功】','2010280051'),(30,'注册账号：hty233 【状态：成功】','2010280052'),(31,'注册账号：hty114514 【状态：成功】','2010280055'),(32,'登录账号：superadmin 【状态：成功】','2010280100'),(33,'登录账号：superadmin 【状态：成功】','2010280101'),(34,'登录账号：superadmin 【状态：成功】','2010280247'),(35,'插入区域数据：null插入area：卡罗拉【状态：成功】','2010280301'),(36,'登录账号：superadmin 【状态：成功】','2010280302'),(37,'插入区域数据：zone22【状态：成功】','2010280303'),(38,'登录账号：superadmin 【状态：成功】','2010280304'),(39,'登录账号：superadmin 【状态：成功】','2010280305'),(40,'登录账号：superadmin 【状态：成功】','2010280309'),(41,'登录账号：superadmin 【状态：成功】','2010280311'),(42,'登录账号：superadmin 【状态：成功】','2010280313'),(43,'登录账号：superadmin 【状态：成功】','2010280314'),(44,'登录账号：superadmin 【状态：成功】','2010280322'),(45,'插入区域数据：【状态：失败】','2010280322'),(46,'登录账号：superadmin 【状态：成功】','2010280326'),(47,'登录账号：superadmin 【状态：成功】','2010281248'),(48,'登录账号：superadmin 【状态：成功】','2010281307'),(49,'登录账号：superadmin 【状态：成功】','2010281308'),(50,'登录账号：superadmin 【状态：成功】','2010281309'),(51,'登录账号：superadmin 【状态：成功】','2010281311'),(52,'登录账号：superadmin 【状态：成功】','2010281317');
 /*!40000 ALTER TABLE `tb_log` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -145,14 +145,14 @@ DROP TABLE IF EXISTS `tb_medicament`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `tb_medicament` (
-  `med_id` int NOT NULL,
+  `med_id` int NOT NULL AUTO_INCREMENT,
   `med_name` varchar(12) NOT NULL,
   `med_ptype` varchar(12) NOT NULL,
   `med_type` varchar(12) NOT NULL,
   `med_purpose` varchar(50) NOT NULL,
   `med_count` int NOT NULL,
   PRIMARY KEY (`med_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -161,6 +161,7 @@ CREATE TABLE `tb_medicament` (
 
 LOCK TABLES `tb_medicament` WRITE;
 /*!40000 ALTER TABLE `tb_medicament` DISABLE KEYS */;
+INSERT INTO `tb_medicament` VALUES (2,'阿莫西林','虫害','药剂','杀虫',100),(3,'滑石粉','鼠害','药剂','杀鼠',10),(8,'敌敌畏','鼠害','药剂','杀灭老鼠',50);
 /*!40000 ALTER TABLE `tb_medicament` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -410,4 +411,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-10-28  3:21:01
+-- Dump completed on 2020-10-28 13:19:19
