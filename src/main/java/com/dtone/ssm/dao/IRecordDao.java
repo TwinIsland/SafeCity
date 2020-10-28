@@ -26,7 +26,7 @@ public interface IRecordDao
     public List<RecordEntity> selectAllRecord();
 
     //添加
-    @Insert("INSERT into tb_record(rec_date,rec_person,rec_result) VALUES(null,#{date},#{person},#{result})")
+    @Insert("INSERT into tb_record VALUES(null,#{date},#{person},#{result})")
     public int insertRecord(RecordEntity recordEntity);
 
     //根据id删除药剂管理记录

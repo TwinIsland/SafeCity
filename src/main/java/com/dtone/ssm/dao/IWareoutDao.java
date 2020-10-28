@@ -45,7 +45,7 @@ public interface IWareoutDao
 
 
     //添加新的出库信息到表中
-    @Insert("INSERT into tb_wareout(date,out_class,out_person) VALUES(#{date},#{out_class},#{out_person})")
+    @Insert("INSERT into tb_wareout VALUES(#{date},#{out_class},#{out_person})")
     public int insertWareout(WareoutEntity wareoutEntity);
 
     //根据id删除药剂管理记录
