@@ -15,4 +15,7 @@ public interface IBugService {
 
     //模糊查询虫害信息
     public List<BugEntity> findBugByVague(String name, String host);
+
+    //根据虫名查询
+    public BugEntity findBugByName(String name);
 }

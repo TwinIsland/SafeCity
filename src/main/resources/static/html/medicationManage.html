@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh" xmlns="http://www.w3.org/1999/html">
 <head>
     <!-- basic -->
     <meta charset="utf-8">
@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <!-- site metas -->
-    <title>虫害管理 CPPMS</title>
+    <title>药剂管理 CPPMS</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -29,7 +29,6 @@
     <script src="../js/bootstrap.bundle.min.js"></script>
     <script src="../js/jquery-3.3.1.min.js"></script>
     <script src="../js/plugin.js"></script>
-    <script src="../js/logout.js"></script>
     <!-- Scrollbar Js Files -->
     <script src="../js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="../js/custom.js"></script>
@@ -42,9 +41,52 @@
     <script src="../js/jquery-3.3.1.min.js"></script>
     <script src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
     <script src="../bootstrap-table-master/js/bootstrap-table.js"></script>
+    <script src="../js/logout.js"></script>
     <script src="../bootstrap-table-master/js/bootstrap-table-zh-CN.js"></script>
-    <script src="../js/bug.js"></script>
+    <script src="../js/medicament.js"></script>
     <script src="../js/isLogin.js"></script>
+    <script>
+        $(function () {
+            $("#aSubmit").click(function () {
+                $.ajax({
+                    url: "manage/addMedication.action",
+                    type: "POST",
+                    data: {
+                        med_id: 114514,
+                        med_name: $("#aName").val(),
+                        med_ptype: $("#apType option:selected").val(),
+                        med_type: $("#aType option:selected").val(),
+                        med_purpose: $("#aPurpose").val(),
+                        med_count: $("#aCount").val()
+                    },
+                    success: function (status) {
+                        if (status === "true") {
+                            resetTable()
+                        } else {
+                            alert("增加失败！")
+                        }
+                    },
+                })
+            })
+            $("#dSubmit").click(function () {
+                $.ajax({
+                    url: "manage/delMedication.action",
+                    type: "POST",
+                    data: {
+                        id: $("#dId").val()
+                    },
+                    success: function (status) {
+                        if (status === "true") {
+                            resetTable()
+                        } else {
+                            alert("删除失败！")
+                        }
+                    },
+                })
+            })
+        })
+    </script>
+
 </head>
 <!-- body -->
 <body class="main-layout" onload="createCode()">
@@ -81,7 +123,8 @@
                                         </button>
                                         <div class="dropdown-menu">
                                             <a class="dropdown-item" style="color: black" href="#">专家一览</a>
-                                            <a class="dropdown-item" style="color: black" href="medication.html">药剂一览</a>
+                                            <a class="dropdown-item" style="color: black"
+                                               href="medication.html">药剂一览</a>
                                             <a class="dropdown-item" style="color: black" href="#">小班管理</a>
                                             <a class="dropdown-item" style="color: black" href="#">事件记录</a>
                                         </div>
@@ -130,12 +173,13 @@
     <!-- end header inner -->
 </header>
 
+
 <div class="Marketing-bg">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="Marketingheading">
-                    <h3>虫害管理</h3>
+                    <h3>药剂管理</h3>
                 </div>
             </div>
         </div>
@@ -145,38 +189,84 @@
 
 <!-- end section -->
 <!-- section -->
+
 <div class="container">
+    <div class="form-group">
+        <br>
+        <div class="form-inline row">
+            <label>搜索药剂： </label>
+            <input type="text" id="name" class="form-control date-input" placeholder="名称" width="20%">
+            <label class="date-label">&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <select id="pType" class="form-control">
+                <option value="虫害">虫害</option>
+                <option value="鼠害">鼠害</option>
+                <option value="病害">病害</option>
+            </select>
+            <label>&nbsp;&nbsp;</label>
+            <select id="type" class="form-control">
+                <option value="药剂">药剂</option>
+                <option value="器械">器械</option>
+            </select>
+            <label>&nbsp;&nbsp;</label>
+            <button onclick="searchedTable($('#name').val(),$('#pType option:selected').val(),$('#type option:selected').val())"
+                    type="button" id="submit"
+                    class="btn btn-primary" style="margin-top:0">查询
+            </button>
+        </div>
+        <br>
+        <div class="form-inline row">
+            <label>添加药物： </label>
+            <input type="text" id="aName" class="form-control date-input" placeholder="名称" width="20%">
+            <label class="date-label">&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <select id="apType" class="form-control">
+                <option value="虫害">虫害</option>
+                <option value="鼠害">鼠害</option>
+                <option value="病害">病害</option>
+            </select>
+            <label>&nbsp;&nbsp;</label>
+            <select id="aType" class="form-control">
+                <option value="药剂">药剂</option>
+                <option value="器械">器械</option>
+            </select>
+            <label>&nbsp;&nbsp;</label>
+            <label class="date-label">&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" id="aPurpose" class="form-control date-input" placeholder="作用" style="width: 25%">
+            <label class="date-label">&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" id="aCount" class="form-control date-input" placeholder="数量" style="width: 10%">
+            <label class="date-label">&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <button id="aSubmit"
+                    class="btn btn-primary" style="margin-top:0">添加
+            </button>
+        </div>
+        <br>
+        <div class="form-inline row">
+            <label>删除药物： </label>
+            <input type="text" id="dId" class="form-control date-input" placeholder="id">
+            <label class="date-label">&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <button id="dSubmit"
+                    class="btn btn-primary" style="margin-top:0;margin-right:1%">删除
+            </button>
+            <button onclick="resetTable()" class="btn btn-primary" style="margin-top:0">重置</button>
+
+        </div>
+    </div>
 
     <table id="mytable"></table>
-    <!-- 模态框（Modal） -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                        &times;
-                    </button>
-                    <h4 class="modal-title" id="myModalLabel">
-                        模态框（Modal）标题
-                    </h4>
-                </div>
-                <table id="modeltable">
-
-                </table>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭
-                    </button>
-                </div>
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal -->
-    </div>
 
 </div>
 </body>
-
 <style>
     button.btn.btn-default {
         display: none;
+    }
+
+    button.btn.btn-default {
+        display: none;
+    }
+
+    label {
+        font-size: 18px;
+        color: #52565a;
     }
 </style>
 </html>

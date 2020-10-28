@@ -12,6 +12,7 @@ import java.util.List;
  */
 @Mapper
 public interface IMouseDao {
+
     @Select("select * from tb_mouse")
     @Results(value = {
             @Result(property = "id", column = "ms_id", id = true),

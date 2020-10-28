@@ -42,5 +42,21 @@ public interface IBugDao {
     //模糊查询虫害信息
     public List<BugEntity> selectBugByVague(@Param("name") String name, @Param("host") String host);
 
+    @Select("select * from tb_bug where bg_name = #{name}")
+    @Results(value = {
+            @Result(property = "id", column = "bg_id", id = true),
+            @Result(property = "name", column = "bg_name"),
+            @Result(property = "breed", column = "bg_breed"),
+            @Result(property = "host", column = "bg_host"),
+            @Result(property = "enemy", column = "bg_enemy"),
+            @Result(property = "damage", column = "bg_damage"),
+            @Result(property = "prevent", column = "bg_prevent"),
+            @Result(property = "larva", column = "bg_img_s"),
+            @Result(property = "adult", column = "bg_img_l"),
+    })
+    //根据名字查询虫害
+    public BugEntity selectBugByName(@Param("name") String name);
+
+
 
 }

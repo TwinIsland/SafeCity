@@ -1,5 +1,6 @@
 package com.dtone.ssm.service.imp;
 
+import com.dtone.ssm.dao.IMedicamentDao;
 import com.dtone.ssm.dao.IMouseDao;
 import com.dtone.ssm.entity.MouseEntity;
 import com.dtone.ssm.service.IMouseService;
@@ -20,6 +21,8 @@ import java.util.List;
 public class MouseServiceImp implements IMouseService {
     @Autowired
     private IMouseDao mouseDao;
+
+
     @Override
     public List<MouseEntity> findAllMouse() {
         List<MouseEntity> allMouse = mouseDao.selectAllMouse();

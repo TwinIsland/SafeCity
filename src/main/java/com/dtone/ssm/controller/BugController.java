@@ -15,7 +15,6 @@ import java.util.List;
  * @data 2020/10/27 11:03
  */
 @RestController
-@RequestMapping("html/")
 @Slf4j //获取日志对象
 public class BugController {
     @Autowired
@@ -27,5 +26,13 @@ public class BugController {
     public List<BugEntity> getBug() {
         List<BugEntity> bugEntities = bugService.findAllBug();
         return bugEntities;
+    }
+
+    @RequestMapping("user/findOneBug")
+    public BugEntity getName(String bugName){
+        log.info("收到请求：user/findOneBug,bugName="+bugName);
+        BugEntity bugEntity = bugService.findBugByName(bugName);
+        log.info("响应请求：user/findOneBug,bugEntity=" + bugEntity);
+        return bugEntity;
     }
 }
