@@ -112,3 +112,22 @@ function mouseName(name) {
         success:showQuery
     });
 }
+function  showQuery(mouseEntity) {
+    $("#modeltable").empty();
+    var table_content = $(
+        "<tr><td class='column'>病名：</td>" +
+        "<td>" + mouseEntity.name + "</td></tr>" +
+        "<tr><td class='column'>繁殖：</td>" +
+        "<td>" + mouseEntity.breed + "</td></tr>" +
+        "<tr> <td class='column'>食物：</td>" +
+        "<td>" + mouseEntity.food + "</td></tr>" +
+        "<tr> <td class='column'>天敌：</td>" +
+        "<td>" + mouseEntity.enemy + "</td></tr>" +
+        "<tr> <td class='column'>主要危害：</td>" +
+        "<td>" + mouseEntity.damage + "</td></tr>" +
+        "<tr> <td class='column'>预防措施：</td>" +
+        "<td>" + mouseEntity.prevent + "</td></tr>"
+
+    );
+    $("#modeltable").append(table_content);
+}
