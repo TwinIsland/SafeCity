@@ -17,6 +17,7 @@ import java.util.List;
 @Transactional //申明式事务管理
 public class RecordImp implements IRecordService
 {
+
     private IRecordDao iRecordDao;
     @Override
     public List<RecordEntity> findAllRecord()

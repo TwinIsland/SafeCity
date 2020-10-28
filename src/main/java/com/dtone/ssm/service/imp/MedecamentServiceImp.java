@@ -16,37 +16,34 @@ import java.util.List;
  */
 @Service
 @Transactional //申明式事务管理
-public class MedecamentServiceImp implements IMedicamentService
-{
+class MedicamentServiceImp implements IMedicamentService {
+
     @Autowired
-   private IMedicamentDao iMedicamentDao;
+    private IMedicamentDao medicamentDao;
 
     @Override
     public List<MedicamentEntity> findAllMedi()
     {
-        List<MedicamentEntity> medicamentEntities = iMedicamentDao.selectAllMedi();
-        return medicamentEntities;
+        return medicamentDao.selectAllMedi();
 
     }
 
     @Override
     public List<MedicamentEntity> findMediBynameAndptypeAndtype(String med_name, String med_ptype, String med_type)
     {
-        List<MedicamentEntity> medicamentEntities = iMedicamentDao.selectMediBynameAndptypeAndtype(med_name,med_ptype,med_type);
-        return medicamentEntities;
+        return medicamentDao.selectMediBynameAndptypeAndtype(med_name,med_ptype,med_type);
 
     }
 
     @Override
     public int addMedi(MedicamentEntity medicamentEntity)
     {
-        int i = iMedicamentDao.insertMedi(medicamentEntity);
-        return i;
+        return medicamentDao.insertMedi(medicamentEntity);
     }
 
     @Override
     public void delMediByID(int med_id)
     {
-        iMedicamentDao.deleteMediByID(med_id);
+        medicamentDao.deleteMediByID(med_id);
     }
 }

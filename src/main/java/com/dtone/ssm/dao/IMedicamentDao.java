@@ -2,6 +2,7 @@ package com.dtone.ssm.dao;
 
 import com.dtone.ssm.entity.MedicamentEntity;
 import org.apache.ibatis.annotations.*;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
@@ -11,6 +12,7 @@ import java.util.List;
  * @desc
  */
 @Mapper //扫描映射器接口
+@Repository
 public interface IMedicamentDao
 {
     //查询所有药剂信息
@@ -26,20 +28,8 @@ public interface IMedicamentDao
     public List<MedicamentEntity> selectAllMedi();
 
     //药剂器械管理可以通过名称、防治类型和类别模糊查询药剂器械。
-    @Select("<script>" +
-            "select * from tb_medicament" +
-            "<where>" +
-            "<if test='med_name != null' >" +
-            "and med_name like concat('%', #{med_name},'%')" +
-            "</if>" +
-            "<if test='med_ptype != null' >" +
-            "and med_ptype like concat('%', #{med_ptype},'%')" +
-            "</if>" +
-            "<if test='med_type != null' >" +
-            "and med_type like concat('%', #{med_type},'%')" +
-            "</if>" +
-            "</where>" +
-            "</script>")
+    @Select("select * from tb_medicament where med_name like concat('%',#{med_name},'%') and " +
+            "med_ptype = #{med_ptype} and med_type = #{med_type}")
     public List<MedicamentEntity> selectMediBynameAndptypeAndtype(@Param("med_name") String med_name, @Param("med_ptype") String med_ptype, @Param("med_type") String med_type);
     //药剂器械管理可以添加新的药剂器械到库存中（即入库）
     @Insert("INSERT into tb_medicament(med_name,med_ptype,med_type,med_purpose,med_count) VALUES(#{med_name},#{med_ptype},#{med_type},#{med_purpose},#{med_count})")
