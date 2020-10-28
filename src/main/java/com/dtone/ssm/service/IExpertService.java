@@ -9,4 +9,5 @@ public interface IExpertService {
     public void delExpert(int id);
     public List<ExpertEntity> searchExpert(String name, String expertise, String company);
     public List<ExpertEntity> selectAllExpert();
+    public ExpertEntity selectExpertByName(String name);
 }

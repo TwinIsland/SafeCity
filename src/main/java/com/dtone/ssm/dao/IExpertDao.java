@@ -56,4 +56,8 @@ public interface IExpertDao {
             "(null,0,#{name},#{company},#{post},#{expertise},#{phone},#{date},#{sex},#{addr},#{email},#{img})")
     //增加专家
     public void insertExpert(ExpertEntity expertEntity);
+
+    @Select("select * from tb_expert where ex_name=#{name}")
+    //根据名字查询信息
+    public ExpertEntity selectExpertByName(String name);
 }
